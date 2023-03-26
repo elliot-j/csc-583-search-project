@@ -1,21 +1,36 @@
 package edu.arizona.cs;
 
+import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
+
 class ArxivMetadata {
     String id;
     String submitter;
     String authors;
     String title;
     String comments;
+    @SerializedName("journal-ref")
     String journal_ref;
     String doi;
-    String abstractt;
+    //missing fields
+    @SerializedName("report-no")
+    String reportNo;
+    
+
+    String license;
+    
+
+    @SerializedName("abstract")
+    String paperAbstract;
     String categories;
-    Version version;
+    Version[] versions;
     String update_date;
-    AuthorsParsed authorsParsed;
+    @SerializedName("authors_parsed")
+    List<String> authorsParsed[];
 
     public ArxivMetadata(String id, String submitter, String authors, String title, String comments, String journal_ref,
-            String doi, String abstractt, String categories, Version version, String update_date,AuthorsParsed authorsParsed) {
+            String doi, String paperAbstract, String categories, Version[] version, String update_date,List<String>[] authorsParsed, String reportNo, String license) {
         this.id = id;
         this.submitter = submitter;
         this.authors = authors;
@@ -23,11 +38,13 @@ class ArxivMetadata {
         this.comments = comments;
         this.journal_ref = journal_ref;
         this.doi = doi;
-        this.abstractt = abstractt;
+        this.paperAbstract = paperAbstract;
         this.categories = categories;
-        this.version = version;
+        this.versions = version;
         this.update_date = update_date;
         this.authorsParsed = authorsParsed;
+        this.reportNo = reportNo;
+        this.license = license;
     }
 
     public String getId() {
@@ -86,12 +103,12 @@ class ArxivMetadata {
       this.doi = doi;
     }
 
-    public String getAbstractt() {
-      return abstractt;
+    public String getAbstract() {
+      return paperAbstract;
     }
 
-    public void setAbstractt(String abstractt) {
-      this.abstractt = abstractt;
+    public void setAbstract(String paperAbstract) {
+      this.paperAbstract = paperAbstract;
     }
 
     public String getCategories() {
@@ -102,12 +119,12 @@ class ArxivMetadata {
       this.categories = categories;
     }
 
-    public Version getVersion() {
-      return version;
+    public Version[] getVersions() {
+      return versions;
     }
 
-    public void setVersion(Version version) {
-      this.version = version;
+    public void setVersions(Version[] version) {
+      this.versions = version;
     }
 
     public String getUpdate_date() {
@@ -118,12 +135,25 @@ class ArxivMetadata {
       this.update_date = update_date;
     }
 
-    public AuthorsParsed getAuthorsParsed() {
+    public List<String>[] getAuthorsParsed() {
       return authorsParsed;
     }
 
-    public void setAuthorsParsed(AuthorsParsed authorsParsed) {
+    public void setAuthorsParsed(List<String>[] authorsParsed) {
       this.authorsParsed = authorsParsed;
     }
-    
+    public String getLicense() {
+      return license;
+    }
+
+    public void setLicense(String license) {
+      this.license = license;
+    }
+    public String getReportNo() {
+      return reportNo;
+    }
+
+    public void setReportNo(String reportNo) {
+      this.reportNo = reportNo;
+    }
   }
