@@ -8,7 +8,7 @@ public class SearchEngineMain{
 		//Have this file init everything for indexing and whatnot
 		//do not have the search code itself in this file please
 
-		String filePathName = "D:\\CSC583_Project\\csc-583-search-project\\src\\resources\\arxiv-metadata-oai-snapshot.json";
+		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot-lite.json";
 		JSONReadFromFileTest.readJsonFile(filePathName);		  	   
 	}
 }
