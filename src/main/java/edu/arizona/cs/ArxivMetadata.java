@@ -13,17 +13,16 @@ class ArxivMetadata {
     @SerializedName("journal-ref")
     String journal_ref;
     String doi;
-    //missing fields
+    
     @SerializedName("report-no")
     String reportNo;
-    
 
     String license;
-    
+    String categories;
 
     @SerializedName("abstract")
     String paperAbstract;
-    String categories;
+    
     Version[] versions;
     String update_date;
     @SerializedName("authors_parsed")
