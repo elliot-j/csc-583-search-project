@@ -28,7 +28,12 @@ public class JSONReadFromFileTest {
           System.out.println("doi: " + metadata.getDoi());
           System.out.println("Abstract: "+ metadata.getAbstract());
           System.out.println("categories: " + metadata.getCategories());
-          System.out.println("Version: " + metadata.getVersions());
+          Version[] versions = metadata.getVersions();
+           for (int i = 0; i < versions.length; i++) {
+              System.out.println("Version " + i + ": " + versions[i]);
+              System.out.println("Created " + i + ": " + versions[i].getCreated());
+              System.out.println();
+          }
           System.out.println("Update Date: "+ metadata.getUpdate_date());
           System.out.println("Authors Parsed: "+ metadata.getAuthorsParsed());
           objects.add(metadata);
