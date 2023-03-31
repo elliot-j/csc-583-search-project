@@ -9,7 +9,7 @@ public class SearchEngineMain{
 		//do not have the search code itself in this file please
 
 		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot-lite.json";
-		JSONReadFromFileTest.readJsonFile(filePathName);		  	   
+		ProcessJSONAndCreateIndex.readJsonFile(filePathName);		  	   
 	}
 }
 
