@@ -28,3 +28,7 @@ hs_err_pid*
 
 # Maven files
 target
+
+
+## Data Sets and Index files
+src/main/resources
