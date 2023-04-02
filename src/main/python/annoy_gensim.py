@@ -13,6 +13,7 @@ class AnnoyIndexerWrapper:
 		self.model = None
 		self.indexer = None
 		self.indexFile = 'src/main/resources/annoy_model_gensim.bin'
+		self.annoyTrees = 2
 	def openFile(self, filePath):
 			with smart_open.open(filePath, encoding="utf-8") as f:
 				for i, line in enumerate(f):
@@ -31,7 +32,7 @@ class AnnoyIndexerWrapper:
 		model.build_vocab(trainSet)
 		model.train(trainSet, total_examples=model.corpus_count, epochs=model.epochs)
 		self.model = model
-		self.indexer = AnnoyIndexer(model, 2)			
+		self.indexer = AnnoyIndexer(model, self.annoyTrees)			
 		
 	def queryAnnoy(self, queryString):
 		if(self.model == None or self.indexer == None):
@@ -53,7 +54,7 @@ class AnnoyIndexerWrapper:
 		fname = self.indexFile
 		print("loading model from " + fname)
 		self.model = Doc2Vec.load(fname)
-		self.indexer = AnnoyIndexer(self.model, 2)		
+		self.indexer = AnnoyIndexer(self.model, self.annoyTrees)		
 	def doesSavedIndexExist(self):
 		return os.path.exists(self.indexFile)
 
