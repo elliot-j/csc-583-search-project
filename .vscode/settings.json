@@ -2,4 +2,6 @@
 	"java.project.referencedLibraries": [
 		"lib/**/*.jar",
 	],
+	"java.configuration.updateBuildConfiguration": "interactive",
+	"python.formatting.provider": "black",
 }
