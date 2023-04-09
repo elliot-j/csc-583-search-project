@@ -1,3 +1,4 @@
+import datetime
 import os
 from re import search
 import smart_open
@@ -5,7 +6,7 @@ import gensim
 from gensim.similarities.annoy import AnnoyIndexer
 from gensim.test.utils import get_tmpfile 
 from gensim.models.doc2vec import Doc2Vec
-
+import time
 
 class AnnoyIndexerWrapper:
 	
@@ -27,10 +28,14 @@ class AnnoyIndexerWrapper:
 
 	"""
 	def buildAndTrainModel(self, filePath):
+		print("loading dataset from file"  + datetime.datetime.now().isoformat())
 		trainSet = list(self.openFile(filePath))
-		model = Doc2Vec(vector_size=50, min_count=1, epochs=100)
+		model = Doc2Vec(vector_size=50, min_count=1, epochs=20)
+		print("building model vocabulary" + datetime.datetime.now().isoformat() )
 		model.build_vocab(trainSet)
+		print("beginning model training" + datetime.datetime.now().isoformat())
 		model.train(trainSet, total_examples=model.corpus_count, epochs=model.epochs)
+		print("finished model training" + datetime.datetime.now().isoformat())
 		self.model = model
 		self.indexer = AnnoyIndexer(model, self.annoyTrees)			
 		
@@ -59,19 +64,19 @@ class AnnoyIndexerWrapper:
 		return os.path.exists(self.indexFile)
 
 searcher =  AnnoyIndexerWrapper()
-dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot-lite.json'
+dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
 print(os. getcwd())
 if searcher.doesSavedIndexExist():
 	print("using existing saved model")
 	searcher.loadModel()
 else:
-	print ("building new model")
+	print ("building new model" + datetime.datetime.now().isoformat())
 	searcher.buildAndTrainModel(dataFile)
-
 result = searcher.queryAnnoy('To appear in Graphs and Combinatorics')
-print('Results for query in format (lineNumber, score)')
+print('Results for query in format (lineNumber, score)' + datetime.datetime.now().isoformat())
 print(result)
 
 if (searcher.doesSavedIndexExist() == False):
 	print('saving model for future use')
 	searcher.saveModel()
+
