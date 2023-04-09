@@ -2,8 +2,7 @@ package edu.arizona.cs;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.LinkedList;
-import java.util.List;
+import java.io.FileWriter;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
@@ -13,11 +12,21 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
+import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.search.*;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
+import org.apache.lucene.search.similarities.Similarity;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.nio.file.Path;
+
+import org.apache.lucene.store.FSDirectory;
 
 /*
   * Process a JSON file
@@ -28,87 +37,99 @@ import org.apache.lucene.index.IndexWriterConfig;
 
 public class ProcessJSONAndCreateIndex {
 
-    public static void readJsonFile(String filePathName) throws FileNotFoundException {
-      JsonReader reader = new JsonReader(new FileReader(filePathName));
-      reader.setLenient(true);
-      LinkedList<ArxivMetadata> objects = new LinkedList<ArxivMetadata>();
-      try {
-        
-        while(reader.hasNext()) {
-          ArxivMetadata metadata = new Gson().fromJson(reader, ArxivMetadata.class);
-          System.out.println("Reading JSON from a file");
-          System.out.println("----------------------------");
-          System.out.println("Id: "+metadata.getId());
-          System.out.println("Submitter: " + metadata.getSubmitter());
-          System.out.println("Authors: " +metadata.getAuthors());
-          System.out.println("Title: " + metadata.getTitle());
-          System.out.println("Comments: " + metadata.getComments());
-          System.out.println("Journal-Ref: " + metadata.getJournal_ref());
-          System.out.println("doi: " + metadata.getDoi());
-          System.out.println("Report-No: " + metadata.getReportNo());
-          System.out.println("License: " + metadata.getLicense());
-          System.out.println("Abstract: "+ metadata.getAbstract());
-          System.out.println("categories: " + metadata.getCategories());
-          Version[] versions = metadata.getVersions();
-          for (int i = 0; i < versions.length; i++) {
-              System.out.println("Version " + i + ": " + versions[i].getVersion());
-              System.out.println("Created " + i + ": " + versions[i].getCreated());
-              System.out.println();
-          }
-          System.out.println("Update Date: "+ metadata.getUpdate_date());
+	public static void readJsonFile(String filePathName, String indexDirectoryPath) throws FileNotFoundException {
+		JsonReader reader = new JsonReader(new FileReader(filePathName));
+		reader.setLenient(true);
 
-          List<String>[] authorsParsed = metadata.getAuthorsParsed();
-          for (int i = 0; i < authorsParsed.length; i++) {
-            System.out.println("Author " + (i + 1) + ":");
-            for (int j = 0; j < authorsParsed[i].size(); j++) {
-                System.out.println("  " + authorsParsed[i].get(j));
-            }
-        }
-          objects.add(metadata);
+		try {
+			StandardAnalyzer analyzer = new StandardAnalyzer();
+			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
+			IndexWriterConfig config = new IndexWriterConfig(analyzer);
+			IndexWriter indexWriter = new IndexWriter(index, config);			
+			int i = 0; 
+			while (reader.hasNext()) {
+				ArxivMetadata metadata = new Gson().fromJson(reader, ArxivMetadata.class);
+				if(i % 100 == 0){
+					System.out.println("Indexing document " + i );
+					
+				}
+				// objects.add(metadata);
 
-          //Index creation for the JSON file which is being Parsed
-          StandardAnalyzer analyzer = new StandardAnalyzer();
-          Directory index = new ByteBuffersDirectory();
-          IndexWriterConfig config = new IndexWriterConfig(analyzer);
-          try (IndexWriter indexWriter = new IndexWriter(index, config)) {
-            // Create a new Lucene document
-            Document doc = new Document();
+				// Index creation for the JSON file which is being Parsed
 
-            // Add fields to the document
-            doc.add(new StringField("id", metadata.getId(), Field.Store.YES));
-            doc.add(new TextField("submitter", metadata.getSubmitter(), Field.Store.YES));
-            doc.add(new TextField("authors", metadata.getAuthors(), Field.Store.YES));
-            doc.add(new TextField("title", metadata.getTitle(), Field.Store.YES));
-            doc.add(new TextField("comments", metadata.getComments(), Field.Store.YES));
-            doc.add(new TextField("journal_ref", metadata.getJournal_ref(), Field.Store.YES));
-            doc.add(new TextField("doi", metadata.getDoi(), Field.Store.YES));
-            doc.add(new TextField("report_no", metadata.getReportNo(), Field.Store.YES));
-            doc.add(new TextField("license", metadata.getLicense(), Field.Store.YES));
-            doc.add(new TextField("abstract", metadata.getAbstract(), Field.Store.YES));
-            doc.add(new TextField("categories", metadata.getCategories(), Field.Store.YES));
-            Version[] versionss = metadata.getVersions();
-            for (int k = 0; k < versions.length; k++) {
-                doc.add(new TextField("version", versionss[k].getVersion(), Field.Store.YES));
-                doc.add(new TextField("created", versionss[k].getCreated(), Field.Store.YES));
-            }
-            doc.add(new TextField("update_date", metadata.getUpdate_date(), Field.Store.YES));
+				// Create a new Lucene document
+				Document doc = new Document();
 
-            List<String>[] authorsParsedd = metadata.getAuthorsParsed();
-            for (int i = 0; i < authorsParsedd.length; i++) {
-                for (int j = 0; j < authorsParsedd[i].size(); j++) {
-                    doc.add(new TextField("author_parsed", authorsParsedd[i].get(j), Field.Store.YES));
-                }
-            }
+				// Add fields to the document
+				doc.add(new StringField("docLine", Integer.toString(i),Field.Store.YES));
+				doc.add(new StringField("id", metadata.getId() != null ? metadata.getId() : "",
+						Field.Store.YES));
+				doc.add(new TextField("submitter", metadata.getSubmitter() != null ? metadata.getSubmitter() : "",
+						Field.Store.YES));
+				doc.add(new TextField("authors", metadata.getAuthors() != null ? metadata.getAuthors() : "",
+						Field.Store.YES));
+				doc.add(new TextField("title", metadata.getTitle() != null ? metadata.getTitle() : "",
+						Field.Store.YES));
+				doc.add(new TextField("comments", metadata.getComments() != null ? metadata.getComments() : "",
+						Field.Store.YES));
+				doc.add(new TextField("journal_ref", metadata.getJournal_ref() != null ? metadata.getJournal_ref() : "",
+						Field.Store.YES));
+				doc.add(new TextField("doi", metadata.getDoi() != null ? metadata.getDoi() : "",
+						Field.Store.YES));
+				doc.add(new TextField("report_no", metadata.getReportNo() != null ? metadata.getReportNo() : "",
+						Field.Store.YES));
+				doc.add(new TextField("license", metadata.getLicense() != null ? metadata.getLicense() : "",
+						Field.Store.YES));
+				doc.add(new TextField("abstract", metadata.getAbstract() != null ? metadata.getAbstract() : "",
+						Field.Store.YES));
+				doc.add(new TextField("categories", metadata.getCategories() != null ? metadata.getCategories() : "",
+						Field.Store.YES));
 
-            // Add the document to the Lucene index
-            indexWriter.addDocument(doc);
-            indexWriter.commit();
-            indexWriter.close();
-          }
-        }
-       
-    } catch(Exception e) {
-        e.printStackTrace();
-    }
-   }
-  }
+				doc.add(new StringField("update_date", metadata.getUpdate_date() != null ? metadata.getUpdate_date() : "",
+						Field.Store.YES));
+				// Add the document to the Lucene index
+				indexWriter.addDocument(doc);
+				i++;// record line number for use with Annoy to ID documents
+			}
+			indexWriter.commit();
+			indexWriter.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static void queryForResults(String indexDirectoryPath, String queryFile){
+		try(BufferedReader b = new BufferedReader(new FileReader(queryFile))){
+			FileWriter queryResults = new FileWriter(new File("src\\main\\resources\\lucene-results.txt"));
+			StandardAnalyzer analyzer = new StandardAnalyzer();
+			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
+			QueryParser p = new QueryParser("abstract", analyzer);
+			IndexReader reader = DirectoryReader.open(index);
+			IndexSearcher searcher = new IndexSearcher(reader);
+			Similarity s = new ClassicSimilarity();
+			searcher.setSimilarity(s);
+			String line;
+			while((line = b.readLine())!= null){
+				System.out.println("Running query: "+line);
+				Query q = p.parse(line);
+				TopDocs results = searcher.search(q,10);
+				for(ScoreDoc d  : results.scoreDocs){
+					Document answer = searcher.doc(d.doc);
+					String resultLine = String.format("%s,%f,%s,%s\n",line, d.score,answer.getField("title"), answer.getField("abstract") );
+					queryResults.append(resultLine);
+
+				}
+
+			}
+			queryResults.close();
+			index.close();
+			
+
+			
+		}
+		catch(Exception ex){
+			System.out.println(ex.toString());
+		}
+
+	}
+}
