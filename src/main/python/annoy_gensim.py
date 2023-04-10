@@ -28,14 +28,14 @@ class AnnoyIndexerWrapper:
 
 	"""
 	def buildAndTrainModel(self, filePath):
-		print("loading dataset from file"  + datetime.datetime.now().isoformat())
+		print("loading dataset from file - "  + datetime.datetime.now().isoformat())
 		trainSet = list(self.openFile(filePath))
 		model = Doc2Vec(vector_size=50, min_count=1, epochs=20)
-		print("building model vocabulary" + datetime.datetime.now().isoformat() )
+		print("building model vocabulary - " + datetime.datetime.now().isoformat() )
 		model.build_vocab(trainSet)
-		print("beginning model training" + datetime.datetime.now().isoformat())
+		print("beginning model training - " + datetime.datetime.now().isoformat())
 		model.train(trainSet, total_examples=model.corpus_count, epochs=model.epochs)
-		print("finished model training" + datetime.datetime.now().isoformat())
+		print("finished model training - " + datetime.datetime.now().isoformat())
 		self.model = model
 		self.indexer = AnnoyIndexer(model, self.annoyTrees)			
 		
@@ -70,10 +70,10 @@ if searcher.doesSavedIndexExist():
 	print("using existing saved model")
 	searcher.loadModel()
 else:
-	print ("building new model" + datetime.datetime.now().isoformat())
+	print ("building new model - " + datetime.datetime.now().isoformat())
 	searcher.buildAndTrainModel(dataFile)
 result = searcher.queryAnnoy('To appear in Graphs and Combinatorics')
-print('Results for query in format (lineNumber, score)' + datetime.datetime.now().isoformat())
+print('Results for query in format (lineNumber, score) ' + datetime.datetime.now().isoformat())
 print(result)
 
 if (searcher.doesSavedIndexExist() == False):
