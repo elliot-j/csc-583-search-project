@@ -3,9 +3,16 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "SearchEngineMain",
+			"request": "launch",
+			"mainClass": "edu.arizona.cs.SearchEngineMain",
+			"projectName": "hw3"
+		},
+		{
+			"type": "java",
 			"name": "Current File",
 			"request": "launch",
-			"mainClass": "${file}",
+			"mainClass": "${file}"
 		},
 		{
 			"name": "Python: File",
@@ -13,13 +20,16 @@
 			"request": "launch",
 			"program": "${file}",
 			"justMyCode": true,
-			"console":"integratedTerminal"
-		},{
+			"console": "integratedTerminal"
+		},
+		{
 			"name": "Python: Flask",
 			"type": "python",
 			"request": "launch",
 			"module": "flask",
-			"pythonArgs": ["-Xfrozen_modules=off"],
+			"pythonArgs": [
+				"-Xfrozen_modules=off"
+			],
 			"env": {
 				"FLASK_APP": "script.py",
 				"FLASK_DEBUG": "1"
@@ -31,6 +41,6 @@
 			],
 			"jinja": true,
 			"justMyCode": true
-		},
+		}
 	]
 }
