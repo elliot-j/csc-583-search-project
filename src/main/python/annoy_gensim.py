@@ -1,4 +1,5 @@
 import datetime
+import json
 import os
 from re import search
 import smart_open
@@ -15,11 +16,14 @@ class AnnoyIndexerWrapper:
 		self.indexer = None
 		self.indexFile = 'src/main/resources/annoy_model_gensim.bin'
 		self.annoyTrees = 2
-	def openFile(self, filePath):
+	def openFile(self, filePath, useForModel = True):
 			with smart_open.open(filePath, encoding="utf-8") as f:
 				for i, line in enumerate(f):
-					tokens = gensim.utils.simple_preprocess(line)
-					yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
+					if(useForModel):
+						tokens = gensim.utils.simple_preprocess(line)
+						yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
+					else:
+						yield line
 	
 	"""
 	Build and train an Annoy Model using GenSim for ease of parsing documents.
@@ -65,6 +69,8 @@ class AnnoyIndexerWrapper:
 
 searcher =  AnnoyIndexerWrapper()
 dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
+queryFiles = 'src/main/resources/lucene-queries.txt'
+resultsFile = 'src/main/resources/annoy-results.json'
 print(os. getcwd())
 if searcher.doesSavedIndexExist():
 	print("using existing saved model")
@@ -72,11 +78,28 @@ if searcher.doesSavedIndexExist():
 else:
 	print ("building new model - " + datetime.datetime.now().isoformat())
 	searcher.buildAndTrainModel(dataFile)
-result = searcher.queryAnnoy('To appear in Graphs and Combinatorics')
-print('Results for query in format (lineNumber, score) ' + datetime.datetime.now().isoformat())
-print(result)
+#result = searcher.queryAnnoy('To appear in Graphs and Combinatorics')
+#print('Results for query in format (lineNumber, score) ' + datetime.datetime.now().isoformat())
+#print(result)
 
 if (searcher.doesSavedIndexExist() == False):
 	print('saving model for future use')
 	searcher.saveModel()
+queries = list(searcher.openFile(queryFiles, useForModel = False))
+results = []
+print("Beginning query run - " + datetime.datetime.now().isoformat())
+for i, q in enumerate(queries):
+	annoyResult = searcher.queryAnnoy(q)
+	for j, r in enumerate(annoyResult): 
+		result = {
+			'query':q,
+			'docId':r[0],
+			'score':r[1]
+		}
+		results.append(result)
+print("Finished query run - " + datetime.datetime.now().isoformat())
+json_object = json.dumps(results, indent = 4)
 
+print(json_object)
+with open(resultsFile, "w") as outfile:
+    outfile.write(json_object)
