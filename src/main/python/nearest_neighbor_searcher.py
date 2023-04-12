@@ -86,10 +86,15 @@ class NearestNeighborSearcher:
         ## scores reported as cosine distance, cosine_similarity = 1 - cosine_distance^2/2
         correctedScores = [(1 - score**2 /2) for score in scores]
         return similar_documents, correctedScores
-    def readDataFile(self, filePath):
+    def openFile(self, filePath, useForModel = True):
         with smart_open.open(filePath, encoding="utf-8") as f:
-            for i, line in enumerate(f):  
-                yield line
+            for i, rawLine in enumerate(f):
+                if(useForModel):
+                    model = json.loads(rawLine)
+                    line = model['title'] + " " +model['abstract']
+                    yield line
+                else:
+                    yield rawLine
     
 
 
@@ -99,7 +104,7 @@ if __name__ == "__main__":
     """
     nns = NearestNeighborSearcher("src/main/resources/arxiv_transformer_index.bin")
     print("loading dataset from file - "  + datetime.datetime.now().isoformat())
-    documents = list(nns.readDataFile('src/main/resources/arxiv-metadata-oai-snapshot-lite.json'))    
+    documents = list(nns.readDataFile('src/main/resources/arxiv-metadata-oai-snapshot.json'))    
     print("finished loading dataset from file - "  + datetime.datetime.now().isoformat())
     print("loaded " + str(len(documents))+ " items")
     nns.build_index(documents)
