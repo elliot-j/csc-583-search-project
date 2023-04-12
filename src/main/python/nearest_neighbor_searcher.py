@@ -6,6 +6,7 @@ from transformers import LongformerTokenizer,LongformerModel
 import torch
 from torch.nn.functional import normalize
 from annoy import AnnoyIndex
+import json
 
 class NearestNeighborSearcher:
     """
@@ -36,17 +37,10 @@ class NearestNeighborSearcher:
             self.model(torch.tensor(self.tokenizer.encode(document)).unsqueeze(0)).pooler_output.squeeze()
             for document in documents
         ]
-        return vectors
-
-    def _get_normalized_vectors(self, vectors: List[torch.Tensor]) -> List[torch.Tensor]:
-        """
-        Computes the center for each document / query by averaging the points and finding the center.
-        :param vectors: List[torch.Tensor] - A list of torch tensors containing the embeddings of the documents / query.
-        :return: List[torch.Tensor] - A list of torch tensors containing the avg embeddings of the documents / query.
-        """
         averaged_vectors = [normalize(vector, p=2.0,dim=0)  for vector in vectors]
         return averaged_vectors
 
+   
     def build_index(self, documents: List[str]):
         """
         Builds an Annoy index based on the vectors of a list of documents.
@@ -54,8 +48,7 @@ class NearestNeighborSearcher:
         """
         if not os.path.exists(self.index_name): 
             print("beginning model training - " + datetime.datetime.now().isoformat())
-            vectors = self._get_vectors(documents)  # Convert docs to vectors, to represented in vector space.
-            normalized_vectors = self._get_normalized_vectors(vectors)  # Normalize the length of the vector.
+            normalized_vectors = self._get_vectors(documents)  # Convert docs to vectors, to represented in vector space.            
             self.annoy_index = AnnoyIndex(self.vector_length, "angular")  # angular is the metric.
             print("adding normalized vectors to model - " + datetime.datetime.now().isoformat())
             for i, normalized_vector in enumerate(normalized_vectors):  # Use the normalized vectors to build annoy index.
@@ -79,7 +72,7 @@ class NearestNeighborSearcher:
         if not os.path.exists(self.index_name):
             raise FileNotFoundError("Annoy index does not exists, Call build_index().")
 
-        query_vector = self._get_normalized_vectors(self._get_vectors([query]))[0]
+        query_vector = self._get_vectors([query])[0]
         indices, scores = self.annoy_index.get_nns_by_vector(query_vector, n, include_distances=True)
         similar_documents = [(i, documents[i]) for i in indices]
         ## https://github.com/spotify/annoy/issues/112 
@@ -102,13 +95,36 @@ if __name__ == "__main__":
     """
     This is just a sample on how the code would look like with dummy documents.
     """
+    dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
+    queryFiles = 'src/main/resources/lucene-queries.txt'
+    resultsFile = 'src/main/resources/annoy-results_transformer.json'
+
     nns = NearestNeighborSearcher("src/main/resources/arxiv_transformer_index.bin")
+
     print("loading dataset from file - "  + datetime.datetime.now().isoformat())
-    documents = list(nns.readDataFile('src/main/resources/arxiv-metadata-oai-snapshot.json'))    
+    documents = list(nns.openFile(dataFile))    
     print("finished loading dataset from file - "  + datetime.datetime.now().isoformat())
     print("loaded " + str(len(documents))+ " items")
     nns.build_index(documents)
-    query = "Stirling cycle numbers counts" ## found in doc #3
-    results, scores = nns.evaluate_query(query, documents) 
-    print(scores)
-    print(results)
+
+    # query = "Stirling cycle numbers counts" ## found in doc #3
+    # results, scores = nns.evaluate_query(query, documents) 
+    # print(scores)
+    # print(results)
+    queries = list(nns.openFile(queryFiles, useForModel = False))
+    results = []
+    for i, q in enumerate(queries):
+        annoyResult, scores = nns.evaluate_query(q,documents)
+        for j, r in enumerate(annoyResult): 
+            result = {
+                'query':q,
+                'docId':r[0],
+                'score':scores[j]
+            }
+            results.append(result)
+    print("Finished query run - " + datetime.datetime.now().isoformat())
+    json_object = json.dumps(results, indent = 4)
+
+    print(json_object)
+    with open(resultsFile, "w") as outfile:
+        outfile.write(json_object)
