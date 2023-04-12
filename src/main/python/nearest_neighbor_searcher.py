@@ -52,18 +52,24 @@ class NearestNeighborSearcher:
         ]
         averaged_vectors = [torch.mean(vector, dim=0) for vector in vectors]
         return averaged_vectors
-    
+    def processDocsInBatches(self, documents):
+        batchSize = 10
+        totalBatches = (len(documents) / batchSize ) + 1    
+        for batchNo in range(0, totalBatches):
+            batch = documents[batchNo*batchSize: (batchNo+1 * batchSize)]
+            vectors = self._get_vectors(batch)  # Convert docs to vectors, to represented in vector space.
+            for i, normalized_vector in enumerate(vectors):  # Use the normalized vectors to build annoy index.
+                self.annoy_index.add_item(i, normalized_vector)  # Adds item i (any nonnegative integer) with vector v.
+        
    
 
     def build_index(self, documents: List[str]):
         """
         Builds an Annoy index based on the vectors of a list of documents.
         :param documents: List[str] - A list of documents to index.
-        """
-        vectors = self._get_vectors(documents)  # Convert docs to vectors, to represented in vector space.
+        """        
         self.annoy_index = AnnoyIndex(self.vector_length, "angular")  # angular is the metric.
-        for i, normalized_vector in enumerate(vectors):  # Use the normalized vectors to build annoy index.
-            self.annoy_index.add_item(i, normalized_vector)  # Adds item i (any nonnegative integer) with vector v.
+        self.processDocsInBatches(documents)
         self.annoy_index.build(len(documents))  # Build the index, with number of trees = number of documents.
         self.annoy_index.save(self.index_name)  # Save the index with this filename.
 
