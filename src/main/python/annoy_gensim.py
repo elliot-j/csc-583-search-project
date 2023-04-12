@@ -7,6 +7,7 @@ import gensim
 from gensim.similarities.annoy import AnnoyIndexer
 from gensim.test.utils import get_tmpfile 
 from gensim.models.doc2vec import Doc2Vec
+from gensim.models.word2vec import Word2Vec
 import time
 
 class AnnoyIndexerWrapper:
@@ -15,15 +16,19 @@ class AnnoyIndexerWrapper:
 		self.model = None
 		self.indexer = None
 		self.indexFile = 'src/main/resources/annoy_model_gensim.bin'
-		self.annoyTrees = 2
+		self.annoyTrees = 20
+		self.docVectorSize = 150
+		self.epochs = 20
 	def openFile(self, filePath, useForModel = True):
 			with smart_open.open(filePath, encoding="utf-8") as f:
-				for i, line in enumerate(f):
+				for i, rawLine in enumerate(f):
 					if(useForModel):
+						model = json.loads(rawLine)
+						line = model['title'] + " " +model['abstract'];
 						tokens = gensim.utils.simple_preprocess(line)
 						yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
 					else:
-						yield line
+						yield rawLine
 	
 	"""
 	Build and train an Annoy Model using GenSim for ease of parsing documents.
@@ -34,7 +39,7 @@ class AnnoyIndexerWrapper:
 	def buildAndTrainModel(self, filePath):
 		print("loading dataset from file - "  + datetime.datetime.now().isoformat())
 		trainSet = list(self.openFile(filePath))
-		model = Doc2Vec(vector_size=50, min_count=1, epochs=20)
+		model = Doc2Vec(vector_size=self.docVectorSize, min_count=1, epochs=self.epochs)
 		print("building model vocabulary - " + datetime.datetime.now().isoformat() )
 		model.build_vocab(trainSet)
 		print("beginning model training - " + datetime.datetime.now().isoformat())
@@ -42,7 +47,7 @@ class AnnoyIndexerWrapper:
 		print("finished model training - " + datetime.datetime.now().isoformat())
 		self.model = model
 		self.indexer = AnnoyIndexer(model, self.annoyTrees)			
-		
+
 	def queryAnnoy(self, queryString):
 		if(self.model == None or self.indexer == None):
 			raise "You must build a model first by calling buildAndTrainModel"
