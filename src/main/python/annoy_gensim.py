@@ -8,6 +8,7 @@ from gensim.similarities.annoy import AnnoyIndexer
 from gensim.test.utils import get_tmpfile 
 from gensim.models.doc2vec import Doc2Vec
 from gensim.models.word2vec import Word2Vec
+from gensim.parsing.preprocessing import remove_stopwords
 import time
 
 class AnnoyIndexerWrapper:
@@ -24,11 +25,11 @@ class AnnoyIndexerWrapper:
 				for i, rawLine in enumerate(f):
 					if(useForModel):
 						model = json.loads(rawLine)
-						line = model['title'] + " " +model['abstract'];
+						line = remove_stopwords(model['title'] + " " +model['abstract']);
 						tokens = gensim.utils.simple_preprocess(line)
 						yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
 					else:
-						yield rawLine
+						yield remove_stopwords(rawLine)
 	
 	"""
 	Build and train an Annoy Model using GenSim for ease of parsing documents.
