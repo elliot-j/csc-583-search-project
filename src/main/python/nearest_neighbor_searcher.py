@@ -6,7 +6,7 @@ import smart_open
 from transformers import AutoModel, AutoTokenizer, DistilBertConfig
 import torch
 from annoy import AnnoyIndex
-
+from gensim.parsing.preprocessing import remove_stopwords
 
 class NearestNeighborSearcher:
     """
@@ -20,8 +20,8 @@ class NearestNeighborSearcher:
         self.annoy_index = None
         self.index_name = index_name
         config = DistilBertConfig(max_position_embeddings  = 768)
-        self.tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
-        self.model = AutoModel.from_pretrained("distilbert-base-uncased")
+        self.tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+        self.model = AutoModel.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
         self.vector_length = self.model.config.hidden_size  # setting the vectors used for the annoy index have the same
         # dimensions as the embeddings produced by the transformer model
 
@@ -31,35 +31,30 @@ class NearestNeighborSearcher:
         :param documents: List[str] - A list of documents to convert to vector
         :return: List[torch.Tensor] - A list of torch tensors containing the embeddings of the documents.
         """
-        # vectors = [None] * len(documents)
-        # i = 0
-        # for document in documents:
-        #     # tokens = (self.tokenizer(document, return_tensors="pt")).input_ids.squeeze()
-        #     # if len(tokens) > 512: 
-        #     #     tokens = tokens[:512]
-        #     # encoding  = self.model(**tokens)[0].detach().squeeze()
-        #     # vectors[i] = encoding
-        #     # i = i + 1
-        #     tokens = self.tokenizer(document, return_tensors="pt",truncation  = True)
-        #     if(tokens.input_ids.shape[1]  > 512):
-        #         print('large document found')
-        #     encoding = self.model(**tokens)[0].detach().squeeze()    
-        #     vectors[i] = encoding
-        #     i = i + 1        
-        vectors = [
-            self.model(**self.tokenizer(document, return_tensors="pt",truncation  = True))[0].detach().squeeze()
-            for document in documents
-        ]
-        averaged_vectors = [torch.mean(vector, dim=0) for vector in vectors]
-        return averaged_vectors
+
+        vectors = self.model(**self.tokenizer(documents,padding=True, truncation=True, return_tensors='pt'))
+        cls_embedding_vector = [vector[0] for vector in vectors.last_hidden_state]
+        return cls_embedding_vector
     def processDocsInBatches(self, documents):
-        batchSize = 10
+        batchSize = 500
+        batchNo = 1 #Left off at batch one
+        
         totalBatches = (len(documents) / batchSize ) + 1    
-        for batchNo in range(0, totalBatches):
-            batch = documents[batchNo*batchSize: (batchNo+1 * batchSize)]
-            vectors = self._get_vectors(batch)  # Convert docs to vectors, to represented in vector space.
-            for i, normalized_vector in enumerate(vectors):  # Use the normalized vectors to build annoy index.
-                self.annoy_index.add_item(i, normalized_vector)  # Adds item i (any nonnegative integer) with vector v.
+        if os.path.exists(self.index_name):
+            self.annoy_index.load(self.index_name)
+
+        #for batchNo in range(0, 1):
+                        
+        batchStart = batchNo*batchSize
+        batchEnd = min(((batchNo+1) * batchSize), len(documents))
+        print(f"Processing batch {batchNo} of {int(totalBatches)}. Range {batchStart} to {batchEnd} ||   " + datetime.datetime.now().isoformat())
+        batch = documents[batchStart:batchEnd ]
+        vectors = self._get_vectors(batch)  # Convert docs to vectors, to represented in vector space.
+        for i, normalized_vector in enumerate(vectors):  # Use the normalized vectors to build annoy index.
+            self.annoy_index.add_item(i, normalized_vector)  # Adds item i (any nonnegative integer) with vector v.        
+        
+        self.annoy_index.build(batchSize) 
+        self.annoy_index.save(self.index_name)
         
    
 
@@ -70,8 +65,8 @@ class NearestNeighborSearcher:
         """        
         self.annoy_index = AnnoyIndex(self.vector_length, "angular")  # angular is the metric.
         self.processDocsInBatches(documents)
-        self.annoy_index.build(len(documents))  # Build the index, with number of trees = number of documents.
-        self.annoy_index.save(self.index_name)  # Save the index with this filename.
+         # Build the index, with number of trees = number of documents.
+         # Save the index with this filename.
 
     def evaluate_query(self, query: str, documents: List[str], n: int = 10) -> List[str]:
         """
@@ -85,7 +80,7 @@ class NearestNeighborSearcher:
             raise FileNotFoundError("Annoy index does not exists, Call build_index().")
 
         query_vector = self._get_vectors([query])[0]
-        indices, scores = self.annoy_index.get_nns_by_vector(query_vector, n)
+        indices, scores = self.annoy_index.get_nns_by_vector(query_vector, n, include_distances=True)
         similar_documents = [(i, documents[i]) for i in indices]
         correctedScores = [(1 - score**2 /2) for score in scores]
         return similar_documents, correctedScores
@@ -95,9 +90,9 @@ class NearestNeighborSearcher:
                 if(useForModel):
                     model = json.loads(rawLine)
                     line = model['title'] + " " +model['abstract']
-                    yield line
+                    yield remove_stopwords(line)
                 else:
-                    yield rawLine    
+                    yield remove_stopwords(rawLine)   
 
 if __name__ == "__main__":
     """
@@ -119,20 +114,20 @@ if __name__ == "__main__":
     # results, scores = nns.evaluate_query(query, documents) 
     # print(scores)
     # print(results)
-    queries = list(nns.openFile(queryFiles, useForModel = False))
-    results = []
-    for i, q in enumerate(queries):
-        annoyResult, scores = nns.evaluate_query(q,documents)
-        for j, r in enumerate(annoyResult): 
-            result = {
-                'query':q,
-                'docId':r[0],
-                'score':scores[j]
-            }
-            results.append(result)
-    print("Finished query run - " + datetime.datetime.now().isoformat())
-    json_object = json.dumps(results, indent = 4)
+    # queries = list(nns.openFile(queryFiles, useForModel = False))
+    # results = []
+    # for i, q in enumerate(queries):
+    #     annoyResult, scores = nns.evaluate_query(q,documents)
+    #     for j, r in enumerate(annoyResult): 
+    #         result = {
+    #             'query':q,
+    #             'docId':r[0],
+    #             'score':scores[j]
+    #         }
+    #         results.append(result)
+    # print("Finished query run - " + datetime.datetime.now().isoformat())
+    # json_object = json.dumps(results, indent = 4)
 
-    print(json_object)
-    with open(resultsFile, "w") as outfile:
-        outfile.write(json_object)
+    # print(json_object)
+    # with open(resultsFile, "w") as outfile:
+    #     outfile.write(json_object)
