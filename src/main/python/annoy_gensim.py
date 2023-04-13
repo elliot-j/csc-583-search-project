@@ -21,12 +21,14 @@ class AnnoyIndexerWrapper:
 		self.docVectorSize = 150
 		self.epochs = 20
 
-	def openFile(self, filePath, isPreProcessed=True):
+	def openFile(self, filePath, isPreProcessed=True, isTokenized = False):
 		with smart_open.open(filePath, encoding="utf-8") as f:
 			jsonData = json.load(f)
 			if isPreProcessed:
 				for i, rawLine in enumerate(jsonData):
-					tokens = gensim.utils.simple_preprocess(rawLine)
+					if(isTokenized == False):
+						tokens = gensim.utils.simple_preprocess(rawLine)
+					else: tokens = rawLine
 					yield tokens
 			else: 
 				for i, rawLine in enumerate(f):							
@@ -41,7 +43,7 @@ class AnnoyIndexerWrapper:
 
 	def buildAndTrainModel(self, filePath):
 		print("loading dataset from file - " + datetime.datetime.now().isoformat())
-		trainSet = list(self.openFile(filePath))
+		trainSet = list(self.openFile(filePath,isTokenized=True))
 		model = Doc2Vec(vector_size=self.docVectorSize, min_count=1, epochs=self.epochs)
 		print("building model vocabulary - " + datetime.datetime.now().isoformat())
 		model.build_vocab(trainSet)
@@ -84,6 +86,7 @@ class AnnoyIndexerWrapper:
 
 searcher = AnnoyIndexerWrapper()
 dataFile = "src/main/resources/arxiv-metadata-oai-snapshot.json"
+tokenizedDataFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot-lite.json'
 queryFiles = "src/main/resources/lucene-queries.txt"
 resultsFile = "src/main/resources/annoy-results.json"
 print(os.getcwd())
@@ -92,7 +95,7 @@ if searcher.doesSavedIndexExist():
 	searcher.loadModel()
 else:
 	print("building new model - " + datetime.datetime.now().isoformat())
-	searcher.buildAndTrainModel(dataFile)
+	searcher.buildAndTrainModel(tokenizedDataFile)
 # result = searcher.queryAnnoy('To appear in Graphs and Combinatorics')
 # print('Results for query in format (lineNumber, score) ' + datetime.datetime.now().isoformat())
 # print(result)
