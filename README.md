@@ -9,5 +9,7 @@ Windows Users: in order to install annoy download `annoy-1.17.0-cp311-cp311-win_
 
  Then copy it into the root directory of this repo. Then run `pip install annoy-1.17.0-cp311-cp311-win_amd64.whl`
 
+Download Glove as described at https://clay-atlas.com/us/blog/2021/01/02/python-en-convert-glove-model-to-gensim-format/
+
 ## Python web server
 https://stackoverflow.com/questions/68579397/is-there-an-easy-way-to-receive-http-post-request-in-python-like-in-php 
