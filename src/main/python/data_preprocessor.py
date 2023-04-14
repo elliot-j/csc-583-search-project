@@ -28,11 +28,11 @@ def openFile(filePath, phase):
 				yield tokens
 	print (f"Longest token sequence = {maxTokens}")
 
-dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot-lite.json'
-stopWordsOutFile = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot-lite.json'
-tokensOutFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot-lite.json'
+dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
+stopWordsOutFile = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot.json'
+tokensOutFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
 
-phase = 'tokens'
+phase = 'stopwords'
 
 ## longest token sequence = 165
 
