@@ -11,7 +11,7 @@ public class SearchEngineMain {
 		// do not have the search code itself in this file please
 
 		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot.json";
-		String indexPath = "src\\main\\resources\\lucene_index.bin";
+		String indexPath = "src\\main\\resources\\models\\lucene_index.bin";
 		String queryFile = "src\\main\\resources\\lucene-queries.txt";
 		String annoyResult = "src\\main\\resources\\annoy-results.json";
 		File indexFile = new File(indexPath);
