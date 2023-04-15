@@ -165,7 +165,7 @@ public class ProcessJSONAndCreateIndex {
 			LinkedList<FullResult> fullResult = new LinkedList<FullResult>();
 
 			//load lucene index
-			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\complete-annoy-results.json"));
+			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\results\\complete-annoy-results.json"));
 			StandardAnalyzer analyzer = new StandardAnalyzer();
 			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
 			QueryParser p = new QueryParser("docLine", analyzer);

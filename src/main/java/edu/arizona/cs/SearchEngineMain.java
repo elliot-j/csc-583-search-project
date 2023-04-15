@@ -13,9 +13,9 @@ public class SearchEngineMain {
 		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot.json";
 		String indexPath = "src\\main\\resources\\lucene_index.bin";
 		String queryFile = "src\\main\\resources\\lucene-queries.txt";
-		String annoyResult = "src\\main\\resources\\annoy-results.json";
+		String annoyResult = "src\\main\\resources\\results\\annoy-results_transformer__18_34_30.json";
 		File indexFile = new File(indexPath);
-		boolean luceneQueryRun = true;
+		boolean luceneQueryRun = false;
 		if (luceneQueryRun) {
 			if (!indexFile.exists()) {
 				System.out.println("Index not found, recreating from data file");
