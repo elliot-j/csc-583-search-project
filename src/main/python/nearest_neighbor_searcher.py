@@ -9,7 +9,7 @@ from annoy import AnnoyIndex
 from gensim.parsing.preprocessing import remove_stopwords
 import torch.nn.functional as F
 from termcolor import colored
-
+torch.device('cpu')
 class NearestNeighborSearcher:
     """
     Class that creates the vector of the documents, and builds an annoy index, parses the query
@@ -26,6 +26,7 @@ class NearestNeighborSearcher:
         self.vector_length = self.model.config.hidden_size  # setting the vectors used for the annoy index have the same
         self.batchSize = batchSize
         self.totalBatches = None
+        self.failedBatches = []
         # dimensions as the embeddings produced by the transformer model
     def mean_pooling(self, model_output, attention_mask):
         token_embeddings = model_output[0] #First element of model_output contains all token embeddings
@@ -54,7 +55,7 @@ class NearestNeighborSearcher:
         if totalBatches == None:
             totalBatches = int((len(documents) / self.batchSize ) + 1    )
 
-        if os.path.exists(self.index_name):            
+        if os.path.exists(self.index_name):
             self.annoy_index.load(self.index_name)
         for batchNo in range(0, totalBatches):
             batchFile = f'{batchOutDir}/{self.batchSize}__{batchNo}.batch'
@@ -62,12 +63,21 @@ class NearestNeighborSearcher:
                 print(colored(f'batch {batchNo+1} not found. Skipping', 'red'))
                 continue
             print(f"Processing batch {batchNo+1} of {int(totalBatches)}. ||   " + datetime.datetime.now().isoformat())
-            vectors = torch.load(batchFile)
-            for i, embedding in enumerate(vectors) :
-                self.annoy_index.add_item(i, embedding)
-            print(f"Finished Processing batch {batchNo+1} of {int(totalBatches)}. ||   " + datetime.datetime.now().isoformat())
-            
-        self.annoy_index.build(totalBatches) 
+            batchStart = batchNo*self.batchSize
+            try:
+                vectors = torch.load(batchFile,map_location=torch.device('cpu'))
+                for i, embedding in enumerate(vectors) :
+                    if(i ==0):
+                        print(f'annoy index item starts at {batchStart+i}')
+                    self.annoy_index.add_item(batchStart+i, embedding)
+                print(f"Finished Processing batch {batchNo+1} of {int(totalBatches)}. ||   " + datetime.datetime.now().isoformat())
+            except Exception as e: 
+                print(colored(f"Failed Processing batch {batchNo+1} of {int(totalBatches)} ||   " + datetime.datetime.now().isoformat(), 'red'))
+                print(e)
+                self.failedBatches.append(batchNo)
+        print('building annoy index')
+        self.annoy_index.build(200) 
+        print(f"saving index to {self.index_name}")
         self.annoy_index.save(self.index_name)
         
     def processTokensToEmbeddings(self, documents):
@@ -155,7 +165,7 @@ if __name__ == "__main__":
     queryFiles = 'src/main/resources/lucene-queries.txt'
     resultsFile = f'src/main/resources/results/annoy-results_transformer__{now.hour}_{now.minute}_{now.second}.json'
     tokenizedDataFile = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot.json'
-    nns = NearestNeighborSearcher(batchSize=500, index_name="src/main/resources/models/arxiv_transformer_index.bin")
+    nns = NearestNeighborSearcher(batchSize=250, index_name="src/main/resources/models/arxiv_transformer_index.bin")
 
     print("loading dataset from file - "  + datetime.datetime.now().isoformat())
     documents = list(nns.openFile(tokenizedDataFile,isTokenized=True))    
@@ -163,7 +173,9 @@ if __name__ == "__main__":
     print("loaded " + str(len(documents))+ " items")
     #nns.processTokensToEmbeddings(documents)
     
-    nns.build_index(documents, totalBatches = 3)
+    nns.build_index(documents, totalBatches = None)
+    print("Failed on batches")
+    print(nns.failedBatches)
 
     # query = "Stirling cycle numbers counts" ## found in doc #3
     # results, scores = nns.evaluate_query(query, documents) 
