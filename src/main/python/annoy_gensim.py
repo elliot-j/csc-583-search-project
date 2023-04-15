@@ -16,20 +16,20 @@ class AnnoyIndexerWrapper:
 	def __init__(self):
 		self.model = None
 		self.indexer = None
-		self.indexFile = "src/main/resources/annoy_model_gensim.bin"
-		self.annoyTrees = 20
-		self.docVectorSize = 150
+		self.indexFile = "src/main/resources/models/annoy_model_gensim.bin"
+		self.annoyTrees = 250
+		self.docVectorSize = 200
 		self.epochs = 20
 
 	def openFile(self, filePath, isPreProcessed=True, isTokenized = False):
-		with smart_open.open(filePath, encoding="utf-8") as f:
-			jsonData = json.load(f)
+		with smart_open.open(filePath, encoding="utf-8") as f:			
 			if isPreProcessed:
+				jsonData = json.load(f)
 				for i, rawLine in enumerate(jsonData):
 					if(isTokenized == False):
 						tokens = gensim.utils.simple_preprocess(rawLine)
-					else: tokens = rawLine
-					yield tokens
+					else: tokens = rawLine['tokens']
+					yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
 			else: 
 				for i, rawLine in enumerate(f):							
 					yield remove_stopwords(rawLine)
@@ -44,7 +44,7 @@ class AnnoyIndexerWrapper:
 	def buildAndTrainModel(self, filePath):
 		print("loading dataset from file - " + datetime.datetime.now().isoformat())
 		trainSet = list(self.openFile(filePath,isTokenized=True))
-		model = Doc2Vec(vector_size=self.docVectorSize, min_count=1, epochs=self.epochs)
+		model = Doc2Vec(vector_size=self.docVectorSize, min_count=3, epochs=self.epochs)
 		print("building model vocabulary - " + datetime.datetime.now().isoformat())
 		model.build_vocab(trainSet)
 		print("beginning model training - " + datetime.datetime.now().isoformat())
@@ -83,12 +83,11 @@ class AnnoyIndexerWrapper:
 	def doesSavedIndexExist(self):
 		return os.path.exists(self.indexFile)
 
-
+now = datetime.datetime.now()
 searcher = AnnoyIndexerWrapper()
-dataFile = "src/main/resources/arxiv-metadata-oai-snapshot.json"
-tokenizedDataFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot-lite.json'
+tokenizedDataFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
 queryFiles = "src/main/resources/lucene-queries.txt"
-resultsFile = "src/main/resources/annoy-results.json"
+resultsFile = f"src/main/resources/results/annoy-results_doc2vec____{now.hour}_{now.minute}_{now.second}.json"
 print(os.getcwd())
 if searcher.doesSavedIndexExist():
 	print("using existing saved model")
@@ -103,7 +102,7 @@ else:
 if searcher.doesSavedIndexExist() == False:
 	print("saving model for future use")
 	searcher.saveModel()
-queries = list(searcher.openFile(queryFiles, useForModel=False))
+queries = list(searcher.openFile(queryFiles, isPreProcessed=False))
 results = []
 print("Beginning query run - " + datetime.datetime.now().isoformat())
 for i, q in enumerate(queries):

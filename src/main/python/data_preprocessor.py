@@ -33,7 +33,7 @@ dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
 stopWordsOutFile = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot.json'
 tokensOutFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
 
-phase = 'stopwords'
+phase = 'tokens'
 
 
 ## longest token sequence = 165
