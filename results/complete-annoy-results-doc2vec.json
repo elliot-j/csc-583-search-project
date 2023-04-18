@@ -1,0 +1,2171 @@
+[{
+        "title": "Aspects of Dualities",
+        "paperAbstract": "  In this talk, some aspects of duality symmetries are presented.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2100564,
+        "score": 0.8096649981095823
+    },
+    {
+        "title": "Proceedings of the Third Conference on Uncertainty in Artificial\n  Intelligence (1987)",
+        "paperAbstract": "  This is the Proceedings of the Third Conference on Uncertainty in Artificial\nIntelligence, which was held in Seattle, WA, July 10-12, 1987\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 422990,
+        "score": 0.8045207949552875
+    },
+    {
+        "title": "Lefschetz Fibrations and 3-Fold Branched Covering Spaces",
+        "paperAbstract": "  This paper is withdrawn by the author. See math.GT/9811093 for replacement.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2161177,
+        "score": 0.8013030664473888
+    },
+    {
+        "title": "Burkholder inequality by Bregman divergence",
+        "paperAbstract": "  We prove Burkholder inequality using Bregman divergence.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 1436503,
+        "score": 0.797724908730288
+    },
+    {
+        "title": "Recent results from the D0 and CDF experiments at the Tevatron",
+        "paperAbstract": "  We give the most recent results from the D0 and CDF experiments at the\nTevatron.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2003825,
+        "score": 0.7960234976011389
+    },
+    {
+        "title": "Steven Weinberg (1933 - 2021)",
+        "paperAbstract": "  This is a homage to the memory of Prof. Steven Weinberg who passed away on 23\nJuly 2021.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 1787638,
+        "score": 0.7818981869112349
+    },
+    {
+        "title": "Charmonium and Bottomonium Production in p-pbar Collisions at CDF",
+        "paperAbstract": "  We present measurements of charmonium and bottomonium production using a data\nsample collected by CDF during the 1992-93 p-pbar collider run at the Fermilab\nTevatron.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2004615,
+        "score": 0.7790261937854677
+    },
+    {
+        "title": "Geometric Description of L$_1$-Spaces",
+        "paperAbstract": "  We describe strongly facially symmetric spaces which are isometrically\nisomorphic to L$_1$-space.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 460628,
+        "score": 0.7771416064749399
+    },
+    {
+        "title": "Verifiable quantum oblivious transfer protocol based on entangled states",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2224659,
+        "score": 0.7722852479844828
+    },
+    {
+        "title": "The General Solution of the Complex Monge-Amp\\`ere Equation in a space\n  of arbitrary dimension",
+        "paperAbstract": "  A general solution to the Complex Monge-Amp\\`ere equation in a space of\narbitrary dimensions is constructed.\n",
+        "query": "dark matter black holes anti-desitter space",
+        "docId": 2227309,
+        "score": 0.7719983569747608
+    },
+    {
+        "title": "Super Object Oriented Programming",
+        "paperAbstract": "  This submission has been withdrawn at the request of the author.\n",
+        "query": "room temperature super conductor",
+        "docId": 1976919,
+        "score": 0.6877852486409903
+    },
+    {
+        "title": "Some results on the super domination number of a graph",
+        "paperAbstract": "  Let $G\u003d(V,E)$ be a simple graph. A dominating set of $G$ is a subset\n$S\\subseteq V$ such that every vertex not in $S$ is adjacent to at least one\nvertex in $S$. The cardinality of a smallest dominating set of $G$, denoted by\n$\\gamma(G)$, is the domination number of $G$. A dominating set $S$ is called a\nsuper dominating set of $G$, if for every vertex $u\\in \\overline{S}\u003dV-S$, there\nexists $v\\in S$ such that $N(v)\\cap \\overline{S}\u003d\\{u\\}$. The cardinality of a\nsmallest super dominating set of $G$, denoted by $\\gamma_{sp}(G)$, is the super\ndomination number of $G$. In this paper, we study super domination number of\nsome graph classes and present sharp bounds for some graph operations.\n",
+        "query": "room temperature super conductor",
+        "docId": 1640804,
+        "score": 0.55250198399537
+    },
+    {
+        "title": "A super Frobenius formula for the characters of cyclotomic Hecke\n  algebras",
+        "paperAbstract": "  We prove a super Frobenius formula for the characters of the cyclotomic Hecke\nalgebras by applying the super Schur-Weyl reciprocity between the quantum\nsuperalgebras and cyclotomic Hecke algebras, which is a super analogue of the\nFrobenius formula in (T. Shoji, J. Algebra 226: 2000, 818--856) and a\ncyclotomic analogue of the super Frobeinus formula in (H. Mitsuhashi, Linear\nMultilinear Algebra 58: 2010, 941--955).\n",
+        "query": "room temperature super conductor",
+        "docId": 1022186,
+        "score": 0.5430251903928749
+    },
+    {
+        "title": "Euler characters and super Jacobi polynomials",
+        "paperAbstract": "  We prove that Euler supercharacters for orthosymplectic Lie superalgebras can\nbe obtained as a certain specialization of super Jacobi polynomials. A new\nversion of Weyl type formula for super Schur functions and specialized super\nJacobi polynomials play a key role in the proof.\n",
+        "query": "room temperature super conductor",
+        "docId": 124199,
+        "score": 0.5262727375418432
+    },
+    {
+        "title": "$N\u003d2$ and $N\u003d4$ Subalgebras of Super Vertex Operator Algebras",
+        "paperAbstract": "  We develop criteria to decide if an $N\u003d2$ or $N\u003d4$ super conformal algebra is\na subalgebra of a super vertex operator algebra in general, and of a super\nlattice theory in particular. We give some specific examples.\n",
+        "query": "room temperature super conductor",
+        "docId": 777616,
+        "score": 0.5257046336492905
+    },
+    {
+        "title": "Oscillatory instability in super-diffusive reaction -- diffusion\n  systems: fractional amplitude and phase diffusion equations",
+        "paperAbstract": "  Nonlinear evolution of a reaction--super-diffusion system near a Hopf\nbifurcation is studied. Fractional analogues of complex Ginzburg-Landau\nequation and Kuramoto-Sivashinsky equation are derived, and some of their\nanalytical and numerical solutions are studied.\n",
+        "query": "room temperature super conductor",
+        "docId": 41977,
+        "score": 0.5201315905148292
+    },
+    {
+        "title": "Whittaker modules for the super-Virasoro algebras",
+        "paperAbstract": "  In this paper, we define and study Whittaker modules for the super-Viraoro\nalgebras, including the Neveu-Schwarz algebra and the Ramond algebra. We\nclassify the simple Whittaker modules and obtain necessary and sufficient\nconditions for irreducibility of these modules.\n",
+        "query": "room temperature super conductor",
+        "docId": 1043764,
+        "score": 0.5121922838187327
+    },
+    {
+        "title": "A remark on conductor, depth and principal congruence subgroups",
+        "paperAbstract": "  In this paper we study a relation between conductor, depth, and the level of\nprincipal congruence subgroups for irreducible admissible representations of\n${\\rm GL}_n(F)$ for a non-archimedean local field $F$ of characteristic zero.\nSome global and local applications are also discussed.\n",
+        "query": "room temperature super conductor",
+        "docId": 1502142,
+        "score": 0.5103911575264348
+    },
+    {
+        "title": "Complete reducibility of integrable modules for the affine Lie(super)\n  algebras",
+        "paperAbstract": "  We prove complete reducibility for an integrable module for an affine Lie\nalgebra where the canonical central element acts non-trivially. We further\nprove that integrable modules does not exists for most of the super affine Lie\nalgebras where the center acts non-trivially.\n",
+        "query": "room temperature super conductor",
+        "docId": 2126180,
+        "score": 0.5068608762044278
+    },
+    {
+        "title": "Weighted first moments of some special quadratic Dirichlet $L$-functions",
+        "paperAbstract": "  In this paper, we obtain asymptotic formulas for weighted first moments of\ncentral values of families of primitive quadratic Dirichlet $L$-functions whose\nconductors comprise only primes that split in a given quadratic number field.\nWe then deduce a non-vanishing result of these $L$-functions at the point\n$s\u003d1/2$.\n",
+        "query": "room temperature super conductor",
+        "docId": 943436,
+        "score": 0.5051844329550743
+    },
+    {
+        "title": "Remark on the Garnier system in two variables",
+        "paperAbstract": "  We remark on the Garnier system in two variables.\n",
+        "query": "quantum supremacy",
+        "docId": 5835,
+        "score": 0.7057610723130594
+    },
+    {
+        "title": "Homological finiteness properties of wreath products",
+        "paperAbstract": "  We study the homological finiteness property FPm of permutational wreath\nproducts.\n",
+        "query": "quantum supremacy",
+        "docId": 534144,
+        "score": 0.6974969643937765
+    },
+    {
+        "title": "Top Quark Physics",
+        "paperAbstract": "  In these three lectures, I review the physics of top quark. Each of the\nlectures is self-contained.\n",
+        "query": "quantum supremacy",
+        "docId": 2048969,
+        "score": 0.6962005087167551
+    },
+    {
+        "title": "Black Holes and Sphalerons in Low Energy Effective String Theory",
+        "paperAbstract": "  Talk given at the 7th Marcel Grossmann Meeting on General Relativity,\nStanford University, July 24-30, 1994.\n",
+        "query": "quantum supremacy",
+        "docId": 2095631,
+        "score": 0.6952370740189746
+    },
+    {
+        "title": "Irreducibility of some representations of the groups of\n  symplectomorphisms and contactomorphisms",
+        "paperAbstract": "  We show the irreducibility of some unitary representations of the group of\nsymplectomorphisms and the group of contactomorphisms.\n",
+        "query": "quantum supremacy",
+        "docId": 195120,
+        "score": 0.6835765192417806
+    },
+    {
+        "title": "Radiative Penguin Decays",
+        "paperAbstract": "  We discuss recent experimental studies of radiative penguin decays of B\nmesons by the Belle and BaBar collaborations.\n",
+        "query": "quantum supremacy",
+        "docId": 28063,
+        "score": 0.6819706714298785
+    },
+    {
+        "title": "Conditionalizing and commutativity: a note on Malley",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "quantum supremacy",
+        "docId": 2217343,
+        "score": 0.6797645803591319
+    },
+    {
+        "title": "Criteria of Primality",
+        "paperAbstract": "  In this paper we present four necessary and sufficient conditions for a\nnatural number to be prime.\n",
+        "query": "quantum supremacy",
+        "docId": 2157920,
+        "score": 0.6784623028099688
+    },
+    {
+        "title": "A possible 0^{-+} glueball candidate X(1835)",
+        "paperAbstract": "  The possibility of X(1835) as a 0^{-+} glueball is investigated.\n",
+        "query": "quantum supremacy",
+        "docId": 2037596,
+        "score": 0.6695450400755885
+    },
+    {
+        "title": "Almost del Pezzo manifolds",
+        "paperAbstract": "  We classify almost del Pezzo manifolds in arbitrary dimension n, i.e.,\nprojective manifolds X with big and nef anticanonical bundle -K_X, such that\n-K_X is divisible by n-1.\n",
+        "query": "quantum supremacy",
+        "docId": 2155383,
+        "score": 0.6645287398507644
+    },
+    {
+        "title": "Quantum Encryption and Generalized Quantum Shannon Impossibility",
+        "paperAbstract": "  The famous Shannon impossibility result says that any encryption scheme with\nperfect secrecy requires a secret key at least as long as the message. In this\npaper we provide its quantum analogue with imperfect secrecy and imperfect\ncorrectness. We also give a systematic study of information-theoretically\nsecure quantum encryption with two secrecy definitions. We show that the weaker\none implies the stronger but with a security loss in $d$, where $d$ is the\ndimension of the encrypted quantum system. This is good enough if the target\nsecrecy error is of $o(d^{-1})$.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 932587,
+        "score": 0.5885463323884039
+    },
+    {
+        "title": "Application of Data Encryption in Chinese Named Entity Recognition",
+        "paperAbstract": "  Recently, with the continuous development of deep learning, the performance\nof named entity recognition tasks has been dramatically improved. However, the\nprivacy and the confidentiality of data in some specific fields, such as\nbiomedical and military, cause insufficient data to support the training of\ndeep neural networks. In this paper, we propose an encryption learning\nframework to address the problems of data leakage and inconvenient disclosure\nof sensitive data in certain domains. We introduce multiple encryption\nalgorithms to encrypt training data in the named entity recognition task for\nthe first time. In other words, we train the deep neural network using the\nencrypted data. We conduct experiments on six Chinese datasets, three of which\nare constructed by ourselves. The experimental results show that the encryption\nmethod achieves satisfactory results. The performance of some models trained\nwith encrypted data even exceeds the performance of the unencrypted method,\nwhich verifies the effectiveness of the introduced encryption method and solves\nthe problem of data leakage to a certain extent.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 1705339,
+        "score": 0.5806378440269953
+    },
+    {
+        "title": "Quantum dialogue based on quantum encryption with single photons in both\n  polarization and spatial-mode degrees of freedom",
+        "paperAbstract": "  In this paper, a novel information leakage resistant quantum dialogue (QD)\nprotocol with single photons in both polarization and spatial-mode degrees of\nfreedom is proposed, which utilizes quantum encryption technology to overcome\nthe information leakage problem. In the proposed QD protocol, during the\ntransmission process, the single photons in both polarization and spatial-mode\ndegrees of freedom used for encoding two communicants\u0027 private classical bits\nare protected by both quantum encryption technology and decoy photon\ntechnology. For avoiding the information leakage problem, the initial states of\nthe single photons in both polarization and spatial-mode degrees of freedom\nused for encoding two communicants\u0027 private classical bits are shared between\ntwo communicants through quantum key encryption and decryption. The\ninformation-theoretical efficiency of the proposed QD protocol is as high as\n40%.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 1652729,
+        "score": 0.5721102974755023
+    },
+    {
+        "title": "Cryptanalysis and improvement of Wu-Cai-Wu-Zhang\u0027s quantum private\n  comparison protocol",
+        "paperAbstract": "  In a recent paper (Int. J. Quantum Inf. 17 (2019) 1950026), the authors\ndiscussed the shortcomings in the security of a quantum private comparison\nprotocol that we previously proposed. They also proposed a new protocol aimed\nto avoid these problems. Here we analysis the information leaked in their\nprotocol, and find that it is even less secure than our protocol in certain\ncases. We further propose an improved version which has the following\nadvantages: (1) no entanglement needed, (2) quantum memory is no longer\nrequired, and (3) less information leaked. Therefore, better security and great\nfeasibility are both achieved.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 1167339,
+        "score": 0.5673729243960803
+    },
+    {
+        "title": "Two-Server Oblivious Transfer for Quantum Messages",
+        "paperAbstract": "  Oblivious transfer is considered as a cryptographic primitive task for\nquantum information processing over quantum network. Although it is possible\nwith two servers, any existing protocol works only with classical messages. We\npropose two-server oblivious transfer protocols for quantum messages.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 1742214,
+        "score": 0.5654505020866054
+    },
+    {
+        "title": "Comment on \"An arbitrated quantum signature protocol based on the\n  chained CNOT operations encryption\"",
+        "paperAbstract": "  In 2015, Li et al. (Quantum Inf Process (2015) 14:2171-2181) proposed an\narbitrated quantum signature (AQS) scheme based on the chained controlled-NOT\noperations encryption. However, this paper points out that in their scheme an\nattacker can forge a signature without being detected. Therefore, Li et al.\u0027s\nAQS scheme cannot satisfy the unforgeability and non-repudiation property.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 683363,
+        "score": 0.562671404530299
+    },
+    {
+        "title": "Hilbert schemes for quantum planes are projective",
+        "paperAbstract": "  We show that Hilbert schemes for quantum planes are projective.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 83599,
+        "score": 0.5577675255553629
+    },
+    {
+        "title": "Generative Model-Based Attack on Learnable Image Encryption for\n  Privacy-Preserving Deep Learning",
+        "paperAbstract": "  In this paper, we propose a novel generative model-based attack on learnable\nimage encryption methods proposed for privacy-preserving deep learning. Various\nlearnable encryption methods have been studied to protect the sensitive visual\ninformation of plain images, and some of them have been investigated to be\nrobust enough against all existing attacks. However, previous attacks on image\nencryption focus only on traditional cryptanalytic attacks or reverse\ntranslation models, so these attacks cannot recover any visual information if a\nblock-scrambling encryption step, which effectively destroys global\ninformation, is applied. Accordingly, in this paper, generative models are\nexplored to evaluate whether such models can restore sensitive visual\ninformation from encrypted images for the first time. We first point out that\nencrypted images have some similarity with plain images in the embedding space.\nBy taking advantage of leaked information from encrypted images, we propose a\nguided generative model as an attack on learnable image encryption to recover\npersonally identifiable visual information. We implement the proposed attack in\ntwo ways by utilizing two state-of-the-art generative models: a StyleGAN-based\nmodel and latent diffusion-based one. Experiments were carried out on the\nCelebA-HQ and ImageNet datasets. Results show that images reconstructed by the\nproposed method have perceptual similarities to plain images.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 1804833,
+        "score": 0.5507187286218436
+    },
+    {
+        "title": "Quantum probabilistic encryption scheme based on conjugate coding",
+        "paperAbstract": "  We present a quantum probabilistic encryption algorithm for a private-key\nencryption scheme based on conjugate coding of the qubit string. A\nprobabilistic encryption algorithm is generally adopted in public-key\nencryption protocols. Here we consider the way it increases the unicity\ndistance of both classical and quantum private-key encryption schemes. The\nsecurity of quantum probabilistic private-key encryption schemes against two\nkinds of attacks is analyzed. By using the no-signalling postulate, we show\nthat the scheme can resist attack to the key. The scheme\u0027s security against\nplaintext attack is also investigated by considering the information-theoretic\nindistinguishability of the encryption scheme. Finally, we make a conjecture\nregarding Breidbart\u0027s attack.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 338926,
+        "score": 0.5377686854800388
+    },
+    {
+        "title": "Eavesdropping on the improved three-party quantum secret sharing\n  protocol",
+        "paperAbstract": "  Lin et al. [S. Lin, F. Gao, Q.-y. Wen, F.-c. Zhu, Opt. Commun. 281 (2008)\n4553] pointed that the multiparty quantum secret sharing protocol [Z.-j. Zhang,\nG. Gao, X. Wang, L.-f. Han, S.-h. Shi, Opt. Commun. 269 (2007) 418] is insecure\nand proposed an improved three-party quantum secret sharing protocol. In this\npaper, we study the security of the improved three-party quantum secret sharing\nprotocol and find that it is still insecure. Finally, a further improved\nthree-party quantum secret sharing protocol is proposed.\n",
+        "query": "spooky action distance quantum entanglement encryption",
+        "docId": 237422,
+        "score": 0.5366462908509941
+    },
+    {
+        "title": "Upper Bounds on the Automorphism Group of a Graph",
+        "paperAbstract": "  We give upper bounds on the order of the automorphism group of a simple graph\n",
+        "query": "shortest path negative graph weights",
+        "docId": 2152492,
+        "score": 0.6709591296045812
+    },
+    {
+        "title": "Tribonacci and Tribonacci-Lucas Matrix Sequences with Negative\n  Subscripts",
+        "paperAbstract": "  In this paper, we define Tribonacci and Tribonacci-Lucas matrix sequences\nwith negative indices and investigate their properties.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 1029523,
+        "score": 0.6680714891051718
+    },
+    {
+        "title": "On positive hypergraphs",
+        "paperAbstract": "  Camarena, Cs\\\u0027{o}ka, Hubai, Lippner, and Lov\\\u0027{a}sz introduced the notion of\npositive graphs. This notion naturally extends to $r$-uniform hypergraphs. In\nthe case when $r$ is odd, we prove that a hypergraph is positive if and only if\nits Levi graph is positive. As an application, we show that the $1$-subdivision\nof $K_{r,r}$ is not a positive graph when $r$ is odd.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 1543492,
+        "score": 0.6633508827965482
+    },
+    {
+        "title": "Graphs with positive spectrum",
+        "paperAbstract": "  In this paper, we prove sharp $\\ell^2$ decay estimates of nonnegative\ngeneralized subharmonic functions on graphs with positive Laplacian spectrum,\nwhich extends the result by Li and Wang on Riemannian manifolds.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 1287780,
+        "score": 0.6489711485321479
+    },
+    {
+        "title": "On weight graphs for nilpotent Lie algebras I",
+        "paperAbstract": "  We introduce the concept of weight graph for the weight system $P\\frak{g}(T)$\nof a finite dimensional nilpotent Lie algebra $\\frak{g}$ and analyze the\nnecessary conditions for a $(p,q)$-graph to be a weight graph for some\n$\\frak{g}$.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 2117936,
+        "score": 0.6434457089893595
+    },
+    {
+        "title": "Laurent polynomials of planar graphs",
+        "paperAbstract": "  By using Laurent graph polynomials instead of the usual ones, i.e. by\nallowing negative powers of the variables, we simplify an existing method of\ndetermining the Alon-Tarsi numbers of planar graphs.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 1215292,
+        "score": 0.6331100112410866
+    },
+    {
+        "title": "Yamada Polynomial and Khovanov Cohomology",
+        "paperAbstract": "  For any graph G we define bigraded cohomology groups whose graded Euler\ncharacteristic is a multiple of the Yamada polynomial of G.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 2154624,
+        "score": 0.6152590800554645
+    },
+    {
+        "title": "The Farrell-Jones conjecture for fundamental groups of graphs of abelian\n  groups",
+        "paperAbstract": "  We show that the Farrell-Jones Conjecture holds for fundamental groups of\ngraphs of groups with abelian vertex groups. As a special case, this shows that\nthe conjecture holds for generalized Baumslag-Solitar groups.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 463917,
+        "score": 0.5985365915328753
+    },
+    {
+        "title": "Graphs with three eigenvalues and second largest eigenvalue at most 1",
+        "paperAbstract": "  We classify the connected graphs with precisely three distinct eigenvalues\nand second largest eigenvalue at most 1.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 630879,
+        "score": 0.5919770235798225
+    },
+    {
+        "title": "Toeplitz Operators in Hilbert Space over Graphs",
+        "paperAbstract": "  In this paper, we consider the relation between Toeplitz operators and\nelements in von Neumann algebras generated by certain graph groupoids.\n",
+        "query": "shortest path negative graph weights",
+        "docId": 202134,
+        "score": 0.5899610966985165
+    },
+    {
+        "title": "Epimorphisms of C*-algebras are surjective",
+        "paperAbstract": "  We answer a question raised by V.G.Pestov in the affirmative.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 1981288,
+        "score": 0.6101499594200686
+    },
+    {
+        "title": "Every 2-Segal space is unital",
+        "paperAbstract": "  We prove that every 2-Segal space is unital.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 1128016,
+        "score": 0.5939005898992757
+    },
+    {
+        "title": "Anomaly Cancellation Condition in Abelian Lattice Gauge Theories",
+        "paperAbstract": "  This paper has been withdrawn by the author.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2013963,
+        "score": 0.5872210409789016
+    },
+    {
+        "title": "Levi-Civita connections of flag manifolds",
+        "paperAbstract": "  For any flag manifold G/T we obtain an explicit expression of its Levi-Civita\nconnection with respect to any invariant Riemannian metric.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2145438,
+        "score": 0.5845584148742784
+    },
+    {
+        "title": "Photoproduction of heavy quarks at HERA",
+        "paperAbstract": "  Present status and prospects of heavy quark photoproduction studies at HERA\nare reviewed.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2062293,
+        "score": 0.5782816229165917
+    },
+    {
+        "title": "A note on Cheeger\u0027s isoperimetric constant",
+        "paperAbstract": "  In this short exposition we provide a simplified proof of Buser\u0027s result for\nCheeger\u0027s isoperimetric constant.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 1660896,
+        "score": 0.5781410383733316
+    },
+    {
+        "title": "Charm and beauty production at CDF",
+        "paperAbstract": "  Recent results from the CDF collaboration are presented on the production of\nfinal states containing charm and beauty quarks.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2001971,
+        "score": 0.5662165403318795
+    },
+    {
+        "title": "The automorphism group of the pants complex",
+        "paperAbstract": "  We show that the automorphism group of the complex of pants decompositions\nfor a surface is isomorphic to the mapping class group for that surface.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2122162,
+        "score": 0.557869709342965
+    },
+    {
+        "title": "Anomaly-induced baryogenesis",
+        "paperAbstract": "  This paper has been withdrawn by the author\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2034285,
+        "score": 0.5517795813586233
+    },
+    {
+        "title": "The Casimir energy for two-dimensional deformed sphere",
+        "paperAbstract": "  We compute the Casimir energy for a free scalar field on the spaces\n$\\,R^{m+1}\\,\\times\\,\\tilde S^2\\,$ where $,\\tilde S^2\\,$ is two-dimensional\ndeformed two-sphere.\n",
+        "query": "neural network hallucination prevention mitigation",
+        "docId": 2096229,
+        "score": 0.5505598344494995
+    },
+    {
+        "title": "QCD analysis of xF$_3$ at NNLO: the theoretical uncertainties",
+        "paperAbstract": "  The next-to-next-to-leading order (NNLO) QCD analysis of the experimental\n$xF_3$ structure function from CCFR data is performed. The theoretical\nuncertainties of the analysis are discussed.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 2065437,
+        "score": 0.49280997688668293
+    },
+    {
+        "title": "The Performance of the Thin NaI(Tl) Detector Pico-Lon for Dark Matter\n  Search",
+        "paperAbstract": "  Thin and large area NaI(Tl) scintillator to search for WIMPs dark matter was\ndeveloped. The performance of thin and wide area NaI(Tl) showed good enough to\nsearch for dark matter. The energy threshold was as low as 2keV and the energy\nresolution was about 24% in FWHM at 60keV.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 330231,
+        "score": 0.4921544594658869
+    },
+    {
+        "title": "B Physics Prospects at LHC",
+        "paperAbstract": "  Future Experiments at LHC will have the opportunity to pursue an extensive\nprogram on B Physics and CP violation. The expected performance are presented\nhere.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 2002816,
+        "score": 0.48890282347968395
+    },
+    {
+        "title": "3-Sasakian Manifolds",
+        "paperAbstract": "  This is an expository paper describing the geometry of certain\nSasakian-Einstein manifolds. Such manifolds have recently become of interest\ndue to Maldacena\u0027s AdS/CFT conjecture. They describe near-horizon geometries of\nbranes at conical singularities.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 2106091,
+        "score": 0.4820031442759216
+    },
+    {
+        "title": "Non-singlet structure functions: Combining the leading logarithms\n  resummation at small-x with DGLAP",
+        "paperAbstract": "  The explicit expressions for the non-singlet DIS structure functions obtained\nat small x by resumming the most singular logarithmic contributions are\ndiscussed and compared in detail with the DGLAP evolution for different values\nof x and Q^2. The role played by the initial conditions for the parton\ndensities currently used in the DGLAP analysis, on the small-$x$ behavior of\nthe non-singlet structure functions is discussed. Explicit expressions are\npresented which implement the NLO DGLAP contributions with our small-x results.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 2035311,
+        "score": 0.47521805949861573
+    },
+    {
+        "title": "Symmetry Analysis of Multiferroic Co_3TeO_6",
+        "paperAbstract": "  A phenomenological explanation of the magnetoelectric behavior of Co_3TeO_6\nis developed. We explain the second harmonic generation data and the magnetic\nfield induced spontaneous polarization in the magnetically ordered phase below\n20K.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 322305,
+        "score": 0.47392172821207623
+    },
+    {
+        "title": "Discussion of: Statistical analysis of an archeological find",
+        "paperAbstract": "  Discussion of ``Statistical analysis of an archeological find\u0027\u0027 by Andrey\nFeuerverger [arXiv:0804.0079]\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 56378,
+        "score": 0.46904734911696977
+    },
+    {
+        "title": "Performance Analysis and Design of Non-orthogonal Multiple Access for\n  Wireless Communications",
+        "paperAbstract": "  In this thesis, we study performance analysis and resource allocation designs\nfor non-orthogonal multiple access (NOMA) in wireless communication systems. In\ncontrast to conventional orthogonal multiple access (OMA) schemes, NOMA allows\nmultiple users to share the same degree of freedom via superposition coding and\nthe successive interference cancelation (SIC) decoding. Inspired by the solid\nfoundations from the information theory perspective, NOMA has rekindled the\ninterests of researchers as a benefit of the recent advancement in signal\nprocessing and silicon technologies. However, comprehensive performance\nanalysis on NOMA and practical resource allocation designs to exploit potential\ngains of NOMA in terms of spectral and energy efficiency have not been fully\nstudied and investigated in the literature. This thesis attempts to address\nthese problems by providing a unified performance analysis and a systematic\nresource allocation design for NOMA in wireless communication systems.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 1184865,
+        "score": 0.46885065809283333
+    },
+    {
+        "title": "The Chiral Phase Transition",
+        "paperAbstract": "  I review the current understanding of the chiral phase transition in QCD,\nwith particular emphasis on recent results obtained in the instanton liquid\nmodel.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 2182767,
+        "score": 0.46755005838013375
+    },
+    {
+        "title": "Self-consistence of the Standard Model via the renormalization group\n  analysis",
+        "paperAbstract": "  A short review of recent renormalization group analyses of the\nself-consistence of the Standard Model is presented.\n",
+        "query": "performance analysis quantum annealing",
+        "docId": 582193,
+        "score": 0.46684703138896566
+    },
+    {
+        "title": "Every 2-Segal space is unital",
+        "paperAbstract": "  We prove that every 2-Segal space is unital.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 1128016,
+        "score": 0.6857328440462549
+    },
+    {
+        "title": "Interactions of two D-branes and String--D-brane with Quantum Correction",
+        "paperAbstract": "  This paper has been withdrawn by the author due to a misunderstanding.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2105204,
+        "score": 0.6849837426756196
+    },
+    {
+        "title": "Search for New Physics in B Decays",
+        "paperAbstract": "  We review recent important progresses at the B factories and discuss the\nfuture prospects. We also comment on how we might proceed to search for new\nphysics.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2035120,
+        "score": 0.6832907703728139
+    },
+    {
+        "title": "Recent Results on Rare b Decays",
+        "paperAbstract": "  Recent experimental results on charmless rare b decays are reviewed.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2005949,
+        "score": 0.6745819315502484
+    },
+    {
+        "title": "Higher loop corrections in noncommutative supersymmetric QED",
+        "paperAbstract": "  This paper has been withdrawn by the authors. It has been superseded by\nhep-th/0309154\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2075515,
+        "score": 0.6732208400714921
+    },
+    {
+        "title": "Levi-Civita connections of flag manifolds",
+        "paperAbstract": "  For any flag manifold G/T we obtain an explicit expression of its Levi-Civita\nconnection with respect to any invariant Riemannian metric.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2145438,
+        "score": 0.6704075336851929
+    },
+    {
+        "title": "Perturbative and Non-Perturbative Results for $N\u003d2$ Heterotic Strings",
+        "paperAbstract": "  In this paper we summarize our recent work about perturbative and\nnon-perturbative effects in four-dimensional heterotic strings with $N\u003d2$\nspace-time supersymmetry.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2098116,
+        "score": 0.6685937385563658
+    },
+    {
+        "title": "An Elementary Proof of the Quantum Adiabatic Theorem",
+        "paperAbstract": "  We provide an elementary proof of the quantum adiabatic theorem.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2215828,
+        "score": 0.6665607832980083
+    },
+    {
+        "title": "On the combinatorics of hypergeometric functions",
+        "paperAbstract": "  We give a combinatorial interpretation for the hypergeometric functions\nassociated with tuples of rational numbers.\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 2149990,
+        "score": 0.6646665524839364
+    },
+    {
+        "title": "Domination number of cubic graphs with large girth",
+        "paperAbstract": "  We show that every n-vertex cubic graph with girth at least g have domination\nnumber at most 0.299871n+O(n/g)\u003c3n/10+O(n/g).\n",
+        "query": "gate transistors vs FinFET",
+        "docId": 133331,
+        "score": 0.6619177617790157
+    },
+    {
+        "title": "On some Integrals associated with the Riesz function",
+        "paperAbstract": "  We explore some integrals associated with the Riesz function and establish\nrelations to other functions from number theory that have appeared in the\nliterature. We also comment on properties of these functions.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 673819,
+        "score": 0.6733468347210234
+    },
+    {
+        "title": "The Tale of One-way Functions",
+        "paperAbstract": "  The existence of one-way functions is arguably the most important problem in\ncomputer theory. The article discusses and refines a number of concepts\nrelevant to this problem. For instance, it gives the first combinatorial\ncomplete owf, i.e., a function which is one-way if any function is. There are\nsurprisingly many subtleties in basic definitions. Some of these subtleties are\ndiscussed or hinted at in the literature and some are overlooked. Here, a\nunified approach is attempted.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 1973946,
+        "score": 0.6097771356354382
+    },
+    {
+        "title": "The number of gauge singlets in supersymmetric Yang-Mills quantum\n  mechanics",
+        "paperAbstract": "  We compute generating functions for number of U(N) (SU(N)) singlets in Fock\nspace in several space dimensions. The motivation to find the explicit form of\nthe functions is from the numerical approach to supersymmetric Yang-Mills\nquantum mechanics, based on Fock space. Incidently the functions give many\nimportant insights into the quantum mechanical models based U(N) (SU(N)) gauge\ngroup.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 20797,
+        "score": 0.5819870226932551
+    },
+    {
+        "title": "Black holes and class groups",
+        "paperAbstract": "  The theory of quadratic forms and class numbers has connections to many\nclassical problems in number theory. Recently, class numbers have appeared in\nthe study of black holes in string theory. We describe this connection and\nraise questions in the hope of inspiring new collaborations between number\ntheorists and physicists.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 998005,
+        "score": 0.5807244146390573
+    },
+    {
+        "title": "A recursive function coding number theoretic functions",
+        "paperAbstract": "  We show that there exists a fixed recursive function $e$ such that for all\nfunctions $h\\colon \\mathbb{N}\\to \\mathbb{N}$, there exists an injective\nfunction $c_h\\colon \\mathbb{N}\\to \\mathbb{N}$ such that $c_h(h(n))\u003de(c_h(n))$,\ni.e., $h\u003dc_h^{-1}ec_h$.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 1622173,
+        "score": 0.57873546121297
+    },
+    {
+        "title": "The symmetry of intersection numbers in group theory",
+        "paperAbstract": "  For suitable subgroups of a finitely generated group, we define the\nintersection number of one subgroup with another subgroup and show that this\nnumber is symmetric. We also give an interpretation of this number.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 2160301,
+        "score": 0.5673285128787526
+    },
+    {
+        "title": "How to experimentally measure the number 5 of the SO(5) theory?",
+        "paperAbstract": "  According to Wilson\u0027s theory of critical phenomena, critical exponents are\nuniversal functions of $d$, the dimension of space, and $n$, the dimension of\nthe symmetry group. SO(5) theory of antiferromagnetism and superconductivity\npredicts a bicritical point where $T_N$ and $T_c$ intersect. By measuring\ncritical exponents close to the bicritical point, and knowing that $d\u003d3$, one\ncan experimentally measure the number 5 of the SO(5) theory.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 1896616,
+        "score": 0.5671960964755769
+    },
+    {
+        "title": "Aspects of Non-commutative Function Theory",
+        "paperAbstract": "  We discuss non commutative functions, which naturally arise when dealing with\nfunctions of more than one matrix variable.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 670626,
+        "score": 0.5602141063513884
+    },
+    {
+        "title": "Energy-minimal Principles in Geometric Function Theory",
+        "paperAbstract": "  We survey a number of recent developments in geometric analysis as they\npertain to the calculus of variations and extremal problems in geometric\nfunction theory following the NZMRI lectures given by the first author at those\nworkshops in Napier in 1998 and 2005.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 1503804,
+        "score": 0.5411735537231834
+    },
+    {
+        "title": "Distance function of D numbers",
+        "paperAbstract": "  Dempster-Shafer theory is widely applied in uncertainty modelling and\nknowledge reasoning due to its ability of expressing uncertain information. A\ndistance between two basic probability assignments(BPAs) presents a measure of\nperformance for identification algorithms based on the evidential theory of\nDempster-Shafer. However, some conditions lead to limitations in practical\napplication for Dempster-Shafer theory, such as exclusiveness hypothesis and\ncompleteness constraint. To overcome these shortcomings, a novel theory called\nD numbers theory is proposed. A distance function of D numbers is proposed to\nmeasure the distance between two D numbers. The distance function of D numbers\nis an generalization of distance between two BPAs, which inherits the advantage\nof Dempster-Shafer theory and strengthens the capability of uncertainty\nmodeling. An illustrative case is provided to demonstrate the effectiveness of\nthe proposed function.\n",
+        "query": "number theory modular form functions noncongruence congruence",
+        "docId": 516423,
+        "score": 0.5394913411117965
+    },
+    {
+        "title": "LHCb detector status and commissioning",
+        "paperAbstract": "  The LHCb detector status and commissioning is presented.\n",
+        "query": "intransitive dice rolling",
+        "docId": 15158,
+        "score": 0.7503490732597626
+    },
+    {
+        "title": "Efficient Algorithm for Perturbative Calculation of Multiloop Feynman\n  Integrals",
+        "paperAbstract": "  We present an efficient algorithm for calculating multiloop Feynman integrals\nperturbatively.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2226067,
+        "score": 0.72658046375585
+    },
+    {
+        "title": "Long Baseline Neutrino Oscillation Review",
+        "paperAbstract": "  This article will summarise the status of current and future long baseline\nneutrino oscillation experiments.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2000198,
+        "score": 0.7209468035594497
+    },
+    {
+        "title": "Unconditionally Secure Multi-Party Computation",
+        "paperAbstract": "  This paper was withdrawn on 20.11.97.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2224113,
+        "score": 0.7162484880197368
+    },
+    {
+        "title": "Comment on Ji-Sheng Chen et al",
+        "paperAbstract": "  This paper was withdrawn by arXiv admins because of inappropriate and\nunverifiable claims of appropriation.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2177811,
+        "score": 0.7130589075760483
+    },
+    {
+        "title": "Metal-Insulator Transition in Disordered and Interacting Systems",
+        "paperAbstract": "  This paper is being withdrawn.\n",
+        "query": "intransitive dice rolling",
+        "docId": 1962172,
+        "score": 0.707560847160039
+    },
+    {
+        "title": "Reply to \"Comment on Yerin et al., Phys. Rev. Lett. 121, 077002 (2018),\n  and Mironov et al., Phys. Rev. Lett. 109, 237002 (2012)\" by A. F. Volkov, F.\n  S. Bergeret, and K. B. Efetov",
+        "paperAbstract": "  Here we reply to the comment by A. F. Volkov, F. S. Bergeret, and K. B.\nEfetov.\n",
+        "query": "intransitive dice rolling",
+        "docId": 1060547,
+        "score": 0.7013675792021541
+    },
+    {
+        "title": "Heavy-Flavour Production at HERA",
+        "paperAbstract": "  We review the theoretical and experimental status of heavy-flavour production\nat HERA. The results presented include some outstanding issues in charm and\nbeauty photoproduction, charm production in DIS and quarkonium production.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2062594,
+        "score": 0.6980776910664002
+    },
+    {
+        "title": "Effective Field Theory of QED Vacuum Fluctuations",
+        "paperAbstract": "  Plenary talk at PASCOS-98, Boston, Massachusetts, USA, March 22-29, 1998.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2059960,
+        "score": 0.694328833663171
+    },
+    {
+        "title": "Some remarks about Cantor sets",
+        "paperAbstract": "  These informal notes briefly discuss various aspects of Cantor sets.\n",
+        "query": "intransitive dice rolling",
+        "docId": 2132262,
+        "score": 0.685604061920003
+    },
+    {
+        "title": "Proceedings of the 38th International Symposium on Multiparticle\n  Dynamics (ISMD08)",
+        "paperAbstract": "  Proceedings of ISMD08\n",
+        "query": "natural language processing deep learning",
+        "docId": 106593,
+        "score": 0.8217724391315002
+    },
+    {
+        "title": "Agterberg, Zheng, and Mukherjee Reply",
+        "paperAbstract": "  Reply to Ikeda (arXiv:0712.3341).\n",
+        "query": "natural language processing deep learning",
+        "docId": 107204,
+        "score": 0.8111079941323691
+    },
+    {
+        "title": "On a generalized Wirtinger inequality",
+        "paperAbstract": "  In this article we discuss a generalized Wirtinger inequality.\n",
+        "query": "natural language processing deep learning",
+        "docId": 187739,
+        "score": 0.8069624650881888
+    },
+    {
+        "title": "Search for New Physics in B Decays",
+        "paperAbstract": "  We review recent important progresses at the B factories and discuss the\nfuture prospects. We also comment on how we might proceed to search for new\nphysics.\n",
+        "query": "natural language processing deep learning",
+        "docId": 2035120,
+        "score": 0.8008160687420638
+    },
+    {
+        "title": "An inverse problem for parabolic equations",
+        "paperAbstract": "  This paper is withdrawn.\n",
+        "query": "natural language processing deep learning",
+        "docId": 2143121,
+        "score": 0.7975029921815064
+    },
+    {
+        "title": "Proceedings of the Fifteenth Conference on Uncertainty in Artificial\n  Intelligence (1999)",
+        "paperAbstract": "  This is the Proceedings of the Fifteenth Conference on Uncertainty in\nArtificial Intelligence, which was held in Stockholm Sweden, July 30 - August\n1, 1999\n",
+        "query": "natural language processing deep learning",
+        "docId": 422976,
+        "score": 0.7945225700024636
+    },
+    {
+        "title": "Proceedings of the Sixth Conference on Uncertainty in Artificial\n  Intelligence (1990)",
+        "paperAbstract": "  This is the Proceedings of the Sixth Conference on Uncertainty in Artificial\nIntelligence, which was held in Cambridge, MA, Jul 27 - Jul 29, 1990\n",
+        "query": "natural language processing deep learning",
+        "docId": 422987,
+        "score": 0.7915665575236517
+    },
+    {
+        "title": "Efficient Algorithm for Perturbative Calculation of Multiloop Feynman\n  Integrals",
+        "paperAbstract": "  We present an efficient algorithm for calculating multiloop Feynman integrals\nperturbatively.\n",
+        "query": "natural language processing deep learning",
+        "docId": 2226067,
+        "score": 0.7912420507291937
+    },
+    {
+        "title": "Mordell-Lang and Skolem-Mahler-Lech theorems for endomorphisms of\n  semiabelian varieties",
+        "paperAbstract": "  Using the Skolem-Mahler-Lech theorem, we prove a dynamical Mordell-Lang\nconjecture for semiabelian varieties.\n",
+        "query": "natural language processing deep learning",
+        "docId": 28616,
+        "score": 0.7851272139708794
+    },
+    {
+        "title": "An inequality of type sup+inf on $S_4$ for the Paneitz operator",
+        "paperAbstract": "  We give a sup+inf inequality on $S_4$ for Paneitz operator.\n",
+        "query": "natural language processing deep learning",
+        "docId": 937008,
+        "score": 0.7841366478359344
+    },
+    {
+        "title": "AdS/CFT Correspondence and Type 0 String Theory",
+        "paperAbstract": "  We review some applications of Type 0 string theory in the context of the\nAdS/CFT correspondence.\n",
+        "query": "types data mining",
+        "docId": 2066790,
+        "score": 0.5490414101140004
+    },
+    {
+        "title": "A large sieve inequality of Elliott--Montgomery--Vaughan type for Maass\n  forms on GL(n,R) with applications",
+        "paperAbstract": "  In this paper, we establish a large sieve inequality of\nElliott-Montgomery-Vaughan type for Maass forms on GL(n, R) and explore three\napplications.\n",
+        "query": "types data mining",
+        "docId": 1377935,
+        "score": 0.5136451977664365
+    },
+    {
+        "title": "Les types de donn\\\u0027ees syntaxiques du syst\\`eme F",
+        "paperAbstract": "  We give in this paper a purely syntactical definition of input and output\ntypes of system F. We define the syntactical data types as input and output\ntypes. We show that any type with positive quantifiers is a syntactical data\ntype and that an input type is an output type. We give some restrictions on the\n$\\forall$-elimination rule in order to prove that an output type is an input\ntype.\n",
+        "query": "types data mining",
+        "docId": 122350,
+        "score": 0.48992942078813684
+    },
+    {
+        "title": "Tangent bundle of a manifold of K$3^{[2]}$-type is rigid",
+        "paperAbstract": "  We prove that the tangent bundle of a manifold of K$3^{[2]}$-type is rigid.\n",
+        "query": "types data mining",
+        "docId": 1443667,
+        "score": 0.48274605897545797
+    },
+    {
+        "title": "Unified treatment of multisymplectic 3-forms in dimension 6",
+        "paperAbstract": "  On a 6-dimensional real vector space $V$ there are three types of\nmultisymplectic 3-forms. We present in this paper a unified treatment of these\nthree types. Forms of each type represent a subset of $\\Lambda^3 V^*$. In two\ncases they are open subsets, in the third one it is a submanifold of\ncodimension 1. We study the geometry of these subsets.\n",
+        "query": "types data mining",
+        "docId": 2133528,
+        "score": 0.4798065854817821
+    },
+    {
+        "title": "Generalized compositions with a fixed number of parts",
+        "paperAbstract": "  We investigate compositions of a positive integer with a fixed number of\nparts, when there are several types of each natural number. These compositions\nproduce new relationships among binomial coefficients, Catalan numbers, and\nnumbers of the Catalan triangle.\n",
+        "query": "types data mining",
+        "docId": 233260,
+        "score": 0.47157295387523135
+    },
+    {
+        "title": "On the orbit spaces of irreducible representations of simple compact Lie\n  groups of types B, C, and D",
+        "paperAbstract": "  It is proved that the orbit space of an irreducible representation of a\nsimple connected compact Lie group of type B, C, or D can be a smooth manifold\nonly in two cases.\n",
+        "query": "types data mining",
+        "docId": 576197,
+        "score": 0.4712763383260423
+    },
+    {
+        "title": "Blocks of the category $\\mathcal{O}^\\mathfrak{p}$ in type $E$",
+        "paperAbstract": "  In this paper, we determine the blocks of $\\mathcal{O}^\\mathfrak{p}$\nassociated with semisimple Lie algebras of type $E$.\n",
+        "query": "types data mining",
+        "docId": 1273527,
+        "score": 0.4627719931667613
+    },
+    {
+        "title": "Obscured accreting black holes at high redshift",
+        "paperAbstract": "  A significant fraction of the accreting black holes powering high redshift\nAGN are obscured by large columns of dust and gas. For this reason, luminous\ntype 2 quasars can be efficiently discovered combining hard X-ray and\nnear-infrared observations. We will briefly discuss the most recent results.\n",
+        "query": "types data mining",
+        "docId": 1849214,
+        "score": 0.4584938805266745
+    },
+    {
+        "title": "From U-bounds to isoperimetry with applications to H-type groups",
+        "paperAbstract": "  In this paper we study applications of U-bounds to coercive and isoperimetric\nproblems for probability measures on finite and infinite products of H-type\ngroups.\n",
+        "query": "types data mining",
+        "docId": 159987,
+        "score": 0.4567872287911996
+    },
+    {
+        "title": "Can single-photon states violate causality?",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "optimization algorithms",
+        "docId": 2223684,
+        "score": 0.771053682884256
+    },
+    {
+        "title": "Black Holes and Open Strings",
+        "paperAbstract": "  This paper has been withdrawn pending revision.\n",
+        "query": "optimization algorithms",
+        "docId": 2094546,
+        "score": 0.7668283866504453
+    },
+    {
+        "title": "Search for New Physics in B Decays",
+        "paperAbstract": "  We review recent important progresses at the B factories and discuss the\nfuture prospects. We also comment on how we might proceed to search for new\nphysics.\n",
+        "query": "optimization algorithms",
+        "docId": 2035120,
+        "score": 0.7539311471170702
+    },
+    {
+        "title": "Heegaard splittings of compact 3-manifolds",
+        "paperAbstract": "  An expository survey article on Heegaard splittings\n",
+        "query": "optimization algorithms",
+        "docId": 2117139,
+        "score": 0.7499859734598431
+    },
+    {
+        "title": "M Theory Fivebrane and SQCD",
+        "paperAbstract": "  Talk presented at Strings `97 in Amsterdam (June 16 - 21, 1997)\n",
+        "query": "optimization algorithms",
+        "docId": 2103105,
+        "score": 0.7475718352086176
+    },
+    {
+        "title": "Tachyon Dynamics and Brane Cosmology",
+        "paperAbstract": "  We discuss the cosmological implications of some recent advances in\nunderstanding the dynamics of tachyon condensation in string theory.\n",
+        "query": "optimization algorithms",
+        "docId": 2075339,
+        "score": 0.7463770573767121
+    },
+    {
+        "title": "Asymptotic behaviour of total cross sections in quantum field theory",
+        "paperAbstract": "  This paper has been withdrawn by the author\n",
+        "query": "optimization algorithms",
+        "docId": 2107347,
+        "score": 0.7369501013141573
+    },
+    {
+        "title": "On a result of Levin and Ste\\v{c}kin",
+        "paperAbstract": "  We extend a result of Levin and Ste\\v{c}kin concerning an inequality\nanalogous to Hardy\u0027s inequality.\n",
+        "query": "optimization algorithms",
+        "docId": 110286,
+        "score": 0.7335810087956798
+    },
+    {
+        "title": "The category of categories with pullbacks is cartesian closed",
+        "paperAbstract": "  We show that the category of categories with pullbacks and pullback\npreserving functors is cartesian closed.\n",
+        "query": "optimization algorithms",
+        "docId": 119152,
+        "score": 0.7307495393941661
+    },
+    {
+        "title": "The future of particle physics",
+        "paperAbstract": "  I review the prospects for future progress in accelerator-based particle\nphysics\n",
+        "query": "optimization algorithms",
+        "docId": 2040933,
+        "score": 0.7274562281577275
+    },
+    {
+        "title": "Exactly solvable f(R) inflation",
+        "paperAbstract": "  We show that adding a cosmological constant term to the Starobinsky model, it\ncan be solved exactly without using the slow-roll approximation.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 1012233,
+        "score": 0.643318051572491
+    },
+    {
+        "title": "Inflationary Cosmology: Status and Prospects",
+        "paperAbstract": "  This article gives a brief overview of the status of attempts to constrain\ninflation using observations, and examines prospects for future developments.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 1827415,
+        "score": 0.6322252064852716
+    },
+    {
+        "title": "On Inflation in String Theory",
+        "paperAbstract": "  In this talk we describe recent progress in construction of inflationary\nmodels in the context of string theory with flux compactification and moduli\nstabilization. We also discuss a possibility to test string theory by\ncosmological observations.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2089500,
+        "score": 0.6239544110757986
+    },
+    {
+        "title": "Introductory review of cosmic inflation",
+        "paperAbstract": "  These lecture notes provide an introduction to cosmic inflation. In\nparticular I will review the basic concepts of inflation, generation of density\nperturbations, and reheating after inflation.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2027716,
+        "score": 0.5991649212788204
+    },
+    {
+        "title": "Physics Beyond the Standard Model",
+        "paperAbstract": "  I review recent theoretical work on electroweak symmetry breaking.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2040446,
+        "score": 0.592735225463052
+    },
+    {
+        "title": "Almost del Pezzo manifolds",
+        "paperAbstract": "  We classify almost del Pezzo manifolds in arbitrary dimension n, i.e.,\nprojective manifolds X with big and nef anticanonical bundle -K_X, such that\n-K_X is divisible by n-1.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2155383,
+        "score": 0.589728099472012
+    },
+    {
+        "title": "Prospects of Inflation",
+        "paperAbstract": "  I will discuss the development of inflationary theory and its present status,\nincluding recent progress in describing de Sitter space and inflationary\nuniverse in string theory.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2079551,
+        "score": 0.58444539808802
+    },
+    {
+        "title": "Can Non-Adiabatic Perturbations Arise After Single-Field Inflation?",
+        "paperAbstract": "  It is shown that non-adiabatic cosmological perturbations cannot arise during\nthe period of reheating following inflation with a single scalar inflaton\nfield.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 1843276,
+        "score": 0.5836009810489582
+    },
+    {
+        "title": "Status of observational cosmology and inflation",
+        "paperAbstract": "  We review the latest developments in the determination of the cosmological\nparameters from the measurement of the Cosmic Microwave Background Radiation\n(CMBR) anisotropies and of the Large Scale Structure (LSS) of the Universe. We\ncomment finally on the implications for the primordial spectrum and the\nconsequences for inflationary models.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2029366,
+        "score": 0.5796081374210189
+    },
+    {
+        "title": "Cosmological Matter-Antimatter Asymmetry and Antimatter in the Universe",
+        "paperAbstract": "  Models of baryogenesis which may lead to astronomically significant amount of\nantimatter in the universe are reviewed. Observational features are briefly\ndiscussed.\n",
+        "query": "GDP growth inflation rate",
+        "docId": 2026026,
+        "score": 0.57551946784106
+    },
+    {
+        "title": "Recent Results from the Super-Kamiokande Experiment",
+        "paperAbstract": "  New physics results from the Super-Kamiokande experiment in 2000 are\npresented.\n",
+        "query": "power electronics applications",
+        "docId": 1999335,
+        "score": 0.7951775781216881
+    },
+    {
+        "title": "Physics Beyond the Standard Model",
+        "paperAbstract": "  I review recent theoretical work on electroweak symmetry breaking.\n",
+        "query": "power electronics applications",
+        "docId": 2040446,
+        "score": 0.770029934803544
+    },
+    {
+        "title": "An inverse problem for parabolic equations",
+        "paperAbstract": "  This paper is withdrawn.\n",
+        "query": "power electronics applications",
+        "docId": 2143121,
+        "score": 0.760551025644828
+    },
+    {
+        "title": "Review of hadronic and rare $B$ decays",
+        "paperAbstract": "  We review recent results on rare and hadronic B decays from the CLEO, CDF and\nLEP experiments.\n",
+        "query": "power electronics applications",
+        "docId": 2004538,
+        "score": 0.7443419588071762
+    },
+    {
+        "title": "The Pierre Auger Observatory III: Other Astrophysical Observations",
+        "paperAbstract": "  Astrophysical observations of ultra-high-energy cosmic rays with the Pierre\nAuger Observatory\n",
+        "query": "power electronics applications",
+        "docId": 276797,
+        "score": 0.7379181012160938
+    },
+    {
+        "title": "Energy And Momentum Associated With Bianchi Type Universes",
+        "paperAbstract": "  This paper has been removed by arXiv administrators because it plagiarizes\ngr-qc/0303009, hep-th/0405047, gr-qc/0602107, hep-th/0311050, and others.\n  This paper has excessive overlap with the following papers also written by\nthe authors or their collaborators: gr-qc/0607115, gr-qc/0607103,\ngr-qc/0606080, gr-qc/0607126, gr-qc/0607102, gr-qc/0510123, gr-qc/0607110, and\nothers.\n",
+        "query": "power electronics applications",
+        "docId": 1990952,
+        "score": 0.7359864673906156
+    },
+    {
+        "title": "Heavy-Flavour Production at HERA",
+        "paperAbstract": "  We review the theoretical and experimental status of heavy-flavour production\nat HERA. The results presented include some outstanding issues in charm and\nbeauty photoproduction, charm production in DIS and quarkonium production.\n",
+        "query": "power electronics applications",
+        "docId": 2062594,
+        "score": 0.7315104174557217
+    },
+    {
+        "title": "Hidden symmetry and Hopf algebra",
+        "paperAbstract": "  We spell two conundrums, one of physical and another of mathematical nature,\nand explain why one helps to elucidate the other\n",
+        "query": "power electronics applications",
+        "docId": 2087262,
+        "score": 0.7300880117574877
+    },
+    {
+        "title": "Radiative Penguin Decays from BABAR",
+        "paperAbstract": "  We summarize the latest BABAR results on B -\u003e K(*) l+l- and B -\u003e rho (omega)\ngamma\n",
+        "query": "power electronics applications",
+        "docId": 2028908,
+        "score": 0.7290949662208686
+    },
+    {
+        "title": "M Theory Fivebrane and SQCD",
+        "paperAbstract": "  Talk presented at Strings `97 in Amsterdam (June 16 - 21, 1997)\n",
+        "query": "power electronics applications",
+        "docId": 2103105,
+        "score": 0.7247186754289299
+    },
+    {
+        "title": "Biography of Hans Albrecht Bethe",
+        "paperAbstract": "  A short biography of Hans Bethe.\n",
+        "query": "fiscal policy",
+        "docId": 1860872,
+        "score": 0.7488829679087825
+    },
+    {
+        "title": "Superconformal Algebras on the Boundary of AdS_3",
+        "paperAbstract": "  See hep-th/0002188\n",
+        "query": "fiscal policy",
+        "docId": 2107656,
+        "score": 0.7454646849603517
+    },
+    {
+        "title": "Proceedings of the Fifteenth Conference on Uncertainty in Artificial\n  Intelligence (1999)",
+        "paperAbstract": "  This is the Proceedings of the Fifteenth Conference on Uncertainty in\nArtificial Intelligence, which was held in Stockholm Sweden, July 30 - August\n1, 1999\n",
+        "query": "fiscal policy",
+        "docId": 422976,
+        "score": 0.7415192987494077
+    },
+    {
+        "title": "Cohen-Macaulay Polymatroidal Ideals",
+        "paperAbstract": "  All Cohen--Macaulay polymatroidal ideals are classified. The Cohen--Macaulay\npolymatroidal ideals are precisely the principal ideals, the Veronese ideals,\nand the squarefree Veronese ideals.\n",
+        "query": "fiscal policy",
+        "docId": 2135728,
+        "score": 0.74041260961293
+    },
+    {
+        "title": "A note on q-Bernoulli numbers and polynomials",
+        "paperAbstract": "  By using p-adic q-integrals, we study the q-Bernoulli numbers and polynomials\nof higher order.\n",
+        "query": "fiscal policy",
+        "docId": 2138986,
+        "score": 0.7401053159578339
+    },
+    {
+        "title": "A Short Proof of the Zeilberger-Bressoud $q$-Dyson Theorem",
+        "paperAbstract": "  We give a formal Laurent series proof of Andrews\u0027s $q$-Dyson Conjecture,\nfirst proved by Zeilberger and Bressoud.\n",
+        "query": "fiscal policy",
+        "docId": 2137869,
+        "score": 0.7381789840278259
+    },
+    {
+        "title": "Aspects of Unparticle Physics",
+        "paperAbstract": "  We review some theoretical and experimental issues in unparticle physics,\nfocusing mainly on collider signatures.\n",
+        "query": "fiscal policy",
+        "docId": 85384,
+        "score": 0.7335371500611796
+    },
+    {
+        "title": "On the infinitary van der Waerden Theorem",
+        "paperAbstract": "  We give a purely combinatorial proof for the infinitary van der Waerden\ntheorem.\n",
+        "query": "fiscal policy",
+        "docId": 1492147,
+        "score": 0.731128495783075
+    },
+    {
+        "title": "An inequality of type sup+inf on $S_4$ for the Paneitz operator",
+        "paperAbstract": "  We give a sup+inf inequality on $S_4$ for Paneitz operator.\n",
+        "query": "fiscal policy",
+        "docId": 937008,
+        "score": 0.731100346669443
+    },
+    {
+        "title": "Comment on Ji-Sheng Chen et al",
+        "paperAbstract": "  This paper was withdrawn by arXiv admins because of inappropriate and\nunverifiable claims of appropriation.\n",
+        "query": "fiscal policy",
+        "docId": 2177811,
+        "score": 0.7299399268100313
+    },
+    {
+        "title": "Unconditionally Secure All-Or-Nothing Disclosure of Secrets",
+        "paperAbstract": "  This paper was withdrawn on 20.11.97.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 2224114,
+        "score": 0.8316902644047826
+    },
+    {
+        "title": "Proceedings of the Third Conference on Uncertainty in Artificial\n  Intelligence (1987)",
+        "paperAbstract": "  This is the Proceedings of the Third Conference on Uncertainty in Artificial\nIntelligence, which was held in Seattle, WA, July 10-12, 1987\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 422990,
+        "score": 0.815530737336486
+    },
+    {
+        "title": "Agterberg, Zheng, and Mukherjee Reply",
+        "paperAbstract": "  Reply to Ikeda (arXiv:0712.3341).\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 107204,
+        "score": 0.8130135211655372
+    },
+    {
+        "title": "Khovanov homology of the 2-cable detects the unknot",
+        "paperAbstract": "  We prove that the Khovanov homology of the 2-cable detects the unknot. A\ncorollary is that Khovanov\u0027s categorification of the 2-colored Jones polynomial\ndetects the unknot.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 65595,
+        "score": 0.8000021891253919
+    },
+    {
+        "title": "An inverse problem for parabolic equations",
+        "paperAbstract": "  This paper is withdrawn.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 2143121,
+        "score": 0.7949244954202115
+    },
+    {
+        "title": "Solution of the Pompeiu problem (I)",
+        "paperAbstract": "  This paper has been withdrawn by the author due to some errors.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 36275,
+        "score": 0.7941126015543816
+    },
+    {
+        "title": "Some aspects of the BFKL evolution",
+        "paperAbstract": "  I review the recent progress in small $x$ physics, concentrating on the\ntopics relevant to the BFKL evolution.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 2058422,
+        "score": 0.7916222399723534
+    },
+    {
+        "title": "Mach Zehnder Interferometry with NOON Quantum States",
+        "paperAbstract": "  The paper has been withdrawn by the authors. See newer and expanded version\nquant-ph/0606221, published in Europhysics Letters 78, 30004 (2007).\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 2217895,
+        "score": 0.7909597645957263
+    },
+    {
+        "title": "Heavy Quarkonia - A Review of the Experimental Status",
+        "paperAbstract": "  A review of the present status of the spectroscopy of heavy quarkonia\n(b-bbar, c-cbar) is presented.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 2002661,
+        "score": 0.7908949740846207
+    },
+    {
+        "title": "Mordell-Lang and Skolem-Mahler-Lech theorems for endomorphisms of\n  semiabelian varieties",
+        "paperAbstract": "  Using the Skolem-Mahler-Lech theorem, we prove a dynamical Mordell-Lang\nconjecture for semiabelian varieties.\n",
+        "query": "speech recognition audio signal processing",
+        "docId": 28616,
+        "score": 0.7856781528098509
+    },
+    {
+        "title": "A Cohen-Macaulay algebra has only finitely many semidualizing modules",
+        "paperAbstract": "  We prove the result stated in the title, which answers the equicharacteristic\ncase of a question of Vasconcelos.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2733,
+        "score": 0.5780788408517026
+    },
+    {
+        "title": "Quantum Cryptography",
+        "paperAbstract": "  Elementary review article on quantum cryptography.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2219175,
+        "score": 0.5718990328577718
+    },
+    {
+        "title": "Next Steps",
+        "paperAbstract": "  Closing talk at Snowmass 2001: a summer study on the future of particle\nphysics.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2023351,
+        "score": 0.5507692953756234
+    },
+    {
+        "title": "Improved measurement of $\\psi (2S)$ decays into $\\tau ^{+}\\tau ^{-}$",
+        "paperAbstract": "  Using 14M $\\psi (2S)$ events collected at BESII, the branching fraction of\n$\\psi (2S)\\to \\tau ^{+}\\tau ^{-}$ is measured to be $Br_{\\tau \\tau}\u003d(3.10\\pm\n0.21\\pm 0.38)\\times 10^{-3}$, where the first error is statistical and the\nsecond is systematic.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2003888,
+        "score": 0.5458612951794901
+    },
+    {
+        "title": "Transversity of quarks and nucleons in SIDIS and Drell Yan",
+        "paperAbstract": "  We consider the leading and sub-leading twist $T$-odd and even contributions\nto the $\\cos 2\\phi$ azimuthal asymmetry in unpolarized dilepton production in\nDrell-Yan Scattering and semi-inclusive deep inelastic scattering of pions.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2034680,
+        "score": 0.5445055905549321
+    },
+    {
+        "title": "Color-Singlet and Color-Octet Contributions to $J/\\psi$ Photoproduction",
+        "paperAbstract": "  I discuss the impact of color-octet contributions and higher-order QCD\ncorrections on the cross section for inelastic $J/\\psi$ photoproduction. The\ntheoretical predictions are compared with recent experimental data obtained at\nHERA.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2053793,
+        "score": 0.5329720717627549
+    },
+    {
+        "title": "Anisotropic flow from AGS to RHIC",
+        "paperAbstract": "  The recent results on anisotropic flow in ultrarelativistic nuclear\ncollisions along with recent methodical developments and achievements in the\nunderstanding of the phenomena, are reviewed. The emphasis is given to the\nelliptic flow results.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2175559,
+        "score": 0.5281484986142502
+    },
+    {
+        "title": "Twisted Hochschild homology and MacLane homology",
+        "paperAbstract": "  We prove vanishing results for Hochschild and MacLane homologies.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2157942,
+        "score": 0.5272112860611458
+    },
+    {
+        "title": "g_{rho sigma gamma} coupling constant in light cone QCD",
+        "paperAbstract": "  The coupling constant g_{rho sigma gamma} is determined from light cone QCD\nsum rules. A comparison of our result with the ones existing in literature is\npresented.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 2020905,
+        "score": 0.5267731806186458
+    },
+    {
+        "title": "The parton model",
+        "paperAbstract": "  I give a brief review of the parton model.\n",
+        "query": "genome sequencing covid-19",
+        "docId": 63765,
+        "score": 0.524025205496109
+    },
+    {
+        "title": "On Beurling\u0027s sampling theorem in $\\R^n$",
+        "paperAbstract": "  We present an elementary proof of the classical Beurling sampling theorem\nwhich gives a sufficient condition for sampling of multi-dimensional\nband-limited functions.\n",
+        "query": "different sampling methods",
+        "docId": 266211,
+        "score": 0.6507483790968944
+    },
+    {
+        "title": "Differential Privacy By Sampling",
+        "paperAbstract": "  In this paper we present the Sampling Privacy mechanism for privately\nreleasing personal data. Sampling Privacy is a sampling based privacy mechanism\nthat satisfies differential privacy.\n",
+        "query": "different sampling methods",
+        "docId": 876896,
+        "score": 0.6128891676105965
+    },
+    {
+        "title": "Marcinkiewicz Sampling Theorem for Orlicz Spaces",
+        "paperAbstract": "  In the article we generalize the Marcinkiewicz sampling theorem in the\ncontext of Orlicz spaces. We establish conditions under which sampling theorem\nholds in terms of restricted submultiplicativity and supermultiplicativity of\nan $N$-function $\\varphi$, boundedness of the Hilbert transform and\nMatuszewska-Orlicz indices. In addition we give a new criterion for boundedness\nof Hilbert transform on Orlicz space.\n",
+        "query": "different sampling methods",
+        "docId": 1525189,
+        "score": 0.6094562340263607
+    },
+    {
+        "title": "Average sampling restoration of harmonizable processes",
+        "paperAbstract": "  The harmonizable Piranashvili-type stochastic processes are approximated by\nfinite time shifted average sampling sums. Explicit truncation error upper\nbounds are established. Various corollaries and special cases are discussed.\n",
+        "query": "different sampling methods",
+        "docId": 444160,
+        "score": 0.607289115035627
+    },
+    {
+        "title": "Black Holes and Open Strings",
+        "paperAbstract": "  This paper has been withdrawn pending revision.\n",
+        "query": "different sampling methods",
+        "docId": 2094546,
+        "score": 0.600853612164137
+    },
+    {
+        "title": "Enveloping algebras of Hom-Lie algebras",
+        "paperAbstract": "  Enveloping algebras of Hom-Lie and Hom-Leibniz algebras are constructed.\n",
+        "query": "different sampling methods",
+        "docId": 23114,
+        "score": 0.587031307525244
+    },
+    {
+        "title": "A Gibbs Sampling Alternative to Reversible Jump MCMC",
+        "paperAbstract": "  This note presents a simple and elegant sampler which could be used as an\nalternative to the reversible jump MCMC methodology.\n",
+        "query": "different sampling methods",
+        "docId": 110333,
+        "score": 0.5806745257304726
+    },
+    {
+        "title": "Irreducibility of some representations of the groups of\n  symplectomorphisms and contactomorphisms",
+        "paperAbstract": "  We show the irreducibility of some unitary representations of the group of\nsymplectomorphisms and the group of contactomorphisms.\n",
+        "query": "different sampling methods",
+        "docId": 195120,
+        "score": 0.5796503839307672
+    },
+    {
+        "title": "Invariant cocalibrated $G_2$-structures on nilmanifolds",
+        "paperAbstract": "  We classify nilmanifolds admitting invariant cocalibrated $G_2$-structures\n",
+        "query": "different sampling methods",
+        "docId": 656610,
+        "score": 0.5791512695678431
+    },
+    {
+        "title": "Recent Progress in Quantum Spin Systems",
+        "paperAbstract": "  Some recent developments in the theory of quantum spin systems are reviewed.\n",
+        "query": "different sampling methods",
+        "docId": 2113646,
+        "score": 0.5779268318426318
+    },
+    {
+        "title": "Entropy of Telugu",
+        "paperAbstract": "  This paper presents an investigation of the entropy of the Telugu script.\nSince this script is syllabic, and not alphabetic, the computation of entropy\nis somewhat complicated.\n",
+        "query": "entropy thermodynamics",
+        "docId": 271608,
+        "score": 0.7470085914374067
+    },
+    {
+        "title": "The Enigma of Entropy",
+        "paperAbstract": "  This is a light-hearted take at the the second law of thermodynamics.\n",
+        "query": "entropy thermodynamics",
+        "docId": 398482,
+        "score": 0.721756501469498
+    },
+    {
+        "title": "On the entropy for group actions on the circle",
+        "paperAbstract": "  We show that for a finitely generated group of $C^2$ circle diffeomorphisms,\nthe entropy of the action equals the entropy of the restriction of the action\nto the non-wandering set.\n",
+        "query": "entropy thermodynamics",
+        "docId": 105779,
+        "score": 0.7194566752426041
+    },
+    {
+        "title": "Systolic volume and minimal entropy of aspherical manifolds",
+        "paperAbstract": "  We establish isosystolic inequalities for a class of manifolds which includes\nthe aspherical manifolds. In particular, we relate the systolic volume of\naspherical manifolds first to their minimal entropy, then to the algebraic\nentropy of their fundamental groups.\n",
+        "query": "entropy thermodynamics",
+        "docId": 2148155,
+        "score": 0.71556408600925
+    },
+    {
+        "title": "Reply to ``Comment on `Entropy of classical systems with long-range\n  interactions\u0027 \u0027\u0027",
+        "paperAbstract": "  We offer o reply for the comments of Rapisarda et al. cond-mat/0601409 on our\nletter \"Entropy of Classical Systems with Long Range Interactios\", published in\nPhys. Rev. Lett. Vol 95 (2005) 190601.\n",
+        "query": "entropy thermodynamics",
+        "docId": 1943534,
+        "score": 0.6821057562774353
+    },
+    {
+        "title": "Endpoint entropy Fefferman-Stein bounds for commutators",
+        "paperAbstract": "  In this paper endpoint entropy Fefferman-Stein bounds for Calder\\\u0027on-Zygmund\noperators introduced by Rahm in are extended to iterated Coifman-Rochberg-Weiss\ncommutators.\n",
+        "query": "entropy thermodynamics",
+        "docId": 1670167,
+        "score": 0.6720848778579676
+    },
+    {
+        "title": "Transfer Entropy Analysis of the Korean Stock Market",
+        "paperAbstract": "  This paper has been withdrawn by the authors due to a crucial error in\ncalculation.\n",
+        "query": "entropy thermodynamics",
+        "docId": 2194255,
+        "score": 0.670142721684611
+    },
+    {
+        "title": "Quantum Dynamical Entropy of Spin Systems",
+        "paperAbstract": "  We investigate a quantum dynamical entropy of one-dimesional quantum spin\nsystems. We show that the dynamical entropy is bounded from above by a quantity\nwhich is related with group velocity determined by the interaction and mean\nentropy of the state.\n",
+        "query": "entropy thermodynamics",
+        "docId": 2213275,
+        "score": 0.6648418162688454
+    },
+    {
+        "title": "CHSH violation and entropy - concurrence plane",
+        "paperAbstract": "  We characterize violation of CHSH inequalities for mixed two-qubit states by\ntheir mixedness and entanglement. The class of states that have maximum degree\nof CHSH violation for a given linear entropy is also constructed.\n",
+        "query": "entropy thermodynamics",
+        "docId": 2217436,
+        "score": 0.6477567575376195
+    },
+    {
+        "title": "Entropy is a Mathematical Formula",
+        "paperAbstract": "  The microscopic explanation of entropy has been challenged from both\nexperimental and theoretical point of view. The expression of entropy is\nderived from the first law of thermodynamics indicating that entropy or the\nsecond law of thermodynamics is not an independent law.\n",
+        "query": "entropy thermodynamics",
+        "docId": 2189965,
+        "score": 0.6454321684213866
+    },
+    {
+        "title": "A Fatou-Bieberbach domain in C^2 which is not Runge",
+        "paperAbstract": "  We give an example of a Fatou-Bieberbach domain which is not Runge in C^2.\n",
+        "query": "great barrier reef",
+        "docId": 2156864,
+        "score": 0.6738112871955124
+    },
+    {
+        "title": "Neutrino-Nucleus Reactions",
+        "paperAbstract": "  Neutrino-nucleus reactions as applied to astrophysics are reviewed.\n",
+        "query": "great barrier reef",
+        "docId": 2181421,
+        "score": 0.652366499911194
+    },
+    {
+        "title": "Charm and Charmonium Spectroscopy",
+        "paperAbstract": "  Recent experimental results in charm and charmonium spectroscopy are\nreviewed.\n",
+        "query": "great barrier reef",
+        "docId": 2003895,
+        "score": 0.6427013400520707
+    },
+    {
+        "title": "Leptonic Flavor and CP Violation",
+        "paperAbstract": "  We discuss how neutrino oscillation experiments can probe new sources of\nleptonic flavor and CP violation.\n",
+        "query": "great barrier reef",
+        "docId": 2020930,
+        "score": 0.6273913683835914
+    },
+    {
+        "title": "Cartan-Weyl basis for Quantum Affine Superalgebra U_q(^osp(1|2))",
+        "paperAbstract": "  Cartan-Weyl basis for the quantum affine superalgebra U_q(^osp(1|2)) is\nconstructed in an explicit form.\n",
+        "query": "great barrier reef",
+        "docId": 2203383,
+        "score": 0.625260851199327
+    },
+    {
+        "title": "An Exponentially Fast Quantum Search Algorithm",
+        "paperAbstract": "  This paper has been withdrawn by the authors.\n",
+        "query": "great barrier reef",
+        "docId": 2206814,
+        "score": 0.6073350706014864
+    },
+    {
+        "title": "Bar-Natan\u0027s Khovanov homology for coloured links",
+        "paperAbstract": "  Using Bar-Natan\u0027s Khovanov homology we define a homology theory for coloured,\noriented, framed links. We then compute this explicitly.\n",
+        "query": "great barrier reef",
+        "docId": 2139098,
+        "score": 0.6072286291867908
+    },
+    {
+        "title": "Incomplete Kloosterman sums and Hooley\u0027s R$^*$-Conjecture",
+        "paperAbstract": "  This paper has been withdrawn by the author because Proposition 1 is not\nvalid.\n",
+        "query": "great barrier reef",
+        "docId": 303695,
+        "score": 0.6047569938255535
+    },
+    {
+        "title": "Some divisibility properties of Jacobsthal numbers",
+        "paperAbstract": "  In this paper we investigate some divisibility properties of Jacobsthal\nnumbers.\n",
+        "query": "great barrier reef",
+        "docId": 1764991,
+        "score": 0.6031296764377245
+    },
+    {
+        "title": "The Local Langlands Conjecture for GSp(4)",
+        "paperAbstract": "  We prove the local Langlands conjecture for $GSp_4(F)$ where $F$ is a\nnon-archimedean local field of characteristic zero.\n",
+        "query": "great barrier reef",
+        "docId": 9638,
+        "score": 0.6029272218221351
+    },
+    {
+        "title": "QCD at High Energies",
+        "paperAbstract": "  This talk summarizes recent QCD results from HERA, the Tevatron Collider and\nTevatron fixed target experiments.\n",
+        "query": "bias machine learning",
+        "docId": 2062396,
+        "score": 0.6491508670206212
+    },
+    {
+        "title": "Uniformization By Classical Schottky Groups",
+        "paperAbstract": "  This paper has been withdrawn by the author due to an error in an inequality\nin the proof of Theorem 1.1.\n",
+        "query": "bias machine learning",
+        "docId": 2146291,
+        "score": 0.6070497857049801
+    },
+    {
+        "title": "Analytical Bound of Concurrence",
+        "paperAbstract": "  We give an analytical lower bound of concurrence for both bipartite and\nmultipartite quantum states.\n",
+        "query": "bias machine learning",
+        "docId": 224428,
+        "score": 0.5989148549161722
+    },
+    {
+        "title": "Measurement of angle beta with time-dependent CP asymmetry in B0-\u003eK+K-K0\n  decays",
+        "paperAbstract": "  We present recent results on CP violation, and the determination of CKM angle\nbeta, with the decay B0-\u003eK+K-K0, with BABAR and Belle detectors.\n",
+        "query": "bias machine learning",
+        "docId": 2004183,
+        "score": 0.5903753184272489
+    },
+    {
+        "title": "Existence of an invariant measure on a hypergroup",
+        "paperAbstract": "  We prove existence of an invariant measure on a hypergroup.\n",
+        "query": "bias machine learning",
+        "docId": 396187,
+        "score": 0.586593882549435
+    },
+    {
+        "title": "Search for New Physics in B Decays",
+        "paperAbstract": "  We review recent important progresses at the B factories and discuss the\nfuture prospects. We also comment on how we might proceed to search for new\nphysics.\n",
+        "query": "bias machine learning",
+        "docId": 2035120,
+        "score": 0.5847824469384175
+    },
+    {
+        "title": "Coulomb Gas Representation of the SU(2) WZW Correlators at Higher Genera",
+        "paperAbstract": "  We express the correlation functions of the SU(2) WZW conformal field theory\non Riemann surfaces of genus \u003e1 by finite dimensional integrals.\n",
+        "query": "bias machine learning",
+        "docId": 2094271,
+        "score": 0.5826349302114107
+    },
+    {
+        "title": "Upper Limit on the Decay K+ --\u003e e+ nu mu+ mu-",
+        "paperAbstract": "  An upper limit on the branching ratio for the decay K+ --\u003e e+ nu mu+ mu- is\nset at 5.0 x 10^{-7} at 90% confidence level, consistent with predictions from\nchiral perturbation theory.\n",
+        "query": "bias machine learning",
+        "docId": 2005050,
+        "score": 0.5808521254525019
+    },
+    {
+        "title": "Review of Recent Results in Charm Physics",
+        "paperAbstract": "  A biased review of recent results in charm physics is presented. New results\non D0 anti-D0 mixing, rare decays of D0 and D+/-, scalar resonances in D+ and\nDs decays, and new decay modes and mass measurements in Lambda_c, Xi_c,\nOmega_c, and Xi_cc are discussed.\n",
+        "query": "bias machine learning",
+        "docId": 2001522,
+        "score": 0.5784845204207141
+    },
+    {
+        "title": "Gauss-Bonnet Gravity with Scalar Field in Four Dimensions",
+        "paperAbstract": "  We give all exact solutions of the Einstein-Gauss-Bonnet Field Equations\ncoupled with a scalar field in four dimensions under certain assumptions.\n",
+        "query": "bias machine learning",
+        "docId": 13517,
+        "score": 0.5743503134011672
+    },
+    {
+        "title": "Recent Results from the Super-Kamiokande Experiment",
+        "paperAbstract": "  New physics results from the Super-Kamiokande experiment in 2000 are\npresented.\n",
+        "query": "Ocean acidification",
+        "docId": 1999335,
+        "score": 0.801529987855913
+    },
+    {
+        "title": "Quantum Antidots: Coulomb Blockade or no Coulomb Blockade?",
+        "paperAbstract": "  Comment on M. Kataoka et al., Phys. Rev. Lett. 83, 160 (1999).\n",
+        "query": "Ocean acidification",
+        "docId": 1971642,
+        "score": 0.8002240126023548
+    },
+    {
+        "title": "Neutrino-Nucleus Reactions",
+        "paperAbstract": "  Neutrino-nucleus reactions as applied to astrophysics are reviewed.\n",
+        "query": "Ocean acidification",
+        "docId": 2181421,
+        "score": 0.7904560153854288
+    },
+    {
+        "title": "Charm and Charmonium Spectroscopy",
+        "paperAbstract": "  Recent experimental results in charm and charmonium spectroscopy are\nreviewed.\n",
+        "query": "Ocean acidification",
+        "docId": 2003895,
+        "score": 0.7862854379221869
+    },
+    {
+        "title": "Proceedings of the Third Conference on Uncertainty in Artificial\n  Intelligence (1987)",
+        "paperAbstract": "  This is the Proceedings of the Third Conference on Uncertainty in Artificial\nIntelligence, which was held in Seattle, WA, July 10-12, 1987\n",
+        "query": "Ocean acidification",
+        "docId": 422990,
+        "score": 0.7855869057145739
+    },
+    {
+        "title": "Diffractive Physics at HERA",
+        "paperAbstract": "  Brief review of the diffractive physics at HERA, stressing QCD aspects.\n",
+        "query": "Ocean acidification",
+        "docId": 2062824,
+        "score": 0.7831609572321838
+    },
+    {
+        "title": "Moriond \u002797 - Electroweak Interactions and Unified Theories - Conference\n  Summary",
+        "paperAbstract": "  A brief summary of the experimental results presented at the conference is\ngiven.\n",
+        "query": "Ocean acidification",
+        "docId": 2057395,
+        "score": 0.7822482490518041
+    },
+    {
+        "title": "Proceedings of the 38th International Symposium on Multiparticle\n  Dynamics (ISMD08)",
+        "paperAbstract": "  Proceedings of ISMD08\n",
+        "query": "Ocean acidification",
+        "docId": 106593,
+        "score": 0.7822388086195815
+    },
+    {
+        "title": "Theoretical status of the B_c meson",
+        "paperAbstract": "  Theoretical predictions on the $B_c$ meson properties are reviewed.\n",
+        "query": "Ocean acidification",
+        "docId": 2059176,
+        "score": 0.7770739129874684
+    },
+    {
+        "title": "Can single-photon states violate causality?",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "Ocean acidification",
+        "docId": 2223684,
+        "score": 0.7705713271784589
+    },
+    {
+        "title": "A Covariant Canonical Description of Liouville Field Theory",
+        "paperAbstract": "  Original Version Corrupted by Mailer\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 2091998,
+        "score": 0.5155749778484449
+    },
+    {
+        "title": "On Kummer extensions of the power series field",
+        "paperAbstract": "  In this paper we study the Kummer extensions of the power series field\n$K\u003dk((X_1,...,X_n)$, where $k$ is an algebraically closed field of arbitrary\ncharacteristic.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 2120825,
+        "score": 0.5063721062729751
+    },
+    {
+        "title": "Kummer Covers with Many Points",
+        "paperAbstract": "  We give a method for constructing Kummer covers with many points over finite\nfields.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 2164052,
+        "score": 0.47069438700366817
+    },
+    {
+        "title": "$L^p$-norm estimate of the Bergman projection on the Hartogs triangle",
+        "paperAbstract": "  The purpose of this paper is to give an estimate of the $L^p$-norm of the\nBergman projection on the Hartogs triangle.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 828309,
+        "score": 0.46827622493148624
+    },
+    {
+        "title": "Progress in Nonequilibrium Quantum Field Theory",
+        "paperAbstract": "  We review recent developments for the description of far-from-equilibrium\ndynamics of quantum fields and subsequent thermalization.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 2027132,
+        "score": 0.467974996668886
+    },
+    {
+        "title": "Bessel functions and local converse conjecture of Jacquet",
+        "paperAbstract": "  In this paper, we prove the local converse conjecture of Jacquet over p-adic\nfields for GL(n) using Bessel functions.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 697478,
+        "score": 0.4674409368721797
+    },
+    {
+        "title": "Left-orderable fundamental group and Dehn surgery on twist knots",
+        "paperAbstract": "  For any hyperbolic twist knot in the 3-sphere, we show that the resulting\nmanifold by $r$-surgery on the knot has left-orderable fundamental group if the\nslope $r$ satisfies the inequality $0\\le r \\le 4$.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 395921,
+        "score": 0.4656571183812659
+    },
+    {
+        "title": "The Illustris Simulation: Supermassive Black Hole - Galaxy Connection\n  Beyond the Bulge",
+        "paperAbstract": "  We study the spiral arm morphology of a sample of the local spiral galaxies\nin the Illustris simulation and explore the supermassive black hole - galaxy\nconnection beyond the bulge (e.g., spiral arm pitch angle, total stellar mass,\ndark matter mass, and total halo mass), finding good agreement with other\ntheoretical studies and observational constraints. It is important to study the\nproperties of supermassive black holes and their host galaxies through both\nobservations and simulations and compare their results in order to understand\ntheir physics and formative histories.We find that Illustris prediction for\nsupermassive black hole mass relative to pitch angle is in rather good\nagreement with observations and that barred and non-barred galaxies follow\nsimilar scaling relations. Our work shows that Illustris presents very tight\ncorrelations between supermassive black hole mass and large-scale properties of\nthe host galaxy, not only for early-type galaxies but also low-mass, blue and\nstar-forming galaxies. These tight relations beyond the bulge suggest that halo\nproperties determine those of a disc galaxy and its supermassive black hole.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 910968,
+        "score": 0.4630518372049437
+    },
+    {
+        "title": "The autocorrelation of the Mobius function and Chowla\u0027s conjecture for\n  the rational function field",
+        "paperAbstract": "  We prove a function field version of Chowla\u0027s conjecture on the\nautocorrelation of the Mobius function in the limit of a large finite field.\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 340600,
+        "score": 0.4601653944311863
+    },
+    {
+        "title": "On several new results on p-Carleson measures and related measures in\n  the unit disk",
+        "paperAbstract": "  We provide some new sharp embeddings for p-Carleson and related measures in\nthe unit disk of the complex plane\n",
+        "query": "Shark antibodies antiviral therapies",
+        "docId": 283957,
+        "score": 0.45705819278230564
+    },
+    {
+        "title": "Diffractive Physics at HERA",
+        "paperAbstract": "  Brief review of the diffractive physics at HERA, stressing QCD aspects.\n",
+        "query": "CPI GDP",
+        "docId": 2062824,
+        "score": 0.7923510045722661
+    },
+    {
+        "title": "Arbitrarily Long Arithmetic Progressions of Primes on the Nose",
+        "paperAbstract": "  This paper has been withdrawn\n",
+        "query": "CPI GDP",
+        "docId": 2142491,
+        "score": 0.7776165643449371
+    },
+    {
+        "title": "Proceedings of the 38th International Symposium on Multiparticle\n  Dynamics (ISMD08)",
+        "paperAbstract": "  Proceedings of ISMD08\n",
+        "query": "CPI GDP",
+        "docId": 106593,
+        "score": 0.7707852679404539
+    },
+    {
+        "title": "Integrable Systems and Discrete Geometry",
+        "paperAbstract": "  This is an expository article for Elsevier\u0027s Encyclopedia of Mathematical\nPhysics on the subject in the title. Comments/corrections welcome.\n",
+        "query": "CPI GDP",
+        "docId": 2168885,
+        "score": 0.7707275541314331
+    },
+    {
+        "title": "Withdrawal",
+        "paperAbstract": "  This paper has been withdrawn\n",
+        "query": "CPI GDP",
+        "docId": 2195994,
+        "score": 0.7650075516144152
+    },
+    {
+        "title": "Photoproduction of heavy quarks at HERA",
+        "paperAbstract": "  Present status and prospects of heavy quark photoproduction studies at HERA\nare reviewed.\n",
+        "query": "CPI GDP",
+        "docId": 2062293,
+        "score": 0.762240599987491
+    },
+    {
+        "title": "Comments on Backreaction",
+        "paperAbstract": "  We respond to the criticisms of a recent paper of Buchert et al.\n[arXiv:1505.07800]\n",
+        "query": "CPI GDP",
+        "docId": 634896,
+        "score": 0.7614860665910257
+    },
+    {
+        "title": "Is Quantum Bit Commitment Really Impossible?",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "CPI GDP",
+        "docId": 2224129,
+        "score": 0.7497063695890347
+    },
+    {
+        "title": "Physics at e-e- Colliders",
+        "paperAbstract": "  An overview of the physics motivations for e-e- colliders is presented.\n",
+        "query": "CPI GDP",
+        "docId": 2014442,
+        "score": 0.7432919345475693
+    },
+    {
+        "title": "$J/\\psi$ Production in $p+p$, $d+Au$, and $Cu+Cu$ Collisions at RHIC",
+        "paperAbstract": "  PHENIX results for $J/\\psi$ production in $p+p$, $d+Au$, and $Cu+Cu$\ncollisions at $\\sqrt{s_{NN}}\u003d200$ GeV are presented.\n",
+        "query": "CPI GDP",
+        "docId": 2172432,
+        "score": 0.7428302612447553
+    },
+    {
+        "title": "Adaptive Fibonacci and Pairing Heaps",
+        "paperAbstract": "  This brief note presents two adaptive heap data structures and conjectures on\nrunning times.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1254314,
+        "score": 0.43622987160549087
+    },
+    {
+        "title": "Inferring the heritability of bacterial traits in the era of machine\n  learning",
+        "paperAbstract": "  Quantification of heritability is a fundamental desideratum in genetics,\nwhich allows an assessment of the contribution of additive genetic variation to\nthe variability of a trait of interest. The traditional computational\napproaches for assessing the heritability of a trait have been developed in the\nfield of quantitative genetics. However, the rise of modern population genomics\nwith large sample sizes has led to the development of several new machine\nlearning based approaches to inferring heritability. In this paper, we\nsystematically summarize recent advances in machine learning which can be used\nto infer heritability. We focus on an application of these methods to bacterial\ngenomes, where heritability plays a key role in understanding phenotypes such\nas antibiotic resistance and virulence, which are particularly important due to\nthe rising frequency of antimicrobial resistance. By designing a heritability\nmodel incorporating realistic patterns of genome-wide linkage disequilibrium\nfor a frequently recombining bacterial pathogen, we test the performance of a\nwide spectrum of different inference methods, including also GCTA. In addition\nto the synthetic data benchmark, we present a comparison of the methods for\nantibiotic resistance traits for multiple bacterial pathogens. Insights from\nthe benchmarking and real data analyses indicate a highly variable performance\nof the different methods and suggest that heritability inference would likely\nbenefit from tailoring of the methods to the specific genetic architecture of\nthe target organism.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1695509,
+        "score": 0.43408211784963413
+    },
+    {
+        "title": "A Bayesian Model of Dose-Response for Cancer Drug Studies",
+        "paperAbstract": "  Exploratory cancer drug studies test multiple tumor cell lines against\nmultiple candidate drugs. The goal in each paired (cell line, drug) experiment\nis to map out the dose-response curve of the cell line as the dose level of the\ndrug increases. We propose Bayesian Tensor Filtering (BTF), a hierarchical\nBayesian model for dose-response modeling in multi-sample, multi-treatment\ncancer drug studies. BTF uses low-dimensional embeddings to share statistical\nstrength between similar drugs and similar cell lines. Structured shrinkage\npriors in BTF encourage smoothness in the dose-response curves while remaining\nadaptive to sharp jumps when the data call for it. We focus on a pair of cancer\ndrug studies exhibiting a particular pathology in their experimental design,\nleading us to a non-conjugate monotone mixture-of-Gammas likelihood. To perform\nposterior inference, we develop a variant of the elliptical slice sampling\nalgorithm for sampling from linearly-constrained multivariate normal priors\nwith non-conjugate likelihoods. In benchmarks, BTF outperforms state-of-the-art\nmethods for covariance regression and dynamic Poisson matrix factorization. On\nthe two cancer drug studies, BTF outperforms the current standard approach in\nbiology and reveals potential new biomarkers of drug sensitivity in cancer.\nCode is available at https://github.com/tansey/functionalmf.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1136258,
+        "score": 0.42272042974283863
+    },
+    {
+        "title": "Sex as information processing: optimality and evolution",
+        "paperAbstract": "  The long-term growth rate of populations in varying environments quantifies\nthe evolutionary value of processing the information that biological\nindividuals inherit from their ancestors and acquire from their environment.\nPrevious models were limited to asexual reproduction with inherited information\ncoming from a single parent with no recombination. We present a general\nextension to sexual reproduction and an analytical solution for a particular\nbut important case, the infinitesimal model of quantitative genetics which\nassumes traits to be normally distributed. We study with this model the\nconditions under which sexual reproduction is advantageous and can evolve in\nthe context of autocorrelated or directionally varying environments, mutational\nbiases, spatial heterogeneities and phenotypic plasticity. Our results\ngeneralize and unify previous analyses. We also examine the proposal made by\nGeodakyan that the presence of two phenotypically distinct sexes permits an\noptimal adaptation to varying environments. We verify that conditions exists\nwhere sexual dimorphism is adaptive but find that its evolutionary value does\nnot generally compensate for the two-fold cost of males.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1421948,
+        "score": 0.41843542508319587
+    },
+    {
+        "title": "Galaxy And Mass Assembly (GAMA): $\\mathbf{z \\sim 0}$ Galaxy Luminosity\n  Function down to $\\mathbf{L \\sim 10^{6}~L_\\odot}$ via Clustering Based\n  Redshift Inference",
+        "paperAbstract": "  In this study we present a new experimental design using clustering-based\nredshift inference to measure the evolving galaxy luminosity function (GLF)\nspanning 5.5 decades from $L \\sim 10^{11.5}$ to $ 10^6 ~ \\mathrm{L}_\\odot$. We\nuse data from the Galaxy And Mass Assembly (GAMA) survey and the Kilo-Degree\nSurvey (KiDS). We derive redshift distributions in bins of apparent magnitude\nto the limits of the GAMA-KiDS photometric catalogue: $m_r \\lesssim 23$; more\nthan a decade in luminosity beyond the limits of the GAMA spectroscopic\nredshift sample via clustering-based redshift inference. This technique uses\nspatial cross-correlation statistics for a reference set with known redshifts\n(in our case, the main GAMA sample) to derive the redshift distribution for the\ntarget ensemble. For the calibration of the redshift distribution we use a\nsimple parametrisation with an adaptive normalisation factor over the interval\n$0.005 \u003c z \u003c 0.48$ to derive the clustering redshift results. We find that the\nGLF has a relatively constant power-law slope $\\alpha \\approx -1.2$ for $-17\n\\lesssim M_r \\lesssim -13$, and then appears to steepen sharply for $-13\n\\lesssim M_r \\lesssim -10$. This upturn appears to be where Globular Clusters\n(GCs) take over to dominate the source counts as a function of luminosity. Thus\nwe have mapped the GLF across the full range of the $z \\sim 0$ field galaxy\npopulation from the most luminous galaxies down to the GC scale.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1528957,
+        "score": 0.41615681872888644
+    },
+    {
+        "title": "Informative Gene Selection for Microarray Classification via Adaptive\n  Elastic Net with Conditional Mutual Information",
+        "paperAbstract": "  Due to the advantage of achieving a better performance under weak\nregularization, elastic net has attracted wide attention in statistics, machine\nlearning, bioinformatics, and other fields. In particular, a variation of the\nelastic net, adaptive elastic net (AEN), integrates the adaptive grouping\neffect. In this paper, we aim to develop a new algorithm: Adaptive Elastic Net\nwith Conditional Mutual Information (AEN-CMI) that further improves AEN by\nincorporating conditional mutual information into the gene selection process.\nWe apply this new algorithm to screen significant genes for two kinds of\ncancers: colon cancer and leukemia. Compared with other algorithms including\nSupport Vector Machine, Classic Elastic Net and Adaptive Elastic Net, the\nproposed algorithm, AEN-CMI, obtains the best classification performance using\nthe least number of genes.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 987106,
+        "score": 0.40775914195113927
+    },
+    {
+        "title": "Efficient HLA imputation from sequential SNPs data by Transformer",
+        "paperAbstract": "  Human leukocyte antigen (HLA) genes are associated with a variety of\ndiseases, however direct typing of HLA is time and cost consuming. Thus various\nimputation methods using sequential SNPs data have been proposed based on\nstatistical or deep learning models, e.g. CNN-based model, named DEEP*HLA.\nHowever, imputation efficiency is not sufficient for in frequent alleles and a\nlarge size of reference panel is required. Here, we developed a\nTransformer-based model to impute HLA alleles, named \"HLA Reliable IMputatioN\nby Transformer (HLARIMNT)\" to take advantage of sequential nature of SNPs data.\nWe validated the performance of HLARIMNT using two different reference panels;\nPan-Asian reference panel (n \u003d 530) and Type 1 Diabetes Genetics Consortium\n(T1DGC) reference panel (n \u003d 5,225), as well as the mixture of those two panels\n(n \u003d 1,060). HLARIMNT achieved higher accuracy than DEEP*HLA by several\nindices, especially for infrequent alleles. We also varied the size of data\nused for training, and HLARIMNT imputed more accurately among any size of\ntraining data. These results suggest that Transformer-based model may impute\nefficiently not only HLA types but also any other gene types from sequential\nSNPs data.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1745336,
+        "score": 0.40290408775896935
+    },
+    {
+        "title": "Multi-modal Self-supervised Pre-training for Regulatory Genome Across\n  Cell Types",
+        "paperAbstract": "  In the genome biology research, regulatory genome modeling is an important\ntopic for many regulatory downstream tasks, such as promoter classification,\ntransaction factor binding sites prediction. The core problem is to model how\nregulatory elements interact with each other and its variability across\ndifferent cell types. However, current deep learning methods often focus on\nmodeling genome sequences of a fixed set of cell types and do not account for\nthe interaction between multiple regulatory elements, making them only perform\nwell on the cell types in the training set and lack the generalizability\nrequired in biological applications. In this work, we propose a simple yet\neffective approach for pre-training genome data in a multi-modal and\nself-supervised manner, which we call GeneBERT. Specifically, we simultaneously\ntake the 1d sequence of genome data and a 2d matrix of (transcription factors x\nregions) as the input, where three pre-training tasks are proposed to improve\nthe robustness and generalizability of our model. We pre-train our model on the\nATAC-seq dataset with 17 million genome sequences. We evaluate our GeneBERT on\nregulatory downstream tasks across different cell types, including promoter\nclassification, transaction factor binding sites prediction, disease risk\nestimation, and splicing sites prediction. Extensive experiments demonstrate\nthe effectiveness of multi-modal and self-supervised pre-training for\nlarge-scale regulatory genomics data.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1543374,
+        "score": 0.401672785193675
+    },
+    {
+        "title": "Convergent evolution in a large cross-cultural database of musical\n  scales",
+        "paperAbstract": "  Scales, sets of discrete pitches that form the basis of melodies, are thought\nto be one of the most universal hallmarks of music. But we know relatively\nlittle about cross-cultural diversity of scales or how they evolved. To remedy\nthis, we assemble a cross-cultural database (Database of Musical Scales:\nDaMuSc) of scale data, collected over the past century by various\nethnomusicologists. Statistical analyses of the data highlight that certain\nintervals (e.g., the octave, fifth, second) are used frequently across\ncultures. Despite some diversity among scales, it is the similarities across\nsocieties which are most striking - most scales are found close to equidistant\n5- and 7-note scales. We discuss the mechanisms of variation and selection in\nthe evolution of scales, and how the assembled data may be used to examine the\nroot causes of convergent evolution.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 1509657,
+        "score": 0.3986030346888967
+    },
+    {
+        "title": "The genome is software and evolution is a software developer",
+        "paperAbstract": "  The genome is software because it a set of verbal instructions for a\nprogrammable computer, the ribosome. The theory of evolution now reads:\nevolution is the software developer responsible for the existence of the\ngenome. We claim that this setting, whose official name is genetic programming,\nis necessary and sufficient to discuss all important questions about evolution.\nA great effort has been made to pass from wording to science, i.e., from naive\ntheories to robust models to predictions to testing for falsification.\n",
+        "query": "genomics adaptive evolution",
+        "docId": 176382,
+        "score": 0.39846012829082156
+    },
+    {
+        "title": "Unconditionally Secure All-Or-Nothing Disclosure of Secrets",
+        "paperAbstract": "  This paper was withdrawn on 20.11.97.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2224114,
+        "score": 0.7507581604435227
+    },
+    {
+        "title": "Diffractive Physics at HERA",
+        "paperAbstract": "  Brief review of the diffractive physics at HERA, stressing QCD aspects.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2062824,
+        "score": 0.7492251715193685
+    },
+    {
+        "title": "Recent Results from the Super-Kamiokande Experiment",
+        "paperAbstract": "  New physics results from the Super-Kamiokande experiment in 2000 are\npresented.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 1999335,
+        "score": 0.7463785007134618
+    },
+    {
+        "title": "Soliton equations in 2+1 dimensions: reductions, bilinearizations and\n  simplest solutions",
+        "paperAbstract": "  Soliton equations in 2+1 and their 1+1 \u003d 2+0 reductions are considered.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2227195,
+        "score": 0.7452454088605052
+    },
+    {
+        "title": "Regularity of the solutions for nonlinear biharmonic equations in R^{N}",
+        "paperAbstract": "  The purpose of this paper is to establish the regularity the weak solutions\nfor a nonlinear biharmonic equation.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2158381,
+        "score": 0.7271062671093205
+    },
+    {
+        "title": "Withdrawn",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2216659,
+        "score": 0.726283878863164
+    },
+    {
+        "title": "The status of the electroweak sector of the standard model",
+        "paperAbstract": "  I will discuss the current status of the determination of $\\alpha(m_Z)$ and\n$\\alpha_s(m_Z)$.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2049972,
+        "score": 0.7250680430416576
+    },
+    {
+        "title": "Beauty and Charm Physics at HERA",
+        "paperAbstract": "  The most recent beauty and charm results from the ZEUS and H1 collaborations\nare presented.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 2003368,
+        "score": 0.7216111299768997
+    },
+    {
+        "title": "Biography of Hans Albrecht Bethe",
+        "paperAbstract": "  A short biography of Hans Bethe.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 1860872,
+        "score": 0.7203166808903614
+    },
+    {
+        "title": "Measurements of Heavy Meson Lifetimes with Belle",
+        "paperAbstract": "  Charmed and beauty meson lifetimes have been measured using data collected\nwith the Belle detector at KEKB.\n",
+        "query": "Molecular hydrogen clouds",
+        "docId": 1999237,
+        "score": 0.7054600393298358
+    },
+    {
+        "title": "A proof of Sendov\u0027s conjecture",
+        "paperAbstract": "  A proof of Sendov\u0027s conjecture is given.\n",
+        "query": "Types cancer",
+        "docId": 2123642,
+        "score": 0.7387201373133632
+    },
+    {
+        "title": "Introduction to Supersymmetry",
+        "paperAbstract": "  These lectures are a brief introduction to supersymmetry.\n",
+        "query": "Types cancer",
+        "docId": 875784,
+        "score": 0.6905932784576336
+    },
+    {
+        "title": "Rolling Tachyon and Fields on the Brane",
+        "paperAbstract": "  This paper has been withdrawn by the author.\n",
+        "query": "Types cancer",
+        "docId": 2075594,
+        "score": 0.6888026284015876
+    },
+    {
+        "title": "Soliton equations in 2+1 dimensions: reductions, bilinearizations and\n  simplest solutions",
+        "paperAbstract": "  Soliton equations in 2+1 and their 1+1 \u003d 2+0 reductions are considered.\n",
+        "query": "Types cancer",
+        "docId": 2227195,
+        "score": 0.6808704837913506
+    },
+    {
+        "title": "Long Baseline Neutrino Oscillation Review",
+        "paperAbstract": "  This article will summarise the status of current and future long baseline\nneutrino oscillation experiments.\n",
+        "query": "Types cancer",
+        "docId": 2000198,
+        "score": 0.6777298097100513
+    },
+    {
+        "title": "New strategies for extracting $V_{ub}$",
+        "paperAbstract": "  The prospects for a precise and model independent determination of $|V_{ub}|$\nfrom inclusive and exclusive semileptonic B decays are reviewed.\n",
+        "query": "Types cancer",
+        "docId": 2059859,
+        "score": 0.6615008806118237
+    },
+    {
+        "title": "Charmonium and Bottomonium Production in p-pbar Collisions at CDF",
+        "paperAbstract": "  We present measurements of charmonium and bottomonium production using a data\nsample collected by CDF during the 1992-93 p-pbar collider run at the Fermilab\nTevatron.\n",
+        "query": "Types cancer",
+        "docId": 2004615,
+        "score": 0.6577085909050027
+    },
+    {
+        "title": "Perturbative and Non-Perturbative Results for $N\u003d2$ Heterotic Strings",
+        "paperAbstract": "  In this paper we summarize our recent work about perturbative and\nnon-perturbative effects in four-dimensional heterotic strings with $N\u003d2$\nspace-time supersymmetry.\n",
+        "query": "Types cancer",
+        "docId": 2098116,
+        "score": 0.6555796963251321
+    },
+    {
+        "title": "Effective Field Theory of QED Vacuum Fluctuations",
+        "paperAbstract": "  Plenary talk at PASCOS-98, Boston, Massachusetts, USA, March 22-29, 1998.\n",
+        "query": "Types cancer",
+        "docId": 2059960,
+        "score": 0.6552968198627624
+    },
+    {
+        "title": "Quark Matter 2005: Experimental Conference Summary",
+        "paperAbstract": "  Highlights of the experimental results presented at the Quark Matter 2005\nConference in Budapest (Hungary) are reviewed and open issues are discussed.\n",
+        "query": "Types cancer",
+        "docId": 2172456,
+        "score": 0.6543248442502545
+    },
+    {
+        "title": "QCD Evolution Workshop: Introduction",
+        "paperAbstract": "  The introduction talk given at the beginning of QCD Evolution workshop held\nin Thomas Jefferson National Accelerator Facility (Jefferson Lab) on May 14\n-17, 2012.\n",
+        "query": "Human beings evolution",
+        "docId": 377927,
+        "score": 0.7472097735467784
+    },
+    {
+        "title": "Hydrodynamics at RHIC",
+        "paperAbstract": "  The hydrodynamical models used to describe the evolution of heavy-ion\ncollisions are briefly reviewed and their results compared with recent RHIC\ndata.\n",
+        "query": "Human beings evolution",
+        "docId": 2175683,
+        "score": 0.7300784209723457
+    },
+    {
+        "title": "On Automorphism Groups of Idempotent Evolution Algebras",
+        "paperAbstract": "  We study the automorphism group of an idempotent evolution algebra, show that\nany finite group can be the automorphism group of an evolution algebra, and\ndescribe certain evolution algebras with given automorphism groups. In\nparticular, we classify $n$-dimensional idempotent evolution algebras whose\nautomorphism group is isomorphic to the symmetric group $S_n$, and classify\nidempotent evolution algebras with maximal diagonal automorphism subgroups.\n",
+        "query": "Human beings evolution",
+        "docId": 1600157,
+        "score": 0.7075616220882903
+    },
+    {
+        "title": "Nilpotent evolution algebras over arbitrary fields",
+        "paperAbstract": "  The paper is devoted to the study of annihilator extensions of evolution\nalgebras and suggests an approach to classify finite-dimensional nilpotent\nevolution algebras. Subsequently nilpotent evolution algebras of dimension up\nto four are classfied.\n",
+        "query": "Human beings evolution",
+        "docId": 653516,
+        "score": 0.6978129300025273
+    },
+    {
+        "title": "The Effect of Small-x Resummations on the Evolution of Polarized\n  Structure Functions",
+        "paperAbstract": "  The impact of the resummation of leading small-$x$ terms in the anomalous\ndimensions is briefly summarized for the evolution of non--singlet and singlet\npolarized structure functions.\n",
+        "query": "Human beings evolution",
+        "docId": 2053911,
+        "score": 0.6966304924715114
+    },
+    {
+        "title": "ANOMALOUS EVOLUTION EFFECTS ON SINGLET STRUCTURE FUNCTIONS",
+        "paperAbstract": "  A study of the effects of the anomalous evolution due to mesonic degrees of\nfreedom on singlet structure functions is presented. Possible phenomenological\napplications are discussed.\n",
+        "query": "Human beings evolution",
+        "docId": 2049251,
+        "score": 0.6950914963479544
+    },
+    {
+        "title": "Yukawa Coupling Evolution In SUSY GUTS",
+        "paperAbstract": "  The scaling behavior and fixed points in the evolution of fermion Yukawa\ncouplings and mixing angles are discussed. The relevance of fixed points in\ndetermining the top quark mass is described.\n",
+        "query": "Human beings evolution",
+        "docId": 2045724,
+        "score": 0.6940469548751178
+    },
+    {
+        "title": "Existence of Chaos in Evolution Equations",
+        "paperAbstract": "  For a general evolution equation with a Silnikov homoclinic orbit, Smale\nhorseshoes are constructed.\n",
+        "query": "Human beings evolution",
+        "docId": 2126716,
+        "score": 0.691007909046192
+    },
+    {
+        "title": "On Small-x Resummations for the Evolution of Unpolarized and Polarized\n  Non--Singlet and Singlet Structure Functions",
+        "paperAbstract": "  A brief survey is given of recent results on the resummation of leading\nsmall-x terms for unpolarized and polarized non--singlet and singlet structure\nfunction evolution.\n",
+        "query": "Human beings evolution",
+        "docId": 2053125,
+        "score": 0.6692785245593242
+    },
+    {
+        "title": "Nonequilibrium evolution thermodynamics",
+        "paperAbstract": "  A new approach - nonequilibrium evolution thermodynamics, is compared with\nclassical variant of Landau approach\n",
+        "query": "Human beings evolution",
+        "docId": 176257,
+        "score": 0.6671330495768455
+    },
+    {
+        "title": "1/N-expansion and nonclassical state generation in higher-order\n  anharmonic oscillators",
+        "paperAbstract": "  Paper is withdrawn\n",
+        "query": "expansion falling factorial",
+        "docId": 2224523,
+        "score": 0.7304934715327178
+    },
+    {
+        "title": "Proof of Han\u0027s Hook Expansion Conjecture",
+        "paperAbstract": "  We prove a conjecture by Guo-Niu Han which interpolates between two known\nhook expansion formulas.\n",
+        "query": "expansion falling factorial",
+        "docId": 77060,
+        "score": 0.6696719836773166
+    },
+    {
+        "title": "A Brief Introduction to Wilson Loops and Large N",
+        "paperAbstract": "  A pedagogical introduction to Wilson loops, lattice gauge theory and the\n1/N-expansion of QCD is presented. The three introductory lectures were given\nat the 37th ITEP Winter School of Physics, Moscow, February 9-16, 2009.\n",
+        "query": "expansion falling factorial",
+        "docId": 131038,
+        "score": 0.6475353471754417
+    },
+    {
+        "title": "Expansion formula for complex Monge-Amp\\`ere equation along cone\n  singularities",
+        "paperAbstract": "  In this paper, we prove the asymptotic expansion of the solutions to some\nsingular complex Monge-Amp\\`ere equation which arise naturally in the study of\nthe conical K\\\"ahler-Einstein metric.\n",
+        "query": "expansion falling factorial",
+        "docId": 768589,
+        "score": 0.6034457359062042
+    },
+    {
+        "title": "Latt\\`es maps and combinatorial expansion",
+        "paperAbstract": "  A Latt\\`es map $f\\colon \\hat{\\mathbb{C}}\\rightarrow \\hat{\\mathbb{C}}$ is a\nrational map that is obtained from a finite quotient of a conformal torus\nendomorphism. We characterize Latt\\`es maps by their combinatorial expansion\nbehavior.\n",
+        "query": "expansion falling factorial",
+        "docId": 287032,
+        "score": 0.5956483735348126
+    },
+    {
+        "title": "Convergence on surreals",
+        "paperAbstract": "  Using the sign expansion of the surreal numbers, we give a possible notion of\nconvergence for surreal sequences.\n",
+        "query": "expansion falling factorial",
+        "docId": 379469,
+        "score": 0.5849496710547939
+    },
+    {
+        "title": "Baryon Masses in the 1/N Expansion",
+        "paperAbstract": "  The masses of baryons and heavy quark baryons are studied analytically in an\nexpansion in 1/N, SU(3) flavor symmetry breaking and heavy-quark symmetry\nbreaking. The measured baryon masses are in striking agreement with the 1/N\nhierarchy.\n",
+        "query": "expansion falling factorial",
+        "docId": 2006515,
+        "score": 0.5744623303435716
+    },
+    {
+        "title": "Strongly sublinear separators and polynomial expansion",
+        "paperAbstract": "  A result of Plotkin, Rao, and Smith implies that graphs with polynomial\nexpansion have strongly sublinear separators. We prove a converse of this\nresult showing that hereditary classes of graphs with strongly sublinear\nseparators have polynomial expansion. This confirms a conjecture of the first\nauthor.\n",
+        "query": "expansion falling factorial",
+        "docId": 616726,
+        "score": 0.5721595905639827
+    },
+    {
+        "title": "A fifth order expansion for the distribution function of the maximum\n  likelihood estimator",
+        "paperAbstract": "  In this paper, expansions for the maximum likelihood estimator of location\nand its distribution funtion are extended to fifth order. Since the proofs are\nstraightforward extentions of proofs given in earlier papers for orders less\nthan the fifth, they are not given here. The purpose of the paper is mainly to\npresent the higher order expansions.\n",
+        "query": "expansion falling factorial",
+        "docId": 136242,
+        "score": 0.5708644022705585
+    },
+    {
+        "title": "Identities for the Riemann zeta function",
+        "paperAbstract": "  We obtain several expansions for $\\zeta(s)$ involving a sequence of\npolynomials in $s$, denoted in this paper by $\\alpha_k(s)$. These polynomials\ncan be regarded as a generalization of Stirling numbers of the first kind and\nour identities extend some series expansions for the zeta function that are\nknown for integer values of $s$. The expansions also give a different approach\nto the analytic continuation of the Riemann zeta function.\n",
+        "query": "expansion falling factorial",
+        "docId": 98718,
+        "score": 0.5649397495447612
+    },
+    {
+        "title": "What kind of a friend is Wigner\u0027s?",
+        "paperAbstract": "  Proietti et al. (arXiv:1902.05080) reported on an experiment designed to\nsettle, or at least to throw light upon, the paradox of Wigner\u0027s friend.\nWithout questioning the rigor or ingenuity of the experimental protocol, I\nargue that its relevance to the paradox itself is rather limited.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 1196172,
+        "score": 0.47608810342381247
+    },
+    {
+        "title": "Limits of reductionism and the measurement problem",
+        "paperAbstract": "  In the paper, we tackle the following questions: Could the difficulty in\nsolving the Schrodinger equation for an arbitrarily large system be a\nreflection of some nature intrinsic property? And if so, could this difficulty\nbe a resolution to the measurement problem?\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 396592,
+        "score": 0.4568949515949541
+    },
+    {
+        "title": "Top-ology",
+        "paperAbstract": "  Extended version of an article on top-quark physics, to appear in the May\n1997 issue of Physics Today.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 2055688,
+        "score": 0.41342373766638474
+    },
+    {
+        "title": "One-point functions over elliptic curves",
+        "paperAbstract": "  This paper has been withdrawn.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 208528,
+        "score": 0.4072956195989761
+    },
+    {
+        "title": "An unlikely result",
+        "paperAbstract": "  This paper has been withdrawn by the authors\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 2193769,
+        "score": 0.4039028469431969
+    },
+    {
+        "title": "Recommender Systems in E-commerce",
+        "paperAbstract": "  E-commerce recommender systems are becoming increasingly important in the\ncurrent digital world. They are used to personalize user experience, help\ncustomers find what they need quickly and efficiently, and increase revenue for\nthe business. However, there are several challenges associated with big\ndata-based e-commerce recommender systems. These challenges include limited\nresources, data validity period, cold start, long tail problem, scalability. In\nthis paper, we discuss the challenges and potential solutions to overcome these\nchallenges. We also discuss the different types of e-commerce recommender\nsystems, their advantages, and disadvantages. We conclude with some future\nresearch directions to improve the performance of e-commerce recommender\nsystems.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 1770087,
+        "score": 0.39834453558387395
+    },
+    {
+        "title": "Reality of linear and angular momentum expectation values in bound\n  states",
+        "paperAbstract": "  In quantum mechanics textbooks the momentum operator is defined in the\nCartesian coordinates and rarely the form of the momentum operator in spherical\npolar coordinates is discussed. Consequently one always generalizes the\nCartesian prescription to other coordinates and falls in a trap. In this work\nwe introduce the difficulties one faces when the question of the momentum\noperator in spherical polar coordinate comes. We have tried to point out most\nof the elementary quantum mechanical results, related to the momentum operator,\nwhich has coordinate dependence. We explicitly calculate the momentum\nexpectation values in various bound states and show that the expectation value\nreally turns out to be zero, a consequence of the fact that the momentum\nexpectation value is real. We comment briefly on the status of the angular\nvariables in quantum mechanics and the problems related in interpreting them as\ndynamical variables. At the end, we calculate the Heisenberg\u0027s equation of\nmotion for the radial component of the momentum for the Hydrogen atom.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 372,
+        "score": 0.3980755172612973
+    },
+    {
+        "title": "Causal Contradiction is absent in Antitelephone",
+        "paperAbstract": "  Thought experiments in the \"antitelephone\" concept with superluminal\ncommunication do not have causal contradiction.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 1526428,
+        "score": 0.3953445349228488
+    },
+    {
+        "title": "Some inequalities and limit theorems under sublinear expectations",
+        "paperAbstract": "  In this note, we study inequality and limit theory under sublinear\nexpectations. We mainly prove Doob\u0027s inequality for submartingale and\nKolmogrov\u0027s inequality. By Kolmogrov\u0027s inequality, we obtain a special version\nof Kolmogrov\u0027s law of large numbers. Finally, we present a strong law of large\nnumbers for independent and identically distributed random variables under\none-order type moment condition.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 353703,
+        "score": 0.3852703818245615
+    },
+    {
+        "title": "`Oumuamua is not Artificial",
+        "paperAbstract": "  I summarize evidence against the hypothesis that `Oumuamua is the artificial\ncreation of an advanced civilization. An appendix discusses the flaws and\ninconsistencies of the \"Breakthrough\" proposal for laser acceleration of\nspacecraft to semi-relativistic speeds. Reality is much more challenging, and\ninteresting.\n",
+        "query": "What limitation quantum mechanics?",
+        "docId": 1424360,
+        "score": 0.3769832122122736
+    }
+]
