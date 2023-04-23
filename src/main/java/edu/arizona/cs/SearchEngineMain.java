@@ -1,6 +1,8 @@
 package edu.arizona.cs;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStreamReader;
 
 public class SearchEngineMain {
 
@@ -16,17 +18,34 @@ public class SearchEngineMain {
 		String annoyResult = "src\\main\\resources\\results\\annoy-results_transformer__18_34_30.json";
 		File indexFile = new File(indexPath);
 		boolean luceneQueryRun = false;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			System.out.println("Enter 'A' to resolve documents from an Annoy Index result. Enter 'L' to build a lucene index or run queries against a pre-built index");
+			
+			String command = br.readLine();
+			if(command.toLowerCase().equals("a"))
+				luceneQueryRun = false;
+			else if(command.toLowerCase().equals("l"))
+				luceneQueryRun = true;
+			else System.out.println("No valid command entered");
+		} catch (Exception ioe) {
+			System.out.println(ioe);
+			return;
+		}
 		if (luceneQueryRun) {
+			System.out.println("Running Queries against Lucene Index");
 			if (!indexFile.exists()) {
 				System.out.println("Index not found, recreating from data file");
 				ProcessJSONAndCreateIndex.readJsonFile(filePathName, indexPath);
-				//ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile);
+				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile);
 			} else {
 				System.out.println("Index found, running queries for results");
 				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile);
 
 			}
-		} else
+		} else{
+			System.out.println("Looking up original documents from Annoy Index Result");
 			ProcessJSONAndCreateIndex.ResolveFullAnnoyDocument(indexPath, annoyResult);
+		}
 	}
 }
