@@ -123,7 +123,7 @@ public class ProcessJSONAndCreateIndex {
 			IndexReader reader = DirectoryReader.open(index);
 			IndexSearcher searcher = new IndexSearcher(reader);
 			Similarity s = new ClassicSimilarity();
-			//searcher.setSimilarity(s);
+			searcher.setSimilarity(s);
 			LinkedList<FullResult> jsonResults = new LinkedList<FullResult>();
 			String line;
 			String [] fields = new String[]{"abstract", "title"};

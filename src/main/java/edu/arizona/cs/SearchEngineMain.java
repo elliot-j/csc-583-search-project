@@ -15,9 +15,9 @@ public class SearchEngineMain {
 		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot.json";
 		String indexPath = "src\\main\\resources\\lucene_index.bin";
 		String queryFile = "src\\main\\resources\\lucene-queries.txt";
-		String annoyResult = "src\\main\\resources\\results\\annoy-results_doc2vec____16_43_32.json";
+		String annoyResult = "src\\main\\resources\\results\\annoy-results_transformer.json";
 		String luceneResult = "src\\main\\resources\\results\\lucene-results-bm25v2.json";
-		String resolvedResult = "src\\main\\resources\\results\\complete-annoy-results-doc2vec.json";
+		String resolvedResult = "src\\main\\resources\\results\\complete-annoy-results-transformer.json";
 		File indexFile = new File(indexPath);
 
 		boolean luceneQueryRun = false;
@@ -41,14 +41,17 @@ public class SearchEngineMain {
 				System.out.println("Index not found, recreating from data file");
 				ProcessJSONAndCreateIndex.readJsonFile(filePathName, indexPath);
 				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile,luceneResult);
+				System.out.println("Results written to " + luceneResult);
 			} else {
 				System.out.println("Index found, running queries for results");
 				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile, luceneResult);
+				System.out.println("Results written to " + luceneResult);
 
 			}
 		} else{
 			System.out.println("Looking up original documents from Annoy Index Result");
 			ProcessJSONAndCreateIndex.ResolveFullAnnoyDocument(indexPath, annoyResult,resolvedResult);
+			System.out.println("Results written to " + resolvedResult);
 		}
 
 	}
