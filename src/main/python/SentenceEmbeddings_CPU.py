@@ -9,7 +9,7 @@ from annoy import AnnoyIndex
 from gensim.parsing.preprocessing import remove_stopwords
 import torch.nn.functional as F
 from termcolor import colored
-from .DataFilePaths import DataFilePaths
+from DataFilePaths import DataFilePaths
 torch.device('cpu')
 class NearestNeighborSearcher:
     """

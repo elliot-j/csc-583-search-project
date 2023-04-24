@@ -4,7 +4,7 @@ import smart_open
 import gensim
 from gensim.parsing.preprocessing import remove_stopwords
 
-from .DataFilePaths import DataFilePaths
+from DataFilePaths import DataFilePaths
 
 
 def openFile(filePath, phase):
