@@ -116,14 +116,14 @@ public class ProcessJSONAndCreateIndex {
 
 	public static void queryForResults(String indexDirectoryPath, String queryFile) {
 		try (BufferedReader b = new BufferedReader(new FileReader(queryFile))) {
-			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\lucene-results.json"));
+			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\lucene-results-bm25v2.json"));
 			StandardAnalyzer analyzer = new StandardAnalyzer();
 			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
 			//QueryParser p = new QueryParser("abstract", analyzer);
 			IndexReader reader = DirectoryReader.open(index);
 			IndexSearcher searcher = new IndexSearcher(reader);
 			Similarity s = new ClassicSimilarity();
-			searcher.setSimilarity(s);
+			//searcher.setSimilarity(s);
 			LinkedList<FullResult> jsonResults = new LinkedList<FullResult>();
 			String line;
 			String [] fields = new String[]{"abstract", "title"};
@@ -156,7 +156,7 @@ public class ProcessJSONAndCreateIndex {
 
 	}
 
-	public static ArrayList<ScoredResult> ResolveFullAnnoyDocument(String indexDirectoryPath, String annoyResultJsonFile) {
+	public static ArrayList<ScoredResult> ResolveFullAnnoyDocument(String indexDirectoryPath, String annoyResultJsonFile, String outfileName) {
 		try {
 			JsonReader jsonReader = new JsonReader(new FileReader(annoyResultJsonFile));
 			jsonReader.setLenient(true);
@@ -165,14 +165,14 @@ public class ProcessJSONAndCreateIndex {
 			LinkedList<FullResult> fullResult = new LinkedList<FullResult>();
 
 			//load lucene index
-			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\results\\complete-annoy-results.json"));
+			FileWriter queryResultsWriter = new FileWriter(new File(outfileName));
 			StandardAnalyzer analyzer = new StandardAnalyzer();
 			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
 			QueryParser p = new QueryParser("docLine", analyzer);
 			IndexReader reader = DirectoryReader.open(index);
 			IndexSearcher searcher = new IndexSearcher(reader);
 			Similarity s = new ClassicSimilarity();
-			searcher.setSimilarity(s);
+			// searcher.setSimilarity(s);
 
 			for(int i = 0; i < annoyResults.size(); ++i){
 				Query q = p.parse(Integer.toString(annoyResults.get(i).docId));

@@ -15,8 +15,10 @@ public class SearchEngineMain {
 		String filePathName = "src\\main\\resources\\arxiv-metadata-oai-snapshot.json";
 		String indexPath = "src\\main\\resources\\lucene_index.bin";
 		String queryFile = "src\\main\\resources\\lucene-queries.txt";
-		String annoyResult = "src\\main\\resources\\results\\annoy-results_transformer__18_34_30.json";
+		String annoyResult = "src\\main\\resources\\results\\annoy-results_doc2vec____16_43_32.json";
+		String resolvedResult = "src\\main\\resources\\results\\complete-annoy-results-doc2vec.json";
 		File indexFile = new File(indexPath);
+
 		boolean luceneQueryRun = false;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		try {
@@ -45,7 +47,8 @@ public class SearchEngineMain {
 			}
 		} else{
 			System.out.println("Looking up original documents from Annoy Index Result");
-			ProcessJSONAndCreateIndex.ResolveFullAnnoyDocument(indexPath, annoyResult);
+			ProcessJSONAndCreateIndex.ResolveFullAnnoyDocument(indexPath, annoyResult,resolvedResult);
 		}
+
 	}
 }
