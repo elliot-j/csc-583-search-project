@@ -16,7 +16,10 @@ from gensim.scripts.glove2word2vec import glove2word2vec
 from collections import Counter
 import pandas
 
-dataFile =  'src/main/resources/processed-arxiv-metadata-oai-snapshot.json'
+from .DataFilePaths import DataFilePaths
+
+
+dataFile =  DataFilePaths.OriginalDataSet
 glove_file = 'src/main/resources/glove.6B.300d.txt'
 processedGlovFile = 'src/main/resources/glove.6B.300d_gensim.txt'
 
@@ -73,11 +76,9 @@ def loadGlove():
 	print("loading glove from file - " + datetime.datetime.now().isoformat())
 	if(os.path.exists(processedGlovFile) == False):
 		glove2word2vec(glove_file, processedGlovFile)
-	#glove = KeyedVectors.load_word2vec_format(processedGlovFile)
-		
-	gates_model = Word2Vec.load(processedGlovFile,)	
+	glove = KeyedVectors.load_word2vec_format(processedGlovFile)			
 	print("finished loading glove from file - " + datetime.datetime.now().isoformat())
-	return gates_model
+	return glove
 
 def loadDataSet():
 	print("loading dataset from file - " + datetime.datetime.now().isoformat())

@@ -13,3 +13,13 @@ Download Glove as described at https://clay-atlas.com/us/blog/2021/01/02/python-
 
 ## Python web server
 https://stackoverflow.com/questions/68579397/is-there-an-easy-way-to-receive-http-post-request-in-python-like-in-php 
+
+## References 
+https://nguyen-hoang-nguyen.medium.com/how-to-check-your-google-colab-session-for-allocated-resources-912b1af9b99a
+### Word2Vec and Doc2Vec
+https://github.com/clulab/gentlenlp/blob/main/notebooks/chap09_classification.ipynb
+https://github.com/v1shwa/document-similarity
+https://stackoverflow.com/questions/65852710/text-similarity-using-word2vec
+https://www.codegram.com/blog/finding-similar-documents-with-transformers/
+
+### Sentence Transformers

@@ -1,14 +1,10 @@
 import datetime
 import json
-import os
-from re import search
 import smart_open
 import gensim
-from gensim.similarities.annoy import AnnoyIndexer
-from gensim.test.utils import get_tmpfile
-from gensim.models.doc2vec import Doc2Vec
-from gensim.models.word2vec import Word2Vec
 from gensim.parsing.preprocessing import remove_stopwords
+
+from .DataFilePaths import DataFilePaths
 
 
 def openFile(filePath, phase):
@@ -29,9 +25,9 @@ def openFile(filePath, phase):
 	print (f"Longest token sequence = {maxTokens}")
 
 
-dataFile = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
-stopWordsOutFile = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot.json'
-tokensOutFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
+dataFile = DataFilePaths.OriginalDataSet
+stopWordsOutFile = DataFilePaths.DataSetWithoutStopwords
+tokensOutFile = DataFilePaths.DataSetAsWordTokens
 
 phase = 'tokens'
 

@@ -10,29 +10,19 @@ from gensim.models.doc2vec import Doc2Vec
 from gensim.models.word2vec import Word2Vec
 from gensim.parsing.preprocessing import remove_stopwords
 import time
+from .DataFilePaths import DataFilePaths
 
 
 class AnnoyIndexerWrapper:
 	def __init__(self):
 		self.model = None
 		self.indexer = None
-		self.indexFile = "src/main/resources/models/annoy_model_gensim.bin"
-		self.annoyTrees = 250
-		self.docVectorSize = 200
+		self.indexFile = DataFilePaths.Doc2VecModelFile
+		self.annoyTrees = 20
+		self.docVectorSize = 150
 		self.epochs = 20
 
-	def openFile(self, filePath, isPreProcessed=True, isTokenized = False):
-		with smart_open.open(filePath, encoding="utf-8") as f:			
-			if isPreProcessed:
-				jsonData = json.load(f)
-				for i, rawLine in enumerate(jsonData):
-					if(isTokenized == False):
-						tokens = gensim.utils.simple_preprocess(rawLine)
-					else: tokens = rawLine['tokens']
-					yield gensim.models.doc2vec.TaggedDocument(tokens, [i])
-			else: 
-				for i, rawLine in enumerate(f):							
-					yield remove_stopwords(rawLine)
+	
 
 	"""
 	Build and train an Annoy Model using GenSim for ease of parsing documents.
@@ -43,7 +33,7 @@ class AnnoyIndexerWrapper:
 
 	def buildAndTrainModel(self, filePath):
 		print("loading dataset from file - " + datetime.datetime.now().isoformat())
-		trainSet = list(self.openFile(filePath,isTokenized=True))
+		trainSet = list(DataFilePaths.openFile(filePath,isTokenized=True))
 		model = Doc2Vec(vector_size=self.docVectorSize, min_count=3, epochs=self.epochs)
 		print("building model vocabulary - " + datetime.datetime.now().isoformat())
 		model.build_vocab(trainSet)
@@ -52,9 +42,7 @@ class AnnoyIndexerWrapper:
 		print("finished model training - " + datetime.datetime.now().isoformat())
 		self.model = model
 		self.indexer = AnnoyIndexer(model, self.annoyTrees)
-	def buildAndTrainWordModel(self, filePath):
-		print("loading dataset from file - " + datetime.datetime.now().isoformat())
-		trainSet = list(self.openFile(filePath))
+
 			
 
 	def queryAnnoy(self, queryString):
@@ -85,9 +73,10 @@ class AnnoyIndexerWrapper:
 
 now = datetime.datetime.now()
 searcher = AnnoyIndexerWrapper()
-tokenizedDataFile = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
-queryFiles = "src/main/resources/lucene-queries.txt"
-resultsFile = f"src/main/resources/results/annoy-results_doc2vec____{now.hour}_{now.minute}_{now.second}.json"
+dataFile = DataFilePaths.OriginalDataSet
+tokenizedDataFile = DataFilePaths.DataSetAsWordTokens
+queryFiles = DataFilePaths.QueriesFile
+resultsFile = DataFilePaths.Doc2VecResultsOutputFile
 print(os.getcwd())
 if searcher.doesSavedIndexExist():
 	print("using existing saved model")
@@ -102,7 +91,7 @@ else:
 if searcher.doesSavedIndexExist() == False:
 	print("saving model for future use")
 	searcher.saveModel()
-queries = list(searcher.openFile(queryFiles, isPreProcessed=False))
+queries = list(DataFilePaths.openFile(queryFiles, isPreProcessed=False))
 results = []
 print("Beginning query run - " + datetime.datetime.now().isoformat())
 for i, q in enumerate(queries):
