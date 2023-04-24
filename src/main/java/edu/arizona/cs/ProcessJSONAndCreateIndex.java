@@ -114,9 +114,9 @@ public class ProcessJSONAndCreateIndex {
 		}
 	}
 
-	public static void queryForResults(String indexDirectoryPath, String queryFile) {
+	public static void queryForResults(String indexDirectoryPath, String queryFile, String outfile) {
 		try (BufferedReader b = new BufferedReader(new FileReader(queryFile))) {
-			FileWriter queryResultsWriter = new FileWriter(new File("src\\main\\resources\\lucene-results-bm25v2.json"));
+			FileWriter queryResultsWriter = new FileWriter(new File(outfile));
 			StandardAnalyzer analyzer = new StandardAnalyzer();
 			Directory index = FSDirectory.open(Path.of(indexDirectoryPath));
 			//QueryParser p = new QueryParser("abstract", analyzer);

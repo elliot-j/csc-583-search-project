@@ -16,6 +16,7 @@ public class SearchEngineMain {
 		String indexPath = "src\\main\\resources\\lucene_index.bin";
 		String queryFile = "src\\main\\resources\\lucene-queries.txt";
 		String annoyResult = "src\\main\\resources\\results\\annoy-results_doc2vec____16_43_32.json";
+		String luceneResult = "src\\main\\resources\\results\\lucene-results-bm25v2.json";
 		String resolvedResult = "src\\main\\resources\\results\\complete-annoy-results-doc2vec.json";
 		File indexFile = new File(indexPath);
 
@@ -39,10 +40,10 @@ public class SearchEngineMain {
 			if (!indexFile.exists()) {
 				System.out.println("Index not found, recreating from data file");
 				ProcessJSONAndCreateIndex.readJsonFile(filePathName, indexPath);
-				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile);
+				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile,luceneResult);
 			} else {
 				System.out.println("Index found, running queries for results");
-				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile);
+				ProcessJSONAndCreateIndex.queryForResults(indexPath, queryFile, luceneResult);
 
 			}
 		} else{
