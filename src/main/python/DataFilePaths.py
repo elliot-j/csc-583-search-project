@@ -13,18 +13,6 @@ class DataFilePaths:
 	Doc2VecModelFile = "src/main/resources/annoy_model_gensim.bin"
 	ModelEmbeddingBatchFolder = 'src/main/resources/batches'
 
-	def openFile(self, filePath, isPreProcessed=True, isTokenized = False):
-		with smart_open.open(filePath, encoding="utf-8") as f:
-			jsonData = json.load(f)
-			if isPreProcessed:
-				for i, rawLine in enumerate(jsonData):
-					if(isTokenized == False):
-						tokens = gensim.utils.simple_preprocess(rawLine)
-					else: tokens = rawLine
-					yield tokens
-			else: 
-				for i, rawLine in enumerate(f):							
-					yield remove_stopwords(rawLine)
 
 	def openFile( filePath, isPreProcessed=True, isTokenized = False):
 		with smart_open.open(filePath, encoding="utf-8") as f:
