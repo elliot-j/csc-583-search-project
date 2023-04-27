@@ -2,39 +2,39 @@ Sample Queries for Search Evaluation
 
 
 Elliot's Queries
-dark matter and black holes AdSn (anti-desitter space)
-room temperature super conductor
-quantum computer supremacy 
-spooky action at  distance and quantum entanglement and encryption
-shortest path on negative graph weights
-neural network hallucination prevention and mitigation
-performance analysis of quantum annealing
-gate all around transistors  vs FinFET
-number theory modular form functions noncongruence  and congruence 
-intransitive dice rolling 
+1. dark matter and black holes AdSn (anti-desitter space)
+2. room temperature super conductor
+3. quantum computer supremacy 
+4. spooky action at  distance and quantum entanglement and encryption
+5. shortest path on negative graph weights
+6. neural network hallucination prevention and mitigation
+7. performance analysis of quantum annealing
+8. gate all around transistors  vs FinFET
+9. number theory modular form functions noncongruence  and congruence 
+10.intransitive dice rolling 
 
 
 Bhavya's Queries
-natural language processing and deep learning
-types of the data mining
-optimization algorithms 
-GDP growth and inflation rate
-power electronics applications
-what is fiscal policy
-speech recognition and audio signal processing
-genome sequencing of covid-19
-different sampling methods 
-laws of thermodynamics
+11. natural language processing and deep learning
+12. types of the data mining
+13. optimization algorithms 
+14. GDP growth and inflation rate
+15. power electronics applications
+16. what is fiscal policy
+17. speech recognition and audio signal processing
+18. genome sequencing of covid-19
+19. different sampling methods 
+20. laws of thermodynamics
 
 Urvika's Queries
-great barrier reef
-what is bias in machine learning
-Ocean acidification
-Shark antibodies antiviral therapies
-what is CPI and GDP
-genomics of adaptive evolution
-Molecular hydrogen clouds 
-Types of cancer
-Human beings evolution
-expansion of the falling factorial
-What is the limitation of quantum mechanics?
+21. great barrier reef
+22. what is bias in machine learning
+23. Ocean acidification
+24. Shark antibodies antiviral therapies
+25. what is CPI and GDP
+26. genomics of adaptive evolution
+27. Molecular hydrogen clouds 
+28. Types of cancer
+29. Human beings evolution
+30. expansion of the falling factorial
+31. What is the limitation of quantum mechanics?
