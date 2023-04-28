@@ -161,7 +161,7 @@
     {
         "title": "Google\u0027s Quantum Supremacy Claim: Data, Documentation, and Discussion",
         "paperAbstract": "  In October 2019, Nature published a paper describing an experiment that took\nplace at Google. The paper claims to demonstrate quantum (computational)\nsupremacy on a 53-qubit quantum computer. Since September 2019 we have been\ninvolved in a long-term project to study various statistical aspects of the\nGoogle experiment. We have been trying to gather the relevant data and\ninformation in order to reconstruct and verify those parts of the Google\nexperiment that are based on classical computations (except when the required\ncomputation is too heavy), and to perform a statistical analysis on the data.\nThis document describes the available data and information for the Google\nexperiment, some main questions in the evaluation of the experiment, and some\nof our results and plans.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 1734108,
         "score": 0.6292096488119778,
         "userScore":2
@@ -169,7 +169,7 @@
     {
         "title": "What Have Google\u0027s Random Quantum Circuit Simulation Experiments\n  Demonstrated about Quantum Supremacy?",
         "paperAbstract": "  Quantum computing is of high interest because it promises to perform at least\nsome kinds of computations much faster than classical computers. Arute et al.\n2019 (informally, \"the Google Quantum Team\") report the results of experiments\nthat purport to demonstrate \"quantum supremacy\" -- the claim that the\nperformance of some quantum computers is better than that of classical\ncomputers on some problems. Do these results close the debate over quantum\nsupremacy? We argue that they do not. We provide an overview of the Google\nQuantum Team\u0027s experiments, then identify some open questions in the quest to\ndemonstrate quantum supremacy.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 1348862,
         "score": 0.6172472662246307,
         "userScore":2
@@ -177,7 +177,7 @@
     {
         "title": "Quantum Scholasticism: On Quantum Contexts, Counterfactuals, and the\n  Absurdities of Quantum Omniscience",
         "paperAbstract": "  Unlike classical information, quantum knowledge is restricted to the outcome\nof measurements of maximal observables corresponding to single contexts.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 34365,
         "score": 0.6083631902617679,
         "userScore":0
@@ -185,7 +185,7 @@
     {
         "title": "Information Theoretically Secure Hypothesis Test for Temporally\n  Unstructured Quantum Computation",
         "paperAbstract": "  We propose a new composable and information-theoretically secure protocol to\nverify that a server has the power to sample from a sub-universal quantum\nmachine implementing only commuting gates. By allowing the client to manipulate\nsingle qubits, we exploit properties of Measurement based Blind Quantum\nComputing to prove security against a malicious Server and therefore certify\nquantum supremacy without the need for a universal quantum computer.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 836510,
         "score": 0.6001684045056361,
         "userScore":0
@@ -193,7 +193,7 @@
     {
         "title": "A classical leash for a quantum system: Command of quantum systems via\n  rigidity of CHSH games",
         "paperAbstract": "  Can a classical system command a general adversarial quantum system to\nrealize arbitrary quantum dynamics? If so, then we could realize the dream of\ndevice-independent quantum cryptography: using untrusted quantum devices to\nestablish a shared random key, with security based on the correctness of\nquantum mechanics. It would also allow for testing whether a claimed quantum\ncomputer is truly quantum. Here we report a technique by which a classical\nsystem can certify the joint, entangled state of a bipartite quantum system, as\nwell as command the application of specific operators on each subsystem. This\nis accomplished by showing a strong converse to Tsirelson\u0027s optimality result\nfor the Clauser-Horne-Shimony-Holt (CHSH) game: the only way to win many games\nis if the bipartite state is close to the tensor product of EPR states, and the\nmeasurements are the optimal CHSH measurements on successive qubits. This leads\ndirectly to a scheme for device-independent quantum key distribution. Control\nover the state and operators can also be leveraged to create more elaborate\nprotocols for realizing general quantum circuits, and to establish that QMIP \u003d\nMIP*.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 367612,
         "score": 0.5948538278796729,
         "userScore":0
@@ -201,7 +201,7 @@
     {
         "title": "Classical command of quantum systems via rigidity of CHSH games",
         "paperAbstract": "  Can a classical system command a general adversarial quantum system to\nrealize arbitrary quantum dynamics? If so, then we could realize the dream of\ndevice-independent quantum cryptography: using untrusted quantum devices to\nestablish a shared random key, with security based on the correctness of\nquantum mechanics. It would also allow for testing whether a claimed quantum\ncomputer is truly quantum. Here we report a technique by which a classical\nsystem can certify the joint, entangled state of a bipartite quantum system, as\nwell as command the application of specific operators on each subsystem. This\nis accomplished by showing a strong converse to Tsirelson\u0027s optimality result\nfor the Clauser-Horne-Shimony-Holt (CHSH) game: the only way to win many games\nis if the bipartite state is close to the tensor product of EPR states, and the\nmeasurements are the optimal CHSH measurements on successive qubits. This leads\ndirectly to a scheme for device-independent quantum key distribution. Control\nover the state and operators can also be leveraged to create more elaborate\nprotocols for reliably realizing general quantum circuits.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 367613,
         "score": 0.5911854022328509,
         "userScore":0
@@ -209,7 +209,7 @@
     {
         "title": "Quantum computing and the entanglement frontier",
         "paperAbstract": "  Quantum information science explores the frontier of highly complex quantum\nstates, the \"entanglement frontier.\" This study is motivated by the observation\n(widely believed but unproven) that classical systems cannot simulate highly\nentangled quantum systems efficiently, and we hope to hasten the day when well\ncontrolled quantum systems can perform tasks surpassing what can be done in the\nclassical world. One way to achieve such \"quantum supremacy\" would be to run an\nalgorithm on a quantum computer which solves a problem with a super-polynomial\nspeedup relative to classical computers, but there may be other ways that can\nbe achieved sooner, such as simulating exotic quantum states of strongly\ncorrelated matter. To operate a large scale quantum computer reliably we will\nneed to overcome the debilitating effects of decoherence, which might be done\nusing \"standard\" quantum hardware protected by quantum error-correcting codes,\nor by exploiting the nonabelian quantum statistics of anyons realized in solid\nstate systems, or by combining both methods. Only by challenging the\nentanglement frontier will we learn whether Nature provides extravagant\nresources far beyond what the classical world would allow.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 331172,
         "score": 0.5882051887729176,
         "userScore":1
@@ -217,7 +217,7 @@
     {
         "title": "Nonexistence of a universal quantum machine to examine the precision of\n  unknown quantum states",
         "paperAbstract": "  In this work, we reveal a new type of impossibility discovered in our recent\nresearch which forbids comparing the closeness of multiple unknown quantum\nstates with any non-trivial threshold in a perfect or an unambiguous way. This\nimpossibility is distinct from the existing impossibilities in that it is a\n\"collective\" impossibility on multiple quantum states while most other \"no-go\"\ntheorems concern with only one single state each time, i.e., it is an\nimpossibility on a non-local quantum operation. This novel impossibility may\nprovide a new insight into the nature of quantum mechanics and it implies more\nlimitations on quantum information tasks than the existing \"no-go\" theorems.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 295846,
         "score": 0.5834150420521507,
         "userScore":1
@@ -225,7 +225,7 @@
     {
         "title": "Relativistic Quantum Computing",
         "paperAbstract": "  We present some informal remarks on aspects of relativistic quantum\ncomputing.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 2226360,
         "score": 0.5816360833330165,
         "userScore":0
@@ -233,7 +233,7 @@
     {
         "title": "Echoing the recent Google success: Foundational Roots of Quantum\n  Supremacy",
         "paperAbstract": "  The recent Google\u0027s claim on breakthrough in quantum computing is a gong\nsignal for further analysis of foundational roots of (possible) superiority of\nsome quantum algorithms over the corresponding classical algorithms. This note\nis a step in this direction. We start with critical analysis of rather common\nreference to entanglement and quantum nonlocality as the basic sources of\nquantum superiority. We elevate the role of the Bohr\u0027s {\\it principle of\ncomplementarity}\\footnote{} (PCOM) by interpreting the Bell-experiments as\nstatistical tests of this principle. (Our analysis also includes comparison of\nclassical vs genuine quantum entanglements.) After a brief presentation of PCOM\nand endowing it with the information interpretation, we analyze its\ncomputational counterpart. The main implication of PCOM is that by using the\nquantum representation of probability, one need not compute the joint\nprobability distribution (jpd) for observables involved in the process of\ncomputation. Jpd\u0027s calculation is exponentially time consuming. Consequently,\nclassical probabilistic algorithms involving calculation of jpd for $n$ random\nvariables can be over-performed by quantum algorithms (for big values of $n).$\nQuantum algorithms are based on quantum probability calculus. It is crucial\nthat the latter modifies the classical formula of total probability (FTP).\nProbability inference based on the quantum version of FTP leads to constructive\ninterference of probabilities increasing probabilities of some events. We also\nstress the role the basic feature of the genuine quantum superposition\ncomparing with the classical wave superposition: generation of discrete events\nin measurements on superposition states. Finally, the problem of superiority of\nquantum computations is coupled with the quantum measurement problem and\nlinearity of dynamics of the quantum state update.\n",
-        "query": "quantum supremacy",
+        "query": "quantum computer supremacy",
         "docId": 1208931,
         "score": 0.579479307985606,
         "userScore":2

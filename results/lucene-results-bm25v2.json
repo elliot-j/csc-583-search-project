@@ -165,7 +165,7 @@
   {
     "title": "Quantum Computational Supremacy",
     "paperAbstract": "  The field of quantum algorithms aims to find ways to speed up the solution of\ncomputational problems by using a quantum computer. A key milestone in this\nfield will be when a universal quantum computer performs a computational task\nthat is beyond the capability of any classical computer, an event known as\nquantum supremacy. This would be easier to achieve experimentally than\nfull-scale quantum computing, but involves new theoretical challenges. Here we\npresent the leading proposals to achieve quantum supremacy, and discuss how we\ncan reliably compare the power of a classical computer to the power of a\nquantum computer.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1027458,
     "score": 43.37648010253906,
     "userScore": 3
@@ -173,7 +173,7 @@
   {
     "title": "Quantum supremacy in driven quantum many-body systems",
     "paperAbstract": "  A crucial milestone in the field of quantum simulation and computation is to\ndemonstrate that a quantum device can compute certain tasks that are impossible\nto reproduce by a classical computer with any reasonable resources. Such a\ndemonstration is referred to as quantum supremacy. One of the most important\nquestions is to identify setups that exhibit quantum supremacy and can be\nimplemented with current quantum technology. The two standard candidates are\nboson sampling and random quantum circuits. Here, we show that quantum\nsupremacy can be obtained in generic periodically-driven quantum many-body\nsystems. Our analysis is based on the eigenstate thermalization hypothesis and\nstrongly-held conjectures in complexity theory. To illustrate our work, We give\nexamples of simple disordered Ising chains driven by global magnetic fields and\nBose-Hubbard chains with modulated hoppings. Our proposal opens the way for a\nlarge class of quantum platforms to demonstrate and benchmark quantum\nsupremacy.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1249369,
     "score": 38.72114944458008,
     "userScore": 3
@@ -181,7 +181,7 @@
   {
     "title": "Quantum Sampling Problems, BosonSampling and Quantum Supremacy",
     "paperAbstract": "  There is a large body of evidence for the potential of greater computational\npower using information carriers that are quantum mechanical over those\ngoverned by the laws of classical mechanics. But the question of the exact\nnature of the power contributed by quantum mechanics remains only partially\nanswered. Furthermore, there exists doubt over the practicality of achieving a\nlarge enough quantum computation that definitively demonstrates quantum\nsupremacy. Recently the study of computational problems that produce samples\nfrom probability distributions has added to both our understanding of the power\nof quantum algorithms and lowered the requirements for demonstration of fast\nquantum algorithms. The proposed quantum sampling problems do not require a\nquantum computer capable of universal operations and also permit physically\nrealistic errors in their operation. This is an encouraging step towards an\nexperimental demonstration of quantum algorithmic supremacy. In this paper, we\nwill review sampling problems and the arguments that have been used to deduce\nwhen sampling problems are hard for classical computers to simulate. Two\nclasses of quantum sampling problems that demonstrate the supremacy of quantum\nalgorithms are BosonSampling and IQP Sampling. We will present the details of\nthese classes and recent experimental progress towards demonstrating quantum\nsupremacy in BosonSampling.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 817655,
     "score": 38.19820785522461,
     "userScore": 2
@@ -189,7 +189,7 @@
   {
     "title": "Quantum supremacy and random circuits",
     "paperAbstract": "  As Moore's law reaches its limits, quantum computers are emerging with the\npromise of dramatically outperforming classical computers. We have witnessed\nthe advent of quantum processors with over $50$ quantum bits (qubits), which\nare expected to be beyond the reach of classical simulation. Quantum supremacy\nis the event at which the old Extended Church-Turing Thesis is overturned: A\nquantum computer performs a task that is practically impossible for any\nclassical (super)computer. The demonstration requires both a solid theoretical\nguarantee and an experimental realization. The lead candidate is Random Circuit\nSampling (RCS), which is the task of sampling from the output distribution of\nrandom quantum circuits. Google recently announced a $53-$qubit experimental\ndemonstration of RCS. Soon after, classical algorithms appeared that challenge\nthe supremacy of random circuits by estimating their outputs. How hard is it to\nclassically simulate the output of random quantum circuits?\n  We prove that estimating the output probabilities of random quantum circuits\nis formidably hard ($\\#P$-Hard) for any classical computer. This makes RCS the\nstrongest candidate for demonstrating quantum supremacy relative to all other\nproposals. The robustness to the estimation error that we prove may serve as a\nnew hardness criterion for the performance of classical algorithms. To achieve\nthis, we introduce the Cayley path interpolation between any two gates of a\nquantum computation and convolve recent advances in quantum complexity and\ninformation with probability and random matrices. Furthermore, we apply\nalgebraic geometry to generalize the well-known Berlekamp-Welch algorithm that\nis widely used in coding theory and cryptography. Our results imply that there\nis an exponential hardness barrier for the classical simulation of most quantum\ncircuits.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1176248,
     "score": 38.13731002807617,
     "userScore": 1
@@ -197,7 +197,7 @@
   {
     "title": "Statistical Aspects of the Quantum Supremacy Demonstration",
     "paperAbstract": "  The notable claim of quantum supremacy presented by Google's team in 2019\nconsists of demonstrating the ability of a quantum circuit to generate, albeit\nwith considerable noise, bitstrings from a distribution that is considered hard\nto simulate on classical computers. Verifying that the generated data is indeed\nfrom the claimed distribution and assessing the circuit's noise level and its\nfidelity is a purely statistical undertaking. The objective of this paper is to\nexplain the relations between quantum computing and some of the statistical\naspects involved in demonstrating quantum supremacy in terms that are\naccessible to statisticians, computer scientists, and mathematicians. Starting\nwith the statistical analysis in Google's demonstration, which we explain, we\nstudy various estimators of the fidelity, and different approaches to testing\nthe distributions generated by the quantum computer. We propose different noise\nmodels, and discuss their implications. A preliminary study of the Google data,\nfocusing mostly on circuits of 12 and 14 qubits is discussed throughout the\npaper.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1332899,
     "score": 37.6484375,
     "userScore": 2
@@ -205,7 +205,7 @@
   {
     "title": "Classical Simulation of Quantum Supremacy Circuits",
     "paperAbstract": "  It is believed that random quantum circuits are difficult to simulate\nclassically. These have been used to demonstrate quantum supremacy: the\nexecution of a computational task on a quantum computer that is infeasible for\nany classical computer. The task underlying the assertion of quantum supremacy\nby Arute et al. (Nature, 574, 505--510 (2019)) was initially estimated to\nrequire Summit, the world's most powerful supercomputer today, approximately\n10,000 years. The same task was performed on the Sycamore quantum processor in\nonly 200 seconds.\n  In this work, we present a tensor network-based classical simulation\nalgorithm. Using a Summit-comparable cluster, we estimate that our simulator\ncan perform this task in less than 20 days. On moderately-sized instances, we\nreduce the runtime from years to minutes, running several times faster than\nSycamore itself. These estimates are based on explicit simulations of parallel\nsubtasks, and leave no room for hidden costs. The simulator's key ingredient is\nidentifying and optimizing the \"stem\" of the computation: a sequence of\npairwise tensor contractions that dominates the computational cost. This\norders-of-magnitude reduction in classical simulation time, together with\nproposals for further significant improvements, indicates that achieving\nquantum supremacy may require a period of continuing quantum hardware\ndevelopments without an unequivocal first demonstration.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1286582,
     "score": 37.379547119140625,
     "userScore": 1
@@ -213,7 +213,7 @@
   {
     "title": "No imminent quantum supremacy by boson sampling",
     "paperAbstract": "  It is predicted that quantum computers will dramatically outperform their\nconventional counterparts. However, large-scale universal quantum computers are\nyet to be built. Boson sampling is a rudimentary quantum algorithm tailored to\nthe platform of photons in linear optics, which has sparked interest as a rapid\nway to demonstrate this quantum supremacy. Photon statistics are governed by\nintractable matrix functions known as permanents, which suggests that sampling\nfrom the distribution obtained by injecting photons into a linear-optical\nnetwork could be solved more quickly by a photonic experiment than by a\nclassical computer. The contrast between the apparently awesome challenge faced\nby any classical sampling algorithm and the apparently near-term experimental\nresources required for a large boson sampling experiment has raised\nexpectations that quantum supremacy by boson sampling is on the horizon. Here\nwe present classical boson sampling algorithms and theoretical analyses of\nprospects for scaling boson sampling experiments, showing that near-term\nquantum supremacy via boson sampling is unlikely. While the largest boson\nsampling experiments reported so far are with 5 photons, our classical\nalgorithm, based on Metropolised independence sampling (MIS), allowed the boson\nsampling problem to be solved for 30 photons with standard computing hardware.\nWe argue that the impact of experimental photon losses means that demonstrating\nquantum supremacy by boson sampling would require a step change in technology.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 844227,
     "score": 36.73841857910156,
     "userScore": 0
@@ -221,7 +221,7 @@
   {
     "title": "Comment on the Quantum Supremacy Claim by Google",
     "paperAbstract": "  Quantum computation promises to execute certain computational tasks on time\nscales much faster than any known algorithm on an existing classical computer,\nfor example calculating the prime factors of large integers. Recently a\nresearch team from Google claimed to have carried out such a task with a\nquantum computer, demonstrating in practice a case of this so-called quantum\nsupremacy. Here we argue that this claim was not justified. Unlike other\ncomments, our criticism is concerned with the missing verification of the\noutput data of the quantum computation.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1522677,
     "score": 36.661643981933594,
     "userScore": 1
@@ -229,7 +229,7 @@
   {
     "title": "Characterizing Quantum Supremacy in Near-Term Devices",
     "paperAbstract": "  A critical question for the field of quantum computing in the near future is\nwhether quantum devices without error correction can perform a well-defined\ncomputational task beyond the capabilities of state-of-the-art classical\ncomputers, achieving so-called quantum supremacy. We study the task of sampling\nfrom the output distributions of (pseudo-)random quantum circuits, a natural\ntask for benchmarking quantum computers. Crucially, sampling this distribution\nclassically requires a direct numerical simulation of the circuit, with\ncomputational cost exponential in the number of qubits. This requirement is\ntypical of chaotic systems. We extend previous results in computational\ncomplexity to argue more formally that this sampling task must take exponential\ntime in a classical computer. We study the convergence to the chaotic regime\nusing extensive supercomputer simulations, modeling circuits with up to 42\nqubits - the largest quantum circuits simulated to date for a computational\ntask that approaches quantum supremacy. We argue that while chaotic states are\nextremely sensitive to errors, quantum supremacy can be achieved in the\nnear-term with approximately fifty superconducting qubits. We introduce cross\nentropy as a useful benchmark of quantum circuits which approximates the\ncircuit fidelity. We show that the cross entropy can be efficiently measured\nwhen circuit simulations are available. Beyond the classically tractable\nregime, the cross entropy can be extrapolated and compared with theoretical\nestimates of circuit fidelity to define a practical quantum supremacy test.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 756725,
     "score": 36.098388671875,
     "userScore": 1
@@ -237,7 +237,7 @@
   {
     "title": "On the meaning of \"quantum supremacy\" experiments",
     "paperAbstract": "  The recently reported experimental results claiming \"quantum supremacy\"\nachieved by Google quantum device are critically discussed. The Google team\nconstructed a quantum chaotic system based on Josephson junction technology\nwhich cannot be reliably simulated by the present day supercomputers. However,\nthe similar \"supremacy\" can be realized for properly designed micro-mechanical\ndevices, like periodically forced Duffing oscillator, using the available\ntechnology of quartz clocks. It is also reminded that classical and quantum\nchaotic systems behave in a similar way. Therefore, in this case, one should\nspeak rather about the \"analog supremacy\" than \"quantum supremacy\" what means\nthat even now mechanical analog computers can outperform supercomputers when\nthe computational task can be reduced to sampling of ergodic measures generated\nby chaotic systems.\n",
-    "query": "quantum computer supremacy ",
+    "query": "quantum computer supremacy",
     "docId": 1226204,
     "score": 35.982505798339844,
     "userScore": 2
@@ -650,7 +650,7 @@
   {
     "title": "On modular forms for some noncongruence arithmetic subgroups",
     "paperAbstract": "  In this paper, we consider modular forms for finite index subgroups of the\nmodular group whose Fourier coefficients are algebraic. It is well-known that\nthe Fourier coefficients of any holomorphic modular form for a congruence\nsubgroup (with algebraic coefficients) have bounded denominators. It was\nobserved by Atkin and Swinnerton-Dyer that this is no longer true for modular\nforms for noncongruence subgroups and they pointed out that unbounded\ndenominator property is a clear distinction between modular forms for\nnoncongruence and congruence modular forms. It is an open question whether\ngenuine noncongruence modular forms (with algebraic coefficients) always\nsatisfy the unbounded denominator property. Here, we give a partial positive\nanswer to the above open question by constructing special finite index\nsubgroups of SL_2(Z) called character groups and discuss the properties of\nmodular forms for some groups of this kind.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 2154967,
     "score": 60.38435363769531,
     "userScore": 1
@@ -658,7 +658,7 @@
   {
     "title": "Finite index subgroups of the modular group and their modular forms",
     "paperAbstract": "  Classically, congruence subgroups of the modular group, which can be\ndescribed by congruence relations, play important roles in group theory and\nmodular forms. In reality, the majority of finite index subgroups of the\nmodular group are noncongruence. These groups as well as their modular forms\nare central players of this survey article. Differences between congruence and\nnoncongruence subgroups and modular forms will be discussed. We will mainly\nfocus on three interesting aspects of modular forms for noncongruence\nsubgroups: the unbounded denominator property, modularity of the Galois\nrepresentation arising from noncongruence cuspforms, and Atkin and\nSwinnerton-Dyer congruences.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 16485,
     "score": 52.79840850830078,
     "userScore": 2
@@ -666,7 +666,7 @@
   {
     "title": "Moduli Interpretations for Noncongruence Modular Curves",
     "paperAbstract": "  We define the notion of a $G$-structure for elliptic curves, where $G$ is a\nfinite 2-generated group. When $G$ is abelian, a $G$-structure is the same as a\nclassical congruence level structure. There is a natural action of\n$\\text{SL}_2(\\mathbb{Z})$ on these level structures. If $\\Gamma$ is a\nstabilizer of this action, then the quotient of the upper half plane by\n$\\Gamma$ parametrizes isomorphism classes of elliptic curves equipped with\n$G$-structures. When $G$ is \"sufficiently\" nonabelian, the stabilizers $\\Gamma$\nare noncongruence. As a result we realize noncongruence modular curves as\nmoduli spaces of elliptic curves equipped with nonabelian $G$-structures. As\napplications we describe links to the Inverse Galois Problem, and show how our\nmoduli interpretations explains the bad primes for the Unbounded Denominators\nConjecture, and allows us to translate the conjecture into the language of\ngeometry and Galois theory.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 669644,
     "score": 51.84303665161133,
     "userScore": 1
@@ -674,7 +674,7 @@
   {
     "title": "Atkin and Swinnerton-Dyer congruences and noncongruence modular forms",
     "paperAbstract": "  Atkin and Swinnerton-Dyer congruences are special congruence recursions\nsatisfied by coefficients of noncongruence modular forms. These are in some\nsense $p$-adic analogues of Hecke recursion satisfied by classic Hecke\neigenforms. They actually appeared in different context and sometimes can be\nobtained using the theory of formal groups. In this survey paper, we introduce\nthe Atkin and Swinnerton-Dyer congruences, and discuss some recent progress on\nthis topic.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 417885,
     "score": 51.20709228515625,
     "userScore": 1
@@ -682,7 +682,7 @@
   {
     "title": "Congruence and Noncongruence Subgroups of Gamma(2) via Graphs on\n  Surfaces",
     "paperAbstract": "  There is an established bijection between finite-index subgroups Gamma of\nGamma(2) and bipartite graphs on surfaces, or, equivalently, certain triples of\npermutations. We utilize this relationship to study both congruence and\nnoncongruence subgroups in terms of the corresponding graphs. We show some\nelementary criteria which can be used to identify many noncongruence subgroups.\nGiven a graph on a surface, we have a method to produce generators for the\ncorresponding group Gamma in terms of the generators of Gamma(2). Given\ngenerators for Gamma(2n), we show how to determine whether or not a graph of\nlevel 2n corresponds to a congruence subgroup.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 448841,
     "score": 47.168087005615234,
     "userScore": 1
@@ -690,7 +690,7 @@
   {
     "title": "The Modular number, Congruence number, and Multiplicity One",
     "paperAbstract": "  Let $N$ be a positive integer and let $f$ be a newform of weight 2 on\n$\\Gamma_0(N)$. In earlier joint work with K. Ribet and W. Stein, we introduced\nthe notions of the modular number and the congruence number of the quotient\nabelian variety $A_f$ of $J_0(N)$ associated to the newform $f$. These\ninvariants are analogs of the notions of the modular degree and congruence\nprimes respectively associated to elliptic curves. We show that if $p$ is a\nprime such that every maximal ideal of the Hecke algebra of characteristic $p$\nthat contains the annihilator ideal of $f$ satisfies multiplicity one, then the\nmodular number and the congruence number have the same $p$-adic valuation.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 90755,
     "score": 47.07740020751953,
     "userScore": 2
@@ -698,7 +698,7 @@
   {
     "title": "A Database of Modular Forms on Noncongruence Subgroups",
     "paperAbstract": "  We present a database of several hundred modular forms up to and including\nweight six on noncongruence subgroups of index $\\leq 17$. In addition, our\ndatabase contains expressions for the Belyi map for genus zero subgroups and\nequations of the corresponding elliptic curves for genus one subgroups and\nnumerical approximations of noncongruence Eisenstein series to 1500 digits\nprecision.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 1773199,
     "score": 46.62986755371094,
     "userScore": 2
@@ -706,7 +706,7 @@
   {
     "title": "Lifts of projective congruence groups, II",
     "paperAbstract": "  We continue and complete our previous paper `Lifts of projective congruence\ngroups' [2] concerning the question of whether there exist noncongruence\nsubgroups of $\\SL_2(\\Z)$ that are projectively equivalent to one of the groups\n$\\Gamma_0(N)$ or $\\Gamma_1(N)$. A complete answer to this question is obtained:\nIn case of $\\Gamma_0(N)$ such noncongruence subgroups exist precisely if\n$N\\not\\in {3,4,8}$ and we additionally have either that $4\\mid N$ or that $N$\nis divisible by an odd prime congruent to 3 modulo 4. In case of $\\Gamma_1(N)$\nthese noncongruence subgroups exist precisely if $N>4$.\n  As in our previous paper the main motivation for this question is the fact\nthat the above noncongruence subgroups represent a fairly accessible and\nexplicitly constructible reservoir of examples of noncongruence subgroups of\n$\\SL_2(\\Z)$ that can serve as basis for experimentation with modular forms on\nnoncongruence subgroups.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 311805,
     "score": 43.092994689941406,
     "userScore": 1
@@ -714,7 +714,7 @@
   {
     "title": "Intertwining operators and vector-valued modular forms for minimal\n  models",
     "paperAbstract": "  Using the language of vertex operator algebras (VOAs) and vector-valued\nmodular forms we study the modular group representations and spaces of 1-point\nfunctions associated to intertwining operators for Virasoro minimal model VOAs.\nWe examine all representations of dimension less than four associated to\nirreducible modules for minimal models, and determine when the kernel of these\nrepresentations is a congruence or noncongruence subgroup of the modular group.\nArithmetic criteria are given on the indexing of the irreducible modules for\nminimal models that imply the associated modular group representation has a\nnoncongruence kernel, independent of the dimension of the representation. The\nalgebraic structure of the spaces of 1-point functions for intertwining\noperators is also studied, via a comparison with the associated spaces of\nholomorphic vector-valued modular forms.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 797943,
     "score": 42.731346130371094,
     "userScore": 1
@@ -722,7 +722,7 @@
   {
     "title": "Potentially $\\text{GL}_2$-type Galois representations associated to\n  noncongruence modular forms",
     "paperAbstract": "  In this paper, we consider Galois representations of the absolute Galois\ngroup $\\text{Gal}(\\overline {\\mathbb Q}/\\mathbb Q)$ attached to modular forms\nfor noncongruence subgroups of $\\text{SL}_2(\\mathbb Z)$. When the underlying\nmodular curves have a model over $\\mathbb Q$, these representations are\nconstructed by Scholl and are referred to as Scholl representations, which form\na large class of motivic Galois representations. In particular, by a result of\nBelyi, Scholl representations include the Galois actions on the Jacobian\nvarieties of algebraic curves defined over $\\mathbb Q$. As Scholl\nrepresentations are motivic, they are expected to correspond to automorphic\nrepresentations according to the Langlands philosophy. Using recent\ndevelopments in the automorphy lifting theorem, we obtain various automphy and\npotential automorphy results for potentially $\\text{GL}_2$-type Galois\nrepresentations associated to noncongruence modular forms. Our results are\napplied to various kinds of examples. Especially, we obtain potential\nautomorphy results for Galois representations attached to an infinite family of\nspaces of weight 3 noncongruence cusp forms of arbitrarily large dimensions.\n",
-    "query": "number theory modular form functions noncongruence  and congruence ",
+    "query": "number theory modular form functions noncongruence  and congruence",
     "docId": 771892,
     "score": 42.696006774902344,
     "userScore": 2
@@ -730,7 +730,7 @@
   {
     "title": "Intransitive dice tournament is not quasirandom",
     "paperAbstract": "  We settle a version of the conjecture about intransitive dice posed by\nConrey, Gabbard, Grant, Liu and Morrison in 2016 and Polymath in 2017. We\nconsider generalized dice with $n$ faces and we say that a die $A$ beats $B$ if\na random face of $A$ is more likely to show a higher number than a random face\nof $B$. We study random dice with faces drawn iid from the uniform distribution\non $[0,1]$ and conditioned on the sum of the faces equal to $n/2$. Considering\nthe \"beats\" relation for three such random dice, Polymath showed that each of\neight possible tournaments between them is asymptotically equally likely. In\nparticular, three dice form an intransitive cycle with probability converging\nto $1/4$. In this paper we prove that for four random dice not all tournaments\nare equally likely and the probability of a transitive tournament is strictly\nhigher than $3/8$.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1382815,
     "score": 53.313316345214844,
     "userScore": 3
@@ -738,7 +738,7 @@
   {
     "title": "Quantum dice rolling",
     "paperAbstract": "  A coin is just a two sided dice. Recently, Mochon proved that quantum weak\ncoin flipping with an arbitrarily small bias is possible. However, the use of\nquantum resources to allow N remote distrustful parties to roll an N-sided dice\nhas yet to be addressed. In this paper we show that contrary to the classical\ncase, N-sided dice rolling with arbitrarily small bias is possible for any N.\nIn addition, we present a six-round three-sided dice rolling protocol,\nachieving a bias of 0.181, which incorporates weak imbalanced coin flipping.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 139453,
     "score": 48.18231964111328,
     "userScore": 2
@@ -746,7 +746,7 @@
   {
     "title": "Generalized Intransitive Dice: Mimicking an Arbitrary Tournament",
     "paperAbstract": "  A generalized $N$-sided die is a random variable $D$ on a sample space of $N$\nequally likely outcomes taking values in the set of positive integers. We say\nof independent $N$ sided dice $D_i, D_j$ that $D_i$ beats $D_j$, written $D_i\n\\to D_j$, if $Prob(D_i > D_j) > \\frac{1}{2} $. Examples are known of\nintransitive $6$-sided dice, i.e. $D_1 \\to D_2 \\to D_3$ but $D_3 \\to D_1$. A\ntournament of size $n$ is a choice of direction $i \\to j$ for each edge of the\ncomplete graph on $n$ vertices. We show that if $R$ is tournament on the set\n$\\{ 1, \\dots, n \\}$, then for sufficiently large $N$ there exist sets of\nindependent $N$-sided dice $\\{ D_1, \\dots, D_n \\}$ such that $D_i \\to D_j$ if\nand only if $i \\to j$ in $R$.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1079024,
     "score": 45.287574768066406,
     "userScore": 3
@@ -754,7 +754,7 @@
   {
     "title": "Quantum dice rolling: A multi-outcome generalization of quantum coin\n  flipping",
     "paperAbstract": "  We generalize the problem of coin flipping to more than two outcomes and\nparties. We term this problem dice rolling, and study both its weak and strong\nvariants. We prove by construction that in quantum settings (i) weak N-sided\ndice rolling admits an arbitrarily small bias for any value of N, and (ii)\ntwo-party strong N-sided dice rolling saturates the corresponding\ngeneralization of Kitaev's bound for any value of N. In addition, we make use\nof this last result to introduce a family of optimal 2m-party strong n^m-sided\ndice rolling protocols for any value of m and n.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 146554,
     "score": 42.49930191040039,
     "userScore": 2
@@ -762,7 +762,7 @@
   {
     "title": "Intransitive Dice",
     "paperAbstract": "  We consider $n$-sided dice whose face values lie between $1$ and $n$ and\nwhose faces sum to $n(n+1)/2$. For two dice $A$ and $B$, define $A \\succ B$ if\nit is more likely for $A$ to show a higher face than $B$. Suppose $k$ such dice\n$A_1,\\dots,A_k$ are randomly selected. We conjecture that the probability of\nties goes to 0 as $n$ grows. We conjecture and provide some supporting evidence\nthat---contrary to intuition---each of the $2^{k \\choose 2}$ assignments of\n$\\succ$ or $\\prec$ to each pair is equally likely asymptotically. For a\nspecific example, suppose we randomly select $k$ dice $A_1,\\dots,A_k$ and\nobserve that $A_1 \\succ A_2 \\succ \\ldots \\succ A_k$. Then our conjecture\nasserts that the outcomes $A_k \\succ A_1$ and $A_1 \\prec A_k$ both have\nprobability approaching $1/2$ as $n \\rightarrow \\infty$.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 480172,
     "score": 41.99245071411133,
     "userScore": 3
@@ -770,7 +770,7 @@
   {
     "title": "Emerging Diversity in a Population of Evolving Intransitive Dice",
     "paperAbstract": "  Exploiting the mathematical curiosity of intransitive dice, we present a\nsimple theoretical model for co-evolution that captures scales ranging from the\ngenome of the individual to the system-wide emergence of species diversity. We\nstudy a set of evolving agents that interact competitively in a closed system,\nin which both the dynamics of mutations and competitive advantage emerge\ndirectly from interpreting a genome as the sides of a die. The model\ndemonstrates sympatric speciation where new species evolve from existing ones\nwhile in contact with the entire ecosystem. Allowing free mutations both in the\ngenomes and the mutation rates, we find, in contrast to hierarchical models of\nfitness, the emergence of a metastable state of finite mutation rate and\ndiversity.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1756551,
     "score": 41.93225860595703,
     "userScore": 2
@@ -778,7 +778,7 @@
   {
     "title": "Intransitive Machines",
     "paperAbstract": "  The intransitive cycle of superiority is characterized by such binary\nrelations between A, B, and C that A is superior to B, B is superior to C, and\nC is superior to A (i.e., A>B>C>A - in contrast with transitive relations\nA>B>C). The first part of the article presents a brief review of studies of\nintransitive cycles in various disciplines (mathematics, biology, sociology,\nlogical games, decision theory, etc.), and their reflections in educational\nmaterials. The second part of the article introduces the issue of\nintransitivity in elementary physics. We present principles of building\nmechanical intransitive devices in correspondence with the structure of the\nCondorcet paradox, and describe five intransitive devices: intransitive gears;\nlevers; pulleys, wheels, and axles; wedges; inclined planes. Each of the\nmechanisms are constructed as compositions of simple machines and show\nparadoxical intransitivity of relations such as \"to rotate faster than\", \"to\nlift\", \"to be stronger than\" in some geometrical constructions. The article is\nan invitation to develop teaching materials and problems advancing the\nunderstanding of transitivity and intransitivity in various areas, including\nphysics education.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1023885,
     "score": 33.8375244140625,
     "userScore": 2
@@ -786,7 +786,7 @@
   {
     "title": "Generalized Intransitive Dice II: Partition Constructions",
     "paperAbstract": "  A generalized $N$-sided die is a random variable $D$ on a sample space of $N$\nequally likely outcomes taking values in the set of positive integers. We say\nof independent $N$ sided dice $D_i, D_j$ that $D_i$ beats $D_j$, written $D_i\n\\to D_j$, if $Prob(D_i > D_j) > \\frac{1}{2} $. A collection of dice $\\{ D_i : i\n= 1, \\dots, n \\}$ models a tournament on the set $[n] = \\{ 1, 2, \\dots, n \\}$,\ni.e. a complete digraph with $n$ vertices, when $D_i \\to D_j$ if and only if $i\n\\to j$ in the tournament. By using $n$-fold partitions of the set $[Nn] $ with\neach set of size $N$ we can model an arbitrary tournament on $[n]$. A bound on\nthe required size of $N$ is obtained by examples with $N = 3^{n-2}$.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1120186,
     "score": 33.33968734741211,
     "userScore": 2
@@ -794,7 +794,7 @@
   {
     "title": "Quantum dice",
     "paperAbstract": "  In a letter to Born, Einstein wrote: \"Quantum mechanics is certainly\nimposing. But an inner voice tells me that it is not yet the real thing. The\ntheory says a lot, but does not really bring us any closer to the secret of the\nold one. I, at any rate, am convinced that He does not throw dice.\" In this\npaper we take seriously Einstein's famous metaphor, and show that we can gain\nconsiderable insight into quantum mechanics by doing something as simple as\nrolling dice. More precisely, we show how to perform measurements on a single\ndie, to create typical quantum interference effects, and how to connect\n(entangle) two identical dice, to maximally violate Bell's inequality.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 399628,
     "score": 33.24567413330078,
     "userScore": 2
@@ -802,7 +802,7 @@
   {
     "title": "How a Losing Team like the Canadiens can Steal a Stanley Cup: A\n  Quantitative Intransitive Hockey Analysis",
     "paperAbstract": "  We present here a simple mathematical model that provides a successful\nstrategy, quantitatively, to ending the continued championship futility\nexperienced by Canadian Hockey Teams. Competitive Intransitivity is used here\nas a simple predictive framework to capture how investing strategically, under\na uniform salary cap, in just 3 independently variable aspects of the sport\n(such as Offence, Defence, and a Goaltender), by just 3 Hockey Teams applying\ndiffering salary priorities (such as Montreal, Boston, and New York), can lead\nto rich and perhaps surprisingly unexpected outcomes in play, similar to\nrolling intransitive dice together in a series of head-to-head games. A\npossibly fortunate conclusion of this analysis is the prediction that for any\nTeam's chosen strategy (such as New York's), a counter strategy within the same\nsalary cap can be adopted by a playoff opponent (such as Montreal) which will\nprove victorious over a long playoff series, enabling a pathway to end\nprolonged championship futility.\n",
-    "query": "intransitive dice rolling ",
+    "query": "intransitive dice rolling",
     "docId": 1476031,
     "score": 32.95924758911133,
     "userScore": 1
@@ -973,7 +973,7 @@
   {
     "title": "Firefly Algorithms for Multimodal Optimization",
     "paperAbstract": "  Nature-inspired algorithms are among the most powerful algorithms for\noptimization. This paper intends to provide a detailed description of a new\nFirefly Algorithm (FA) for multimodal optimization applications. We will\ncompare the proposed firefly algorithm with other metaheuristic algorithms such\nas particle swarm optimization (PSO). Simulations and results indicate that the\nproposed firefly algorithm is superior to existing metaheuristic algorithms.\nFinally we will discuss its applications and implications for further research.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 177273,
     "score": 24.856460571289062,
     "userScore": 2
@@ -981,7 +981,7 @@
   {
     "title": "On the Convergence of Bound Optimization Algorithms",
     "paperAbstract": "  Many practitioners who use the EM algorithm complain that it is sometimes\nslow. When does this happen, and what can be done about it? In this paper, we\nstudy the general class of bound optimization algorithms - including\nExpectation-Maximization, Iterative Scaling and CCCP - and their relationship\nto direct optimization algorithms such as gradient-based methods for parameter\nlearning. We derive a general relationship between the updates performed by\nbound optimization methods and those of gradient and second-order methods and\nidentify analytic conditions under which bound optimization algorithms exhibit\nquasi-Newton behavior, and conditions under which they possess poor,\nfirst-order convergence. Based on this analysis, we consider several specific\nalgorithms, interpret and analyze their convergence properties and provide some\nrecipes for preprocessing input to these algorithms to yield faster convergence\nbehavior. We report empirical results supporting our analysis and showing that\nsimple data preprocessing can result in dramatically improved performance of\nbound optimizers in practice.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 392106,
     "score": 24.146543502807617,
     "userScore": 2
@@ -989,7 +989,7 @@
   {
     "title": "A Comparison of Optimization Algorithms for Deep Learning",
     "paperAbstract": "  In recent years, we have witnessed the rise of deep learning. Deep neural\nnetworks have proved their success in many areas. However, the optimization of\nthese networks has become more difficult as neural networks going deeper and\ndatasets becoming bigger. Therefore, more advanced optimization algorithms have\nbeen proposed over the past years. In this study, widely used optimization\nalgorithms for deep learning are examined in detail. To this end, these\nalgorithms called adaptive gradient methods are implemented for both supervised\nand unsupervised tasks. The behaviour of the algorithms during training and\nresults on four image datasets, namely, MNIST, CIFAR-10, Kaggle Flowers and\nLabeled Faces in the Wild are compared by pointing out their differences\nagainst basic optimization algorithms.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 1325680,
     "score": 23.906850814819336,
     "userScore": 3
@@ -997,7 +997,7 @@
   {
     "title": "Convex Optimization: Algorithms and Complexity",
     "paperAbstract": "  This monograph presents the main complexity theorems in convex optimization\nand their corresponding algorithms. Starting from the fundamental theory of\nblack-box optimization, the material progresses towards recent advances in\nstructural optimization and stochastic optimization. Our presentation of\nblack-box optimization, strongly influenced by Nesterov's seminal book and\nNemirovski's lecture notes, includes the analysis of cutting plane methods, as\nwell as (accelerated) gradient descent schemes. We also pay special attention\nto non-Euclidean settings (relevant algorithms include Frank-Wolfe, mirror\ndescent, and dual averaging) and discuss their relevance in machine learning.\nWe provide a gentle introduction to structural optimization with FISTA (to\noptimize a sum of a smooth and a simple non-smooth term), saddle-point mirror\nprox (Nemirovski's alternative to Nesterov's smoothing), and a concise\ndescription of interior point methods. In stochastic optimization we discuss\nstochastic gradient descent, mini-batches, random coordinate descent, and\nsublinear algorithms. We also briefly touch upon convex relaxation of\ncombinatorial problems and the use of randomness to round solutions, as well as\nrandom walks based methods.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 525888,
     "score": 23.903980255126953,
     "userScore": 2
@@ -1005,7 +1005,7 @@
   {
     "title": "Algorithms for Weighted Boolean Optimization",
     "paperAbstract": "  The Pseudo-Boolean Optimization (PBO) and Maximum Satisfiability (MaxSAT)\nproblems are natural optimization extensions of Boolean Satisfiability (SAT).\n  In the recent past, different algorithms have been proposed for PBO and for\nMaxSAT, despite the existence of straightforward mappings from PBO to MaxSAT\nand vice-versa. This papers proposes Weighted Boolean Optimization (WBO), a new\nunified framework that aggregates and extends PBO and MaxSAT. In addition, the\npaper proposes a new unsatisfiability-based algorithm for WBO, based on recent\nunsatisfiability-based algorithms for MaxSAT. Besides standard MaxSAT, the new\nalgorithm can also be used to solve weighted MaxSAT and PBO, handling\npseudo-Boolean constraints either natively or by translation to clausal form.\nExperimental results illustrate that unsatisfiability-based algorithms for\nMaxSAT can be orders of magnitude more efficient than existing dedicated\nalgorithms. Finally, the paper illustrates how other algorithms for either PBO\nor MaxSAT can be extended to WBO.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 111962,
     "score": 23.854236602783203,
     "userScore": 2
@@ -1013,7 +1013,7 @@
   {
     "title": "The Analysis of Optimization Algorithms, A Dissipativity Approach",
     "paperAbstract": "  Optimization problems in engineering and applied mathematics are typically\nsolved in an iterative fashion, by systematically adjusting the variables of\ninterest until an adequate solution is found. The iterative algorithms that\ngovern these systematic adjustments can be viewed as a control system. In\ncontrol systems, the output in measured and the input is adjusted using\nfeedback to drive the error to zero. Similarly, in iterative algorithms, the\noptimization objective is evaluated and the candidate solution is adjusted to\ndrive it toward the optimal point. Choosing an algorithm that works well for a\nvariety of optimization problems is akin to robust controller design. Just as\ndissipativity theory can be used to analyze the stability properties of control\nsystems, it can also be used to analyze the convergence properties of iterative\nalgorithms. By defining an appropriate notion of \"energy\" that dissipates with\nevery iteration of the algorithm, the convergence properties of the algorithm\ncan be characterized. This article formalizes the connection between iterative\nalgorithms and control systems and shows through examples how dissipativity\ntheory can be used to analyze the performance of many classes of optimization\nalgorithms. This control-theoretic viewpoint enables the selection and tuning\nof optimization algorithms to be performed in an automated and systematic way.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 1658676,
     "score": 23.760236740112305,
     "userScore": 2
@@ -1021,7 +1021,7 @@
   {
     "title": "Provably Faster Algorithms for Bilevel Optimization",
     "paperAbstract": "  Bilevel optimization has been widely applied in many important machine\nlearning applications such as hyperparameter optimization and meta-learning.\nRecently, several momentum-based algorithms have been proposed to solve bilevel\noptimization problems faster. However, those momentum-based algorithms do not\nachieve provably better computational complexity than $\\mathcal{\\widetilde\nO}(\\epsilon^{-2})$ of the SGD-based algorithm. In this paper, we propose two\nnew algorithms for bilevel optimization, where the first algorithm adopts\nmomentum-based recursive iterations, and the second algorithm adopts recursive\ngradient estimations in nested loops to decrease the variance. We show that\nboth algorithms achieve the complexity of $\\mathcal{\\widetilde\nO}(\\epsilon^{-1.5})$, which outperforms all existing algorithms by the order of\nmagnitude. Our experiments validate our theoretical results and demonstrate the\nsuperior empirical performance of our algorithms in hyperparameter\napplications.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 1482456,
     "score": 23.71802520751953,
     "userScore": 1
@@ -1029,7 +1029,7 @@
   {
     "title": "Best practices for comparing optimization algorithms",
     "paperAbstract": "  Comparing, or benchmarking, of optimization algorithms is a complicated task\nthat involves many subtle considerations to yield a fair and unbiased\nevaluation. In this paper, we systematically review the benchmarking process of\noptimization algorithms, and discuss the challenges of fair comparison. We\nprovide suggestions for each step of the comparison process and highlight the\npitfalls to avoid when evaluating the performance of optimization algorithms.\nWe also discuss various methods of reporting the benchmarking results. Finally,\nsome suggestions for future research are presented to improve the current\nbenchmarking process.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 893108,
     "score": 23.6295223236084,
     "userScore": 3
@@ -1037,7 +1037,7 @@
   {
     "title": "Communication-Efficient Algorithms For Distributed Optimization",
     "paperAbstract": "  This thesis is concerned with the design of distributed algorithms for\nsolving optimization problems. We consider networks where each node has\nexclusive access to a cost function, and design algorithms that make all nodes\ncooperate to find the minimum of the sum of all the cost functions. Several\nproblems in signal processing, control, and machine learning can be posed as\nsuch optimization problems. Given that communication is often the most\nenergy-consuming operation in networks, it is important to design\ncommunication-efficient algorithms. The main contributions of this thesis are a\nclassification scheme for distributed optimization and a set of corresponding\ncommunication-efficient algorithms.\n  The class of optimization problems we consider is quite general, since each\nfunction may depend on arbitrary components of the optimization variable, and\nnot necessarily on all of them. In doing so, we go beyond the common assumption\nin distributed optimization and create additional structure that can be used to\nreduce the number of communications. This structure is captured by our\nclassification scheme, which identifies easier instances of the problem, for\nexample the standard distributed optimization problem, where all functions\ndepend on all the components of the variable.\n  In our algorithms, no central node coordinates the network, all the\ncommunications occur between neighboring nodes, and the data associated with\neach node is processed locally. We show several applications including average\nconsensus, support vector machines, network flows, and several distributed\nscenarios for compressed sensing. We also propose a new framework for\ndistributed model predictive control. Through extensive numerical experiments,\nwe show that our algorithms outperform prior distributed algorithms in terms of\ncommunication-efficiency, even some that were specifically designed for a\nparticular application.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 481616,
     "score": 23.524484634399414,
     "userScore": 1
@@ -1045,7 +1045,7 @@
   {
     "title": "Biorthogonal Greedy Algorithms in Convex Optimization",
     "paperAbstract": "  The study of greedy approximation in the context of convex optimization is\nbecoming a promising research direction as greedy algorithms are actively being\nemployed to construct sparse minimizers for convex functions with respect to\ngiven sets of elements. In this paper we propose a unified way of analyzing a\ncertain kind of greedy-type algorithms for the minimization of convex functions\non Banach spaces. Specifically, we define the class of Weak Biorthogonal Greedy\nAlgorithms for convex optimization that contains a wide range of greedy\nalgorithms. We analyze the introduced class of algorithms and establish the\nproperties of convergence, rate of convergence, and numerical stability, which\nis understood in the sense that the steps of the algorithm are allowed to be\nperformed not precisely but with controlled computational inaccuracies. We show\nthat the following well-known algorithms for convex optimization -- the Weak\nChebyshev Greedy Algorithm (co) and the Weak Greedy Algorithm with Free\nRelaxation (co) -- belong to this class, and introduce a new algorithm -- the\nRescaled Weak Relaxed Greedy Algorithm (co). Presented numerical experiments\ndemonstrate the practical performance of the aforementioned greedy algorithms\nin the setting of convex minimization as compared to optimization with\nregularization, which is the conventional approach of constructing sparse\nminimizers.\n",
-    "query": "optimization algorithms ",
+    "query": "optimization algorithms",
     "docId": 1230943,
     "score": 23.473440170288086,
     "userScore": 1
@@ -1462,7 +1462,7 @@
   {
     "title": "Survey on Positioning System: Sampling methods",
     "paperAbstract": "  Millimeter-accuracy Ultra-Wideband (UWB) positioning systems using the Time\nDifference Of Arrival (TDOA) algorithm are able to be utilized in military and\nmany other important applications. Previous research on UWB positioning system\nhas achieved up to mm or sub-mm accuracy. However, one bottleneck in UWB system\nis at sampling high resolution UWB signals, as well as high resolution timing\ninformation. In this paper, UWB positioning systems are surveyed and we focus\non sampling methods for handling UWB signals. Among different sampling methods,\none traditional way is the sequential sampling method, which is not a real time\nsampling method and blocks UWB positioning system to achieve higher precision.\nAnother way is by applying Compressed Sensing (CS) to UWB system for achieving\nsub-mm positioning accuracy. In this paper, we compare different TDOA-based UWB\nsystems with different sampling methods. In particular, several CS-UWB\nalgorithms for UWB signal reconstruction are compared in terms of positioning\naccuracy. Simulation results in 2D and 3D experiments demonstrate performance\nof different algorithms including typical BCS, OMP and BP algorithms. CS-UWB is\nalso compared with UWB positioning system based on the sequential sampling\nmethod.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 449330,
     "score": 27.23198699951172,
     "userScore": 1
@@ -1470,7 +1470,7 @@
   {
     "title": "Evaluation of Sampling Methods for Scatterplots",
     "paperAbstract": "  Given a scatterplot with tens of thousands of points or even more, a natural\nquestion is which sampling method should be used to create a small but \"good\"\nscatterplot for a better abstraction. We present the results of a user study\nthat investigates the influence of different sampling strategies on multi-class\nscatterplots. The main goal of this study is to understand the capability of\nsampling methods in preserving the density, outliers, and overall shape of a\nscatterplot. To this end, we comprehensively review the literature and select\nseven typical sampling strategies as well as eight representative datasets. We\nthen design four experiments to understand the performance of different\nstrategies in maintaining: 1) region density; 2) class density; 3) outliers;\nand 4) overall shape in the sampling results. The results show that: 1) random\nsampling is preferred for preserving region density; 2) blue noise sampling and\nrandom sampling have comparable performance with the three multi-class sampling\nstrategies in preserving class density; 3) outlier biased density based\nsampling, recursive subdivision based sampling, and blue noise sampling perform\nthe best in keeping outliers; and 4) blue noise sampling outperforms the others\nin maintaining the overall shape of a scatterplot.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1326180,
     "score": 26.84219741821289,
     "userScore": 2
@@ -1478,7 +1478,7 @@
   {
     "title": "Enhanced sampling methods for molecular dynamics simulations",
     "paperAbstract": "  Enhanced sampling algorithms have emerged as powerful methods to extend the\nutility of molecular dynamics simulations and allow the sampling of larger\nportions of the configuration space of complex systems in a given amount of\nsimulation time. This review aims to present the unifying principles and\ndifferences of many of the computational methods currenly used for enhanced\nsampling in molecular simulations of biomolecules, soft matter and molecular\ncrystals. Indeed, despite the apparent abundance and divergence of such\nmethods, the principles at their core can be boiled down to a relatively\nlimited number of statistical and physical principles. To enable comparisons,\nthe various methods are introduced using similar terminology and notation. We\nthen illustrate in which ways many different methods combine principles from a\nsmaller class of enhanced sampling concepts. This review is intended for\nscientists with an understanding of the basics of molecular dynamics\nsimulations and statistical physics who want a deeper understanding of the\nideas that underlie various enhanced sampling methods and the relationships\nbetween them. This living review is intended to be updated to continue to\nreflect the wealth of sampling methods as they continue to emerge in the\nliterature.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1602988,
     "score": 26.035198211669922,
     "userScore": 2
@@ -1486,7 +1486,7 @@
   {
     "title": "Sampling Algorithms, from Survey Sampling to Monte Carlo Methods:\n  Tutorial and Literature Review",
     "paperAbstract": "  This paper is a tutorial and literature review on sampling algorithms. We\nhave two main types of sampling in statistics. The first type is survey\nsampling which draws samples from a set or population. The second type is\nsampling from probability distribution where we have a probability density or\nmass function. In this paper, we cover both types of sampling. First, we review\nsome required background on mean squared error, variance, bias, maximum\nlikelihood estimation, Bernoulli, Binomial, and Hypergeometric distributions,\nthe Horvitz-Thompson estimator, and the Markov property. Then, we explain the\ntheory of simple random sampling, bootstrapping, stratified sampling, and\ncluster sampling. We also briefly introduce multistage sampling, network\nsampling, and snowball sampling. Afterwards, we switch to sampling from\ndistribution. We explain sampling from cumulative distribution function, Monte\nCarlo approximation, simple Monte Carlo methods, and Markov Chain Monte Carlo\n(MCMC) methods. For simple Monte Carlo methods, whose iterations are\nindependent, we cover importance sampling and rejection sampling. For MCMC\nmethods, we cover Metropolis algorithm, Metropolis-Hastings algorithm, Gibbs\nsampling, and slice sampling. Then, we explain the random walk behaviour of\nMonte Carlo methods and more efficient Monte Carlo methods, including\nHamiltonian (or hybrid) Monte Carlo, Adler's overrelaxation, and ordered\noverrelaxation. Finally, we summarize the characteristics, pros, and cons of\nsampling methods compared to each other. This paper can be useful for different\nfields of statistics, machine learning, reinforcement learning, and\ncomputational physics.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1373649,
     "score": 25.964487075805664,
     "userScore": 2
@@ -1494,7 +1494,7 @@
   {
     "title": "Towards Cost-efficient Sampling Methods",
     "paperAbstract": "  The sampling method has been paid much attention in the field of complex\nnetwork in general and statistical physics in particular. This paper presents\ntwo new sampling methods based on the perspective that a small part of vertices\nwith high node degree can possess the most structure information of a network.\nThe two proposed sampling methods are efficient in sampling the nodes with high\ndegree. The first new sampling method is improved on the basis of the\nstratified random sampling method and selects the high degree nodes with higher\nprobability by classifying the nodes according to their degree distribution.\nThe second sampling method improves the existing snowball sampling method so\nthat it enables to sample the targeted nodes selectively in every sampling\nstep. Besides, the two proposed sampling methods not only sample the nodes but\nalso pick the edges directly connected to these nodes. In order to demonstrate\nthe two methods' availability and accuracy, we compare them with the existing\nsampling methods in three commonly used simulation networks that are scale-free\nnetwork, random network, small-world network, and two real networks. The\nexperimental results show that the two proposed sampling methods perform much\nbetter than the compared existing sampling methods in terms of sampling cost\nand obtaining the true network structural characteristics.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 526664,
     "score": 25.672130584716797,
     "userScore": 2
@@ -1502,7 +1502,7 @@
   {
     "title": "Direct sampling methods for inverse elastic scattering problems",
     "paperAbstract": "  We consider the inverse elastic scattering of incident plane compressional\nand shear waves from the knowledge of the far field patterns. Specifically,\nthree direct sampling methods for location and shape reconstruction are\nproposed using the different component of the far field patterns. Only inner\nproducts are involved in the computation, thus the novel sampling methods are\nvery simple and fast to be implemented. With the help of the factorization of\nthe far field operator, we give a lower bound of the proposed indicator\nfunctionals for sampling points inside the scatterers. While for the sampling\npoints outside the scatterers, we show that the indicator functionals decay\nlike the Bessel functions as the sampling point goes away from the boundary of\nthe scatterers. We also show that the proposed indicator functionals\ncontinuously dependent on the far field patterns, which further implies that\nthe novel sampling methods are extremely stable with respect to data error. For\nthe case when the observation directions are restricted into the limited\naperture, we firstly introduce some data retrieval techniques to obtain those\ndata that can not be measured directly and then use the proposed direct\nsampling methods for location and shape reconstructions. Finally, some\nnumerical simulations in two dimensions are conducted with noisy data, and the\nresults further verify the effectiveness and robustness of the proposed\nsampling methods, even for multiple multiscale cases and limited-aperture\nproblems.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 907636,
     "score": 24.87826156616211,
     "userScore": 2
@@ -1510,7 +1510,7 @@
   {
     "title": "Study of sampling methods in sentiment analysis of imbalanced data",
     "paperAbstract": "  This work investigates the application of sampling methods for sentiment\nanalysis on two different highly imbalanced datasets. One dataset contains\nonline user reviews from the cooking platform Epicurious and the other contains\ncomments given to the Planned Parenthood organization. In both these datasets,\nthe classes of interest are rare. Word n-grams were used as features from these\ndatasets. A feature selection technique based on information gain is first\napplied to reduce the number of features to a manageable space. A number of\ndifferent sampling methods were then applied to mitigate the class imbalance\nproblem which are then analyzed.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1484437,
     "score": 24.702167510986328,
     "userScore": 1
@@ -1518,7 +1518,7 @@
   {
     "title": "Research into the sampling methods of digital beam position measurement",
     "paperAbstract": "  BPM (Beam Position Measurement) system is one of the most important beam\ndiagnostic instruments in accelerators. A fully digital BPM (DBPM) has been\ndesigned for SSRF (Shanghai Synchrotron Radiation Facility). As\nAnalog-to-Digital Converter (ADC) is one crucial part in the DBPM system, the\nsampling methods should be studied to achieve optimum performance. We\nimplemented different sampling modes and compared them through tests.\nMeanwhile, long term variation among four sampling channels is another concern,\nwhich would introduce errors in beam position measurement. We designed an\ninterleaved distribution scheme to address this issue. To evaluate these\nsampling methods, we conducted commissioning tests with the beam in SSRF. Test\nresults indicate that with proper sampling methods, a turn-by-turn (TBT)\nposition resolution better than 1 um is achieved, and the slow-acquisition (SA)\nposition resolution is enhanced from 4.28 {\\mu}m to 0.17 {\\mu}m successfully\nwith interleaved distribution applied, both beyond requirement.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1182538,
     "score": 24.51502799987793,
     "userScore": 1
@@ -1526,7 +1526,7 @@
   {
     "title": "Coupling methods for multistage sampling",
     "paperAbstract": "  Multistage sampling is commonly used for household surveys when there exists\nno sampling frame, or when the population is scattered over a wide area.\nMultistage sampling usually introduces a complex dependence in the selection of\nthe final units, which makes asymptotic results quite difficult to prove. In\nthis work, we consider multistage sampling with simple random without\nreplacement sampling at the first stage, and with an arbitrary sampling design\nfor further stages. We consider coupling methods to link this sampling design\nto sampling designs where the primary sampling units are selected\nindependently. We first generalize a method introduced by [Magyar Tud. Akad.\nMat. Kutat\\'{o} Int. K\\\"{o}zl. 5 (1960) 361-374] to get a coupling with\nmultistage sampling and Bernoulli sampling at the first stage, which leads to a\ncentral limit theorem for the Horvitz--Thompson estimator. We then introduce a\nnew coupling method with multistage sampling and simple random with replacement\nsampling at the first stage. When the first-stage sampling fraction tends to\nzero, this method is used to prove consistency of a with-replacement bootstrap\nfor simple random without replacement sampling at the first stage, and\nconsistency of bootstrap variance estimators for smooth functions of totals.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 678517,
     "score": 24.393896102905273,
     "userScore": 2,
@@ -1535,7 +1535,7 @@
   {
     "title": "Are Outlier Detection Methods Resilient to Sampling?",
     "paperAbstract": "  Outlier detection is a fundamental task in data mining and has many\napplications including detecting errors in databases. While there has been\nextensive prior work on methods for outlier detection, modern datasets often\nhave sizes that are beyond the ability of commonly used methods to process the\ndata within a reasonable time. To overcome this issue, outlier detection\nmethods can be trained over samples of the full-sized dataset. However, it is\nnot clear how a model trained on a sample compares with one trained on the\nentire dataset. In this paper, we introduce the notion of resilience to\nsampling for outlier detection methods. Orthogonal to traditional performance\nmetrics such as precision/recall, resilience represents the extent to which the\noutliers detected by a method applied to samples from a sampling scheme matches\nthose when applied to the whole dataset. We propose a novel approach for\nestimating the resilience to sampling of both individual outlier methods and\ntheir ensembles. We performed an extensive experimental study on synthetic and\nreal-world datasets where we study seven diverse and representative outlier\ndetection methods, compare results obtained from samples versus those obtained\nfrom the whole datasets and evaluate the accuracy of our resilience estimates.\nWe observed that the methods are not equally resilient to a given sampling\nscheme and it is often the case that careful joint selection of both the\nsampling scheme and the outlier detection method is necessary. It is our hope\nthat the paper initiates research on designing outlier detection algorithms\nthat are resilient to sampling.\n",
-    "query": "different sampling methods ",
+    "query": "different sampling methods",
     "docId": 1157812,
     "score": 24.334787368774414,
     "userScore": 2
@@ -2108,7 +2108,7 @@
   {
     "title": "Molecular Hydrogen in High-Velocity Clouds",
     "paperAbstract": "  We present Far Ultraviolet Spectroscopic Explorer (FUSE) observations of\ninterstellar molecular hydrogen (H_2) in two Galactic high-velocity clouds\n(HVCs). Molecular hydrogen absorption is detected in the Magellanic Stream\n(abundance ~0.3 solar) toward the Seyfert galaxy Fairall 9 in the lowest three\nrotational states (J=0-2) at v(LSR)=+190 km/s, yielding a total H_2 column\ndensity of log N(H_2)=16.40(+0.26)(-0.53). In contrast, no H_2 absorption is\nseen in the high-velocity cloud Complex C (abundance ~0.1 solar) toward the\nquasar PG 1259+593 (log N(H_2)<13.96 at v(LSR)=-130 km/s) although both HVCs\nhave similar HI column densities on the order of log N(HI)~20. Weak H_2\nabsorption is detected in the Intermediate-Velocity Arch (IV Arch; abundance\n\\~1.0 solar) toward PG 1259+593 (log N(H_2)=14.10(+0.21)(-0.44) at v(LSR)=-55\nkm/s and log N(HI)=19.5). It thus appears that metal- and dust-poor halo clouds\nlike Complex C are not able to form and maintain widely distributed H_2,\nwhereas metal and dust-rich halo clouds like the IV Arch can maintain H_2 even\nat low HI column densities.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1826429,
     "score": 37.95002365112305,
     "userScore": 2
@@ -2116,7 +2116,7 @@
   {
     "title": "A FUSE Survey of Interstellar Molecular Hydrogen in Translucent Clouds",
     "paperAbstract": "  We report the first ensemble results from the FUSE survey of molecular\nhydrogen in lines of sight with A_V $\\gtrsim$ 1 mag. We have developed\ntechniques for fitting computed profiles to the low-J lines of H2, and thus\ndetermining column densities for J = 0 and J = 1, which contain $\\gtrsim$99% of\nthe total H2. From these column densities and ancillary data we have derived\nthe total H2 column densities, hydrogen molecular fractions, and kinetic\ntemperatures for 23 lines of sight. This is the first significant sample of\nmolecular hydrogen column densities of 10^21 cm^-2, measured through UV\nabsorption bands. We have also compiled a set of extinction data for these\nlines of sight, which sample a wide range of environments. We have searched for\ncorrelations of our H2-related quantities with previously published column\ndensities of other molecules and extinction parameters. We find strong\ncorrelations between H2 and molecules such as CH, CN, and CO, in general\nagreement with predictions of chemical models. We also find the expected\ncorrelations between hydrogen molecular fraction and various density indicators\nsuch as kinetic temperature, CN abundance, the steepness of the far-UV\nextinction rise, and the width of the 2175A bump. Despite the relatively large\nmolecular fractions, we do not see the values greater than 0.8 expected in\ntranslucent clouds. With the exception of a few lines of sight, we see little\nevidence for the presence of individual translucent clouds in our sample. We\nconclude that most of the lines of sight are actually composed of two or more\ndiffuse clouds similar to those found toward targets like zeta Oph. We suggest\na modification in terminology to distinguish between a \"translucent line of\nsight\" and a \"translucent cloud.\"\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1830582,
     "score": 37.61042022705078,
     "userScore": 1
@@ -2124,7 +2124,7 @@
   {
     "title": "Observing molecular hydrogen clouds and dark massive objects in galactic\n  halos",
     "paperAbstract": "  Molecular hydrogen clouds can contribute substantially to the galactic halo<\ndark matter and may lead to the birth of massive halo objects (MHOs) observed\nindirectly by microlensing. We present a method to detect these molecular\nclouds in the halo of M31 using the Doppler shift effect. We also consider the\npossibility to directly observe MHOs in the halo of M31 via their infrared\nemission.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1873366,
     "score": 37.103885650634766,
     "userScore": 3
@@ -2132,7 +2132,7 @@
   {
     "title": "Detection of hydrogen fluoride absorption in diffuse molecular clouds\n  with Herschel/HIFI: a ubiquitous tracer of molecular gas",
     "paperAbstract": "  We discuss the detection of absorption by interstellar hydrogen fluoride (HF)\nalong the sight line to the submillimeter continuum sources W49N and W51. We\nhave used Herschel's HIFI instrument in dual beam switch mode to observe the\n1232.4762 GHz J = 1 - 0 HF transition in the upper sideband of the band 5a\nreceiver. We detected foreground absorption by HF toward both sources over a\nwide range of velocities. Optically thin absorption components were detected on\nboth sight lines, allowing us to measure - as opposed to obtain a lower limit\non - the column density of HF for the first time. As in previous observations\nof HF toward the source G10.6-0.4, the derived HF column density is typically\ncomparable to that of water vapor, even though the elemental abundance of\noxygen is greater than that of fluorine by four orders of magnitude. We used\nthe rather uncertain N(CH)-N(H2) relationship derived previously toward diffuse\nmolecular clouds to infer the molecular hydrogen column density in the clouds\nexhibiting HF absorption. Within the uncertainties, we find that the abundance\nof HF with respect to H2 is consistent with the theoretical prediction that HF\nis the main reservoir of gas-phase fluorine for these clouds. Thus, hydrogen\nfluoride has the potential to become an excellent tracer of molecular hydrogen,\nand provides a sensitive probe of clouds of small H2 column density. Indeed,\nthe observations of hydrogen fluoride reported here reveal the presence of a\nlow column density diffuse molecular cloud along the W51 sight line, at an LSR\nvelocity of ~ 24kms-1, that had not been identified in molecular absorption\nline studies prior to the launch of Herschel.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 201386,
     "score": 36.671485900878906,
     "userScore": 2
@@ -2140,7 +2140,7 @@
   {
     "title": "Hydrogen in diffuse molecular clouds in the Milky Way: Atomic column\n  densities and molecular fraction along prominent lines of sight",
     "paperAbstract": "  Recent submillimeter and far-infrared wavelength observations of absorption\nin the rotational ground-state lines of various simple molecules against\ndistant Galactic continuum sources have opened the possibility of studying the\nchemistry of diffuse molecular clouds throughout the Milky Way. In order to\ncalculate abundances, the column densities of molecular and atomic hydrogen,\nHI, must be known. We aim at determining the atomic hydrogen column densities\nfor diffuse clouds located on the sight lines toward a sample of prominent\nhigh-mass star-forming regions that were intensely studied with the HIFI\ninstrument onboard Herschel. Based on Jansky Very Large Array data, we employ\nthe 21 cm HI absorption-line technique to construct profiles of the HI opacity\nversus radial velocity toward our target sources. These profiles are combined\nwith lower resolution archival data of extended HI emission to calculate the HI\ncolumn densities of the individual clouds along the sight lines. We employ\nBayesian inference to estimate the uncertainties of the derived quantities. Our\nstudy delivers reliable estimates of the atomic hydrogen column density for a\nlarge number of diffuse molecular clouds at various Galactocentric distances.\nTogether with column densities of molecular hydrogen derived from its\nsurrogates observed with HIFI, the measurements can be used to characterize the\nclouds and investigate the dependence of their chemistry on the molecular\nfraction, for example.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 820550,
     "score": 36.559505462646484,
     "userScore": 3
@@ -2148,7 +2148,7 @@
   {
     "title": "Directional Radiation and Photodissociation Regions in Molecular\n  Hydrogen Clouds",
     "paperAbstract": "  Some astrophysical observations of molecular hydrogen point to a broadening\nof the velocity distribution for molecules at excited rotational levels. This\neffect is observed in both Galactic and high redshift clouds. Analysis of H_2,\nHD, and CI absorption lines has revealed the broadening effect in the\nabsorption system of QSO 1232+082 (z_{abs}=2.33771). We analyze line broadening\nmechanisms by considering in detail the transfer of ultraviolet radiation (in\nthe resonance lines of the Lyman and Werner H_2 molecular bands) for various\nvelocity distributions at excited rotational levels. The mechanism we suggest\nincludes the saturation of the lines that populate excited rotational levels\n(radiative pumping) and manifests itself most clearly in the case of\ndirectional radiation in the medium. Based on the calculated structure of a\nmolecular hydrogen cloud in rotational level populations, we have considered an\nadditional mechanism that takes into account the presence of a\nphotodissociation region. Note that disregarding the broadening effects we\ninvestigated can lead to a significant systematic error when the data are\nprocessed.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 140690,
     "score": 35.33464431762695,
     "userScore": 2
@@ -2156,7 +2156,7 @@
   {
     "title": "The formation of molecular clouds in spiral galaxies",
     "paperAbstract": "  We present Smoothed Particle Hydrodynamics (SPH) simulations of molecular\ncloud formation in spiral galaxies. These simulations model the response of a\nnon-self-gravitating gaseous disk to a galactic potential. The spiral shock\ninduces high densities in the gas, and considerable structure in the spiral\narms, which we identify as molecular clouds. We regard the formation of these\nstructures as due to the dynamics of clumpy shocks, which perturb the flow of\ngas through the spiral arms. In addition, the spiral shocks induce a large\nvelocity dispersion in the spiral arms, comparable with the magnitude of the\nvelocity dispersion observed in molecular clouds. We estimate the formation of\nmolecular hydrogen, by post-processing our results and assuming the gas is\nisothermal. Provided the gas is cold ($T\\le100$ K), the gas is compressed\nsufficiently in the spiral shock for molecular hydrogen formation to occur in\nthe dense spiral arm clumps. These molecular clouds are largely confined to the\nspiral arms, since most molecular gas is photodissociated to atomic hydrogen\nupon leaving the arms.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1860772,
     "score": 35.253028869628906,
     "userScore": 3
@@ -2164,7 +2164,7 @@
   {
     "title": "A FUSE Survey of Molecular Hydrogen in Intermediate-Velocity Clouds in\n  the Milky Way Halo",
     "paperAbstract": "  Far Ultraviolet Spectroscopic Explorer (FUSE) data is used to investigate the\nmolecular hydrogen (H_2) content of intermediate-velocity clouds (IVCs) in the\nlower halo of the Milky Way. We analyze interstellar absorption towards 56\n(mostly extragalactic) background sources to study H_2 absorption in the Lyman-\nand Werner bands in 61 IVC components at H I column densities >10^19 cm^-2. For\ndata with good S/N (~9 per resolution element and higher), H_2 in IVC gas is\nconvincingly detected in 14 cases at column densities varying between ~10^14\nand ~10^17 cm^-2. We find an additional 17 possible H_2 detections in IVCs in\nFUSE spectra with lower S/N. The molecular hydrogen fractions, f, vary between\n10^-6 and 10^-3, implying a dense, mostly neutral gas phase that is probably\nrelated to the Cold Neutral Medium (CNM) in these clouds. If the H_2 stays in\nformation-dissociation equlibrium, the CNM in these clouds can be characterized\nby compact (D~0.1 pc) filaments with volume densities on the order of n_H~30\ncm^-3. The relatively high detection rate of H_2 in IVC gas implies that the\nCNM in these clouds is ubiquitous. More dense regions with much higher\nmolecular fractions may exist, but it would be difficult to detect them in\nabsorption because of their small size.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1834184,
     "score": 34.645389556884766,
     "userScore": 2
@@ -2172,7 +2172,7 @@
   {
     "title": "Production of atomic hydrogen by cosmic rays in dark clouds",
     "paperAbstract": "  The presence of small amounts of atomic hydrogen, detected as absorption dips\nin the 21 cm line spectrum, is a well-known characteristic of dark clouds. The\nabundance of hydrogen atoms measured in the densest regions of molecular clouds\ncan be only explained by the dissociation of H$_2$ due to cosmic rays. We want\nto assess the role of Galactic cosmic rays in the formation of atomic hydrogen,\nby using recent developments in the characterisation of the low-energy spectra\nof cosmic rays and advances in the modelling of their propagation in molecular\nclouds. We model the attenuation of the interstellar cosmic rays entering a\ncloud and compute the dissociation rate of molecular hydrogen due to collisions\nwith cosmic-ray protons and electrons as well as fast hydrogen atoms. We\ncompare our results with the available observations. The cosmic-ray\ndissociation rate is entirely determined by secondary electrons produced in\nprimary ionisation collisions. These secondary particles constitute the only\nsource of atomic hydrogen at column densities above $\\sim10^{21}$ cm$^{-2}$. We\nalso find that the dissociation rate decreases with column density, while the\nratio between the dissociation and ionisation rates varies between about 0.6\nand 0.7. From comparison with observations we conclude that a relatively flat\nspectrum of interstellar cosmic-ray protons, as the one suggested by the most\nrecent Voyager 1 data, can only provide a lower bound for the observed atomic\nhydrogen fraction. An enhanced spectrum of low-energy protons is needed to\nexplain most of the observations. Our findings show that a careful description\nof molecular hydrogen dissociation by cosmic rays can explain the abundance of\natomic hydrogen in dark clouds. An accurate characterisation of this process at\nhigh densities is crucial for understanding the chemical evolution of\nstar-forming regions.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1024184,
     "score": 34.605430603027344,
     "userScore": 2
@@ -2180,7 +2180,7 @@
   {
     "title": "The Transition from Atomic to Molecular Hydrogen in Interstellar Clouds:\n  21cm Signature of the Evolution of Cold Atomic Hydrogen in Dense Clouds",
     "paperAbstract": "  We have investigated the time scale for formation of molecular clouds by\nexamining the conversion of HI to H2 using a time-dependent model. H2 formation\non dust grains and cosmic ray and photo destruction are included in\none-dimensional model slab clouds which incorporate time-independent density\nand temperature distributions. We calculate 21cm spectral line profiles seen in\nabsorption against a background provided by general Galactic HI emission, and\ncompare the model spectra with HI Narrow Self-Absorption, or HINSA, profiles\nabsorbed in a number of nearby molecular clouds. The time evolution of the HI\nand H2 densities is dramatic, with the atomic hydrogen disappearing in a wave\npropagating from the central, denser regions which have a shorter H2 formation\ntime scale, to the edges, where the density is lower and the time scale for H2\nformation longer. The model 21cm spectra are characterized by very strong\nabsorption at early times, when the HI column density through the model clouds\nis extremely large. The minimum time required for a cloud to have evolved to\nits observed configuration, based on the model spectra, is set by the\nrequirement that most of the HI in the outer portions of the cloud, which\notherwise overwhelms the narrow absorption, be removed. The characteristic time\nthat has elapsed since cloud compression and initiation of the HI to H2\nconversion is a few x 10^{14} s or ~ 10^7 yr. This sets a minimum time for the\nage of these molecular clouds and thus for the star formation that may take\nplace within them.\n",
-    "query": "Molecular hydrogen clouds ",
+    "query": "Molecular hydrogen clouds",
     "docId": 1866885,
     "score": 34.3972053527832,
     "userScore": 2,
