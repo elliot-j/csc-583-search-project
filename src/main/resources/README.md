@@ -1,0 +1,1 @@
+This directory should contain the extracted Arxiv JSON data file for indexing
