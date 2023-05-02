@@ -6,11 +6,11 @@ class DataFilePaths:
 	OriginalDataSet = 'src/main/resources/arxiv-metadata-oai-snapshot.json'
 	QueriesFile = 'src/main/resources/lucene-queries.txt'
 	TransformerResultsOutputFile = 'src/main/resources/results/annoy-results_transformer.json'
-	Doc2VecResultsOutputFile ="src/main/resources/annoy-results_doc2vec.json"
+	Doc2VecResultsOutputFile ="src/main/resources/annoy-results_doc2vec.json" ## Unused
 	DataSetWithoutStopwords = 'src/main/resources/stopwords-arxiv-metadata-oai-snapshot.json'
 	DataSetAsWordTokens = 'src/main/resources/tokens-arxiv-metadata-oai-snapshot.json'
 	AnnoyTransformerIndexFile = "src/main/resources/models/arxiv_transformer_index.bin"
-	Doc2VecModelFile = "src/main/resources/annoy_model_gensim.bin"
+	Doc2VecModelFile = "src/main/resources/annoy_model_gensim.bin" ##unused
 	ModelEmbeddingBatchFolder = 'src/main/resources/batches'
 
 
