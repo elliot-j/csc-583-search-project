@@ -104,7 +104,7 @@ def calculate_mrr(ensemble_scores_by_query, golden_documents):
             if str(result["docId"]) == golden_doc_id:
                 position = idx + 1
                 break
-        if position != -1:
+        if position != -1 and position <= 10:
             reciprocal_ranks.append(1 / position)
         else:
             reciprocal_ranks.append(0)
