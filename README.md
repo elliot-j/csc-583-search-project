@@ -1,4 +1,9 @@
 # csc-583-search-project
+## Hardware Requirements
+The Python files in this for generating CLS embeddings from a Transformer network were run on a Google Collab VM with an NVidia GPU, and further processed offline on a desktop with 48GB of RAM. Some parts of this code may not run 
+effectively on a system with less memory and may require you to tweak a `batchSize` setting 
+`SentenceEmbeddings_CPU.py` and `SentenceEmbeddings.ipynb`
+
 
 ## Python Modules to install
 This project was mostly built using Vanilla Python instead of a more complete data science distribution 
@@ -7,7 +12,7 @@ run the following command
 
 `pip install -r requirements.txt`
 
-Alternativly, you can run the following series of pip commands
+Alternatively, you can run the following series of pip commands
 
 ```
  pip install gensim
